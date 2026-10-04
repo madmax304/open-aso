@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "open-aso": {
+      "command": "npx",
+      "args": ["-y", "open-aso", "mcp"]
+    }
+  }
+}

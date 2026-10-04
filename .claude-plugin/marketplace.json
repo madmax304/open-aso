@@ -1,0 +1,14 @@
+{
+  "name": "open-aso",
+  "owner": {
+    "name": "Maxwell Anderson"
+  },
+  "description": "open-aso: agent-first App Store Optimization. The open-source alternative to AppTweak and Sensor Tower.",
+  "plugins": [
+    {
+      "name": "open-aso",
+      "source": "./",
+      "description": "App Store keyword research, rank tracking, competitor gaps and metadata writing for your AI agent. The open-source alternative to AppTweak and Sensor Tower."
+    }
+  ]
+}

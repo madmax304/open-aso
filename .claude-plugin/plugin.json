@@ -1,0 +1,18 @@
+{
+  "name": "open-aso",
+  "version": "0.0.1",
+  "description": "The open-source alternative to AppTweak and Sensor Tower. App Store keyword research, rank tracking, competitor gaps and metadata writing for your AI agent, with data at cost.",
+  "author": {
+    "name": "Maxwell Anderson"
+  },
+  "homepage": "https://open-aso.com",
+  "repository": "https://github.com/madmax304/open-aso",
+  "license": "MIT",
+  "keywords": [
+    "aso",
+    "app-store-optimization",
+    "app-store",
+    "keywords",
+    "ios"
+  ]
+}
