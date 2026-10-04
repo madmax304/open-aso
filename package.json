@@ -1,6 +1,6 @@
 {
   "name": "open-aso",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The open-source alternative to AppTweak and Sensor Tower. Agent-first App Store Optimization: MCP server, CLI and skills, with data at cost.",
   "license": "MIT",
   "type": "module",
