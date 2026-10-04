@@ -404,6 +404,11 @@ function el(tag, props = {}, ...children) {
   return node;
 }
 
+/** replaceChildren that skips null/false, so optional parts don't render as the text "null". */
+function setChildren(node, ...children) {
+  node.replaceChildren(...children.flat().filter((child) => child !== null && child !== undefined && child !== false));
+}
+
 const money = (usd, digits = 4) => (usd == null ? "–" : `$${Number(usd).toFixed(digits)}`);
 const when = (iso) => (iso ? new Date(iso.replace(" ", "T") + (iso.endsWith("Z") ? "" : "Z")).toLocaleString() : "–");
 
@@ -548,7 +553,7 @@ function renderDataConnection(container, { compact = false } = {}) {
   const ds = state.dataforseo;
   if (ds.connected) {
     const balance = el("span", {}, "checking balance…");
-    container.replaceChildren(
+    setChildren(container,
       el("div", { class: "notice ok" }, "✓ Connected", ds.email ? ` as ${ds.email}` : "", " · Balance: ", balance),
       ds.source === "environment"
         ? el("p", { class: "small", style: "margin:12px 0 0" }, "Using credentials from environment variables.")
@@ -718,7 +723,7 @@ function renderAgents(messages = {}) {
     );
   }));
 
-  $("agent-other").replaceChildren(
+  setChildren($("agent-other"),
     el("div", { class: "agent-head" }, el("h2", {}, "Another MCP client?")),
     el("p", { class: "agent-desc" }, "Most MCP clients (Windsurf, Zed, Cline and others) accept this config. Paste it into the client's MCP settings."),
     codeBlock(snippet),

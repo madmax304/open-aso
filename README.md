@@ -8,7 +8,7 @@ App Store Optimization for your AI agent. open-aso gives Claude, Cursor or any M
 
 [open-aso.com](https://open-aso.com) · MIT licensed · Built for indie iOS developers
 
-<!-- Demo GIF goes here: one prompt → a full ASO audit -->
+![open-aso setup: find your app by name, connect your agent, track keywords and competitors](https://open-aso.com/demo-setup.gif)
 
 ```text
 You:    Audit the App Store listing for my app
