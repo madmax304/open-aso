@@ -8,18 +8,10 @@ App Store Optimization for your AI agent. open-aso gives Claude, Cursor or any M
 
 [open-aso.com](https://open-aso.com) · MIT licensed · Built for indie iOS developers
 
-![open-aso setup: find your app by name, connect your agent, track keywords and competitors](https://open-aso.com/demo-setup.gif)
+![A real Claude Code session: one prompt produces a full ASO audit of the Streaks App Store listing, for about $0.15 of data](https://open-aso.com/demo-audit.gif)
 
-```text
-You:    Audit the App Store listing for my app
-Claude: (calls open-aso: app, keywords, competitors, reviews…)
-        Snapshot: ★4.6 (1,204 ratings) · 18 keywords in the top 10 · closest rival: Ovia
-        Top fixes:
-        1. Move "pregnancy tracker" into your subtitle: you're #14, difficulty 38 (high impact)
-        2. Ovia ranks top 10 for "baby names" and "due date"; you don't rank (high impact)
-        …
-        Cost: $0.07
-```
+*One prompt, a full audit: a real Claude Code session, sped up.*
+
 
 ## Why open-aso
 
@@ -49,6 +41,8 @@ Then ask your agent:
 - *"Use open-aso to write a new title, subtitle and keyword field"*
 - *"Which keywords does [competitor] rank for that I don't?"*
 - *"Track these keywords and tell me what moved this week"*
+
+![open-aso setup: find your app by name, connect your agent, track keywords and competitors](https://open-aso.com/demo-setup.gif)
 
 ### Claude Code plugin
 
