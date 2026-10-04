@@ -1,0 +1,27 @@
+name: Bug report
+description: Something isn't working
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: "e.g. MCP tool `keywords`, `open-aso ui` Tracking page, `open-aso track run`"
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: "open-aso version, Node version (`node -v`), OS, and agent (Claude Code, Cursor…)"
+  - type: textarea
+    id: output
+    attributes:
+      label: Error output
+      description: Paste any error text. Remove your DataForSEO credentials first.
+      render: shell
