@@ -10,7 +10,7 @@ Decided 2026-10-03. Monetization (hosted cloud) is out of scope for v0.1.
 - publishing to npm
 - making the repo public and turning on GitHub Pages and DNS for open-aso.com
 - the waitlist form
-- the demo GIF and the example artifact gallery
+- the audit demo GIF (the setup demo GIF is done; the example artifact gallery moved to the roadmap)
 
 Skill eval so far: `aso-audit` and `metadata-writer` were run on one real app (Natal). That led to cheaper difficulty scoring (`with_volume: false`), relevance-filtering guidance and actionable length messages.
 
@@ -136,6 +136,8 @@ Each skill ends by offering to build the results as an artifact.
 - **UI:** any charts or analysis screens.
 
 ## Roadmap notes
+
+- Example artifact gallery: real reports and dashboards agents built with open-aso, each with its prompt. Moved out of v0.1.
 
 - Hosted version: DataForSEO's minimum top-up is $50, so the hosted pitch is "start with $5, not $50."
 - Closest competitor is respectlytics/respectaso: AGPL, a Mac app, Pro at $120/yr, MCP is Pro-only. **Do not copy its code (AGPL).**

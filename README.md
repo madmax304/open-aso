@@ -131,6 +131,7 @@ What open-aso doesn't do (yet): Google Play, countries other than the US, downlo
 - Apple Ads keyword popularity (bring your own Apple Ads account)
 - App Store Connect: your real impressions and conversion, review replies, publishing metadata
 - More skills: weekly competitor watch, review insights
+- Example gallery: real reports and dashboards agents built with open-aso, with the prompts that made them
 
 *Watch → Custom → Releases on this repo to get an email for every release.*
 
