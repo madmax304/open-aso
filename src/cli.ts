@@ -16,8 +16,8 @@ const COMMANDS: Record<string, string> = {
   init: "Set up your app and your DataForSEO account",
   ui: "Open the local setup UI (--port <n>, --no-open)",
   mcp: "Start the MCP server (used by agent configs)",
-  track: "Manage tracking: run | add | remove | list",
-  usage: "Show DataForSEO spend today and this month",
+  track: "Tracking: list | add | remove | run (daily rank check)",
+  usage: "Show DataForSEO spend today and this month (--json)",
 };
 
 function printHelp(): void {
@@ -59,9 +59,17 @@ if (!command || command === "help" || command === "--help" || command === "-h") 
 } else if (command === "mcp") {
   const { runMcp } = await import("./mcp/index.js");
   await runMcp();
-} else if (command in COMMANDS) {
-  console.error(`open-aso ${command}: not implemented yet`);
-  process.exitCode = 1;
+} else if (command === "init") {
+  const { runInit } = await import("./cli/commands.js");
+  await runInit();
+} else if (command === "track") {
+  const { runTrack } = await import("./cli/commands.js");
+  await runTrack(rest);
+} else if (command === "usage") {
+  const { runUsage } = await import("./cli/commands.js");
+  runUsage(rest);
+} else if (command === "--version" || command === "-v") {
+  console.log("0.0.1");
 } else {
   console.error(`Unknown command: ${command}\n`);
   printHelp();

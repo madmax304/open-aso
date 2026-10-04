@@ -2,12 +2,16 @@
 // a small JSON API over the config file. The UI configures; it never analyzes.
 
 import { createServer, type IncomingMessage, type Server, type ServerResponse } from "node:http";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { spawn } from "node:child_process";
 import type { AppSummary } from "../core/types.js";
-import { loadConfig, readConfigFile, saveConfig } from "../core/config.js";
+import { databasePath, loadConfig, readConfigFile } from "../core/config.js";
+import { addOwnApp, clearDataForSeoKey, emailFromKey, removeOwnApp, setDailySpendCap, setDataForSeoKey } from "../core/setup.js";
 import { findApps } from "../data/apple/search.js";
+import { createToolContext } from "../mcp/context.js";
+import { ownApps, trackTool, type ToolContext } from "../mcp/tools.js";
+import { runTrackCheck } from "../aso/track-run.js";
 import { getAccountBalance } from "../data/dataforseo/account.js";
 import { DataForSeoClient, DataForSeoError } from "../data/dataforseo/client.js";
 import { resolveDataForSeoCredentials } from "../data/dataforseo/credentials.js";
@@ -33,12 +37,22 @@ export interface UiDeps {
   /** Validate credentials against DataForSEO and return the balance. */
   checkDataForSeo: (key: string) => Promise<{ balanceUsd: number | null }>;
   agentEnv: () => AgentEnv;
+  /** Run something with the tool context (storage + data provider), cleaning up after. */
+  withTools: <T>(fn: (ctx: ToolContext) => Promise<T>) => Promise<T>;
 }
 
 const defaultDeps: UiDeps = {
   findApps: (query) => findApps(query),
   checkDataForSeo: (key) => getAccountBalance(new DataForSeoClient({ apiKey: key })),
   agentEnv: defaultAgentEnv,
+  withTools: async (fn) => {
+    const ctx = createToolContext("ui");
+    try {
+      return await fn(ctx);
+    } finally {
+      ctx.store.close();
+    }
+  },
 };
 
 const PUBLIC_DIR = join(import.meta.dirname, "public");
@@ -86,19 +100,13 @@ async function route(req: IncomingMessage, res: ServerResponse, deps: UiDeps): P
   if (method === "POST" && url.pathname === "/api/apps") {
     const { app } = await readJson<{ app?: AppSummary }>(req);
     if (!app?.appId || !app.title) throw new HttpError(400, "Pick an app from the search results.");
-    const config = readConfigFile();
-    if (!config.apps.some((existing) => existing.appId === app.appId)) {
-      config.apps.push(pickAppFields(app));
-      saveConfig(config);
-    }
+    addOwnApp(app);
     return sendJson(res, 200, currentState());
   }
 
   const appMatch = url.pathname.match(/^\/api\/apps\/(\d+)$/);
   if (method === "DELETE" && appMatch) {
-    const config = readConfigFile();
-    config.apps = config.apps.filter((app) => app.appId !== appMatch[1]);
-    saveConfig(config);
+    removeOwnApp(appMatch[1]!);
     return sendJson(res, 200, currentState());
   }
 
@@ -107,10 +115,82 @@ async function route(req: IncomingMessage, res: ServerResponse, deps: UiDeps): P
     const resolved = resolveDataForSeoCredentials(fields);
     if (!resolved.ok) throw new HttpError(400, resolved.error);
     const { balanceUsd } = await checkCredentials(deps, resolved.key);
-    const config = readConfigFile();
-    config.dataforseo = { apiKey: resolved.key };
-    saveConfig(config);
+    setDataForSeoKey(resolved.key);
     return sendJson(res, 200, { ...currentState(), balanceUsd });
+  }
+
+  if (method === "PUT" && url.pathname === "/api/settings") {
+    const { dailySpendCapUsd } = await readJson<{ dailySpendCapUsd?: number }>(req);
+    try {
+      setDailySpendCap(Number(dailySpendCapUsd));
+    } catch (error) {
+      throw new HttpError(400, (error as Error).message);
+    }
+    return sendJson(res, 200, currentState());
+  }
+
+  if (method === "GET" && url.pathname === "/api/usage") {
+    return sendJson(res, 200, await deps.withTools(async (ctx) => ({
+      spendTodayUsd: ctx.store.spendTodayUsd(),
+      spendThisMonthUsd: ctx.store.spendThisMonthUsd(),
+      dailySpendCapUsd: loadConfig().dailySpendCapUsd,
+      recentCalls: ctx.store.recentCalls(25),
+    })));
+  }
+
+  if (method === "GET" && url.pathname === "/api/tracking") {
+    return sendJson(res, 200, await deps.withTools((ctx) => trackingState(ctx)));
+  }
+
+  if (method === "POST" && url.pathname === "/api/tracking") {
+    const body = await readJson<{ action?: string; keywords?: string[]; competitors?: string[] }>(req);
+    if (body.action !== "add" && body.action !== "remove") throw new HttpError(400, "action must be add or remove");
+    const action = body.action;
+    return sendJson(res, 200, await deps.withTools(async (ctx) => {
+      try {
+        await trackTool(ctx, { action, keywords: body.keywords, competitors: body.competitors });
+      } catch (error) {
+        throw new HttpError(400, (error as Error).message);
+      }
+      return trackingState(ctx);
+    }));
+  }
+
+  if (method === "GET" && url.pathname === "/api/tracking/history") {
+    const appId = url.searchParams.get("app") ?? "";
+    const keyword = url.searchParams.get("keyword") ?? "";
+    return sendJson(res, 200, await deps.withTools(async (ctx) => ({ history: ctx.store.rankHistory(appId, keyword, 90) })));
+  }
+
+  if (method === "POST" && url.pathname === "/api/tracking/run") {
+    return sendJson(res, 200, await deps.withTools(async (ctx) => {
+      if (!ctx.provider) throw new HttpError(400, "Connect DataForSEO first (Home, step 2).");
+      const result = await runTrackCheck(ctx);
+      return { result, ...(await trackingState(ctx)) };
+    }));
+  }
+
+  if (method === "GET" && url.pathname === "/api/export/ranks.csv") {
+    const csv = await deps.withTools(async (ctx) => ranksCsv(ctx));
+    res.writeHead(200, {
+      "Content-Type": "text/csv; charset=utf-8",
+      "Content-Disposition": 'attachment; filename="open-aso-ranks.csv"',
+      "Cache-Control": "no-store",
+    });
+    res.end(csv);
+    return;
+  }
+
+  if (method === "GET" && url.pathname === "/api/export/data.sqlite") {
+    const path = databasePath();
+    if (!existsSync(path)) throw new HttpError(404, "No data yet.");
+    res.writeHead(200, {
+      "Content-Type": "application/vnd.sqlite3",
+      "Content-Disposition": 'attachment; filename="open-aso-data.sqlite"',
+      "Cache-Control": "no-store",
+    });
+    res.end(readFileSync(path));
+    return;
   }
 
   if (method === "GET" && url.pathname === "/api/dataforseo/balance") {
@@ -120,9 +200,7 @@ async function route(req: IncomingMessage, res: ServerResponse, deps: UiDeps): P
   }
 
   if (method === "DELETE" && url.pathname === "/api/dataforseo") {
-    const config = readConfigFile();
-    delete config.dataforseo;
-    saveConfig(config);
+    clearDataForSeoKey();
     return sendJson(res, 200, currentState());
   }
 
@@ -177,15 +255,39 @@ async function checkCredentials(deps: UiDeps, key: string) {
   }
 }
 
-function emailFromKey(key: string): string | undefined {
-  const decoded = Buffer.from(key, "base64").toString("utf8");
-  const email = decoded.slice(0, decoded.indexOf(":"));
-  return email.includes("@") ? email : undefined;
+/** Everything the Tracking page shows: apps, competitors, keywords with latest rank and change. Free. */
+async function trackingState(ctx: ToolContext) {
+  const own = ownApps(ctx);
+  const competitors = ctx.store.trackedApps().filter((app) => !app.isOwn);
+  const keywords = ctx.store.trackedKeywords().map((keyword) => ({
+    keyword,
+    ranks: [...own, ...competitors].map((app) => {
+      const [latest, previous] = ctx.store.rankHistory(app.appId, keyword, 2);
+      const change = latest?.position != null && previous?.position != null ? previous.position - latest.position : null;
+      return { appId: app.appId, position: latest?.position ?? null, checkedAt: latest?.checkedAt ?? null, change };
+    }),
+  }));
+  return {
+    apps: own,
+    competitors: competitors.map(({ appId, title }) => ({ appId, title: title ?? `App ${appId}` })),
+    keywords,
+    lastCheckedAt: keywords.flatMap((k) => k.ranks.map((r) => r.checkedAt)).filter(Boolean).sort().at(-1) ?? null,
+  };
 }
 
-function pickAppFields(app: AppSummary): AppSummary {
-  const { appId, title, developer, rating, ratingCount, iconUrl, url } = app;
-  return { appId: String(appId), title: String(title), developer, rating, ratingCount, iconUrl, url };
+function ranksCsv(ctx: ToolContext): string {
+  const titles = new Map<string, string>([
+    ...ownApps(ctx).map((app) => [app.appId, app.title] as [string, string]),
+    ...ctx.store.trackedApps().map((app) => [app.appId, app.title ?? ""] as [string, string]),
+  ]);
+  const escape = (value: unknown) => {
+    const text = value === null || value === undefined ? "" : String(value);
+    return /[",\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
+  };
+  const rows = ctx.store.allRanks().map((row) =>
+    [row.checkedAt, row.appId, titles.get(row.appId) ?? "", row.keyword, row.position].map(escape).join(","),
+  );
+  return ["checked_at_utc,app_id,app_title,keyword,position", ...rows].join("\n") + "\n";
 }
 
 /**

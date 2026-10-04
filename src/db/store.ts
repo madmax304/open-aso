@@ -58,6 +58,19 @@ export class Store {
     return row.total;
   }
 
+  recentCalls(limit = 20): Array<{ endpoint: string; costUsd: number; cached: boolean; source: string | null; calledAt: string }> {
+    const rows = this.db
+      .prepare("SELECT endpoint, cost_usd, cached, source, called_at FROM api_calls ORDER BY id DESC LIMIT ?")
+      .all(limit) as Array<{ endpoint: string; cost_usd: number; cached: number; source: string | null; called_at: string }>;
+    return rows.map((row) => ({
+      endpoint: row.endpoint,
+      costUsd: row.cost_usd,
+      cached: row.cached === 1,
+      source: row.source,
+      calledAt: row.called_at,
+    }));
+  }
+
   // ---- Cache ----
 
   cacheGet<T>(key: string): T | undefined {
@@ -120,6 +133,14 @@ export class Store {
       .prepare("SELECT position, checked_at FROM rank_snapshots WHERE app_id = ? AND keyword = ? ORDER BY checked_at DESC, id DESC LIMIT ?")
       .all(appId, normalizeKeyword(keyword), limit) as Array<{ position: number | null; checked_at: string }>;
     return rows.map((row) => ({ position: row.position, checkedAt: row.checked_at }));
+  }
+
+  /** Every saved rank, oldest first, for export. */
+  allRanks(): Array<{ appId: string; keyword: string; position: number | null; checkedAt: string }> {
+    const rows = this.db
+      .prepare("SELECT app_id, keyword, position, checked_at FROM rank_snapshots ORDER BY checked_at, id")
+      .all() as Array<{ app_id: string; keyword: string; position: number | null; checked_at: string }>;
+    return rows.map((row) => ({ appId: row.app_id, keyword: row.keyword, position: row.position, checkedAt: row.checked_at }));
   }
 
   // ---- Listing snapshots ----

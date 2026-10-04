@@ -6,13 +6,17 @@ import type { Server } from "node:http";
 import { createUiServer } from "../src/ui/server.js";
 import { encode } from "../src/data/dataforseo/credentials.js";
 import { DataForSeoError } from "../src/data/dataforseo/client.js";
+import { Store } from "../src/db/store.js";
+import { DEFAULT_CONFIG, readConfigFile } from "../src/core/config.js";
 
 const app = { appId: "686449807", title: "Telegram Messenger", developer: "Telegram FZ-LLC" };
+const rival = { appId: "382617920", title: "Rakuten Viber Messenger" };
 const goodKey = encode("dev@example.com", "good-key-123");
 
 let home: string;
 let server: Server;
 let base: string;
+let store: Store;
 
 beforeAll(async () => {
   for (const name of ["DATAFORSEO_EMAIL", "DATAFORSEO_API_KEY", "DATAFORSEO_BASE64"]) delete process.env[name];
@@ -28,6 +32,16 @@ beforeAll(async () => {
       launch: { command: "npx", args: ["-y", "open-aso", "mcp"] },
       run: async () => { throw Object.assign(new Error("not found"), { code: "ENOENT" }); },
     }),
+    withTools: async (fn) => fn({
+      store,
+      config: { ...DEFAULT_CONFIG, apps: readConfigFile().apps },
+      provider: null,
+      finder: {
+        findApps: async () => [rival],
+        lookupApp: async (id) => (id === rival.appId ? rival : null),
+        lookupApps: async () => [rival],
+      },
+    }),
   });
   await new Promise<void>((resolve) => server.listen(0, "127.0.0.1", resolve));
   const address = server.address();
@@ -39,7 +53,11 @@ afterAll(() => server.close());
 beforeEach(() => {
   home = mkdtempSync(join(tmpdir(), "open-aso-test-"));
   process.env.OPEN_ASO_HOME = home;
-  return () => rmSync(home, { recursive: true, force: true });
+  store = new Store(":memory:");
+  return () => {
+    store.close();
+    rmSync(home, { recursive: true, force: true });
+  };
 });
 
 const post = (path: string, body: unknown, headers: Record<string, string> = {}) =>
@@ -112,6 +130,44 @@ describe("UI server", () => {
     expect((await res.json()).agent.connected).toBe(true);
 
     expect((await post("/api/agents/nope/connect", {})).status).toBe(404);
+  });
+
+  it("saves the daily spend cap and rejects silly values", async () => {
+    const res = await fetch(base + "/api/settings", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ dailySpendCapUsd: 2.5 }) });
+    expect((await res.json()).dailySpendCapUsd).toBe(2.5);
+    const bad = await fetch(base + "/api/settings", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ dailySpendCapUsd: -1 }) });
+    expect(bad.status).toBe(400);
+  });
+
+  it("reports usage", async () => {
+    store.logCall("searchApps", 0.0024, false);
+    const usage = await (await fetch(base + "/api/usage")).json();
+    expect(usage.spendTodayUsd).toBeCloseTo(0.0024);
+    expect(usage.recentCalls[0].endpoint).toBe("searchApps");
+  });
+
+  it("manages tracking, shows latest rank and change, and exports CSV", async () => {
+    await post("/api/apps", { app });
+    let tracking = await (await post("/api/tracking", { action: "add", keywords: ["Messenger"], competitors: ["382617920"] })).json();
+    expect(tracking.keywords.map((k: any) => k.keyword)).toEqual(["messenger"]);
+    expect(tracking.competitors).toEqual([rival]);
+
+    store.saveRank(app.appId, "messenger", 9);
+    store.db.exec("UPDATE rank_snapshots SET checked_at = datetime('now', '-1 day')");
+    store.saveRank(app.appId, "messenger", 6);
+    tracking = await (await fetch(base + "/api/tracking")).json();
+    expect(tracking.keywords[0].ranks[0]).toMatchObject({ appId: app.appId, position: 6, change: 3 });
+
+    const history = await (await fetch(base + `/api/tracking/history?app=${app.appId}&keyword=messenger`)).json();
+    expect(history.history.map((h: any) => h.position)).toEqual([6, 9]);
+
+    const csv = await (await fetch(base + "/api/export/ranks.csv")).text();
+    expect(csv.split("\n")[0]).toBe("checked_at_utc,app_id,app_title,keyword,position");
+    expect(csv).toContain(",686449807,Telegram Messenger,messenger,6");
+
+    const run = await post("/api/tracking/run", {});
+    expect(run.status).toBe(400);
+    expect((await run.json()).error).toMatch(/Connect DataForSEO/);
   });
 
   it("rejects writes from other websites", async () => {

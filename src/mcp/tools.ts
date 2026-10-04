@@ -243,12 +243,11 @@ export async function trackTool(ctx: ToolContext, args: TrackArgs) {
     }
   }
 
-  const apps = store.trackedApps();
   const keywords = store.trackedKeywords();
-  const own = apps.filter((app) => app.isOwn);
+  const own = ownApps(ctx);
   return {
     apps: own.map(({ appId, title }) => ({ app_id: appId, title })),
-    competitors: apps.filter((app) => !app.isOwn).map(({ appId, title }) => ({ app_id: appId, title })),
+    competitors: store.trackedApps().filter((app) => !app.isOwn).map(({ appId, title }) => ({ app_id: appId, title })),
     keywords: keywords.map((keyword) => ({
       keyword,
       latest_positions: own.map((app) => ({ app_id: app.appId, ...latestRank(store, app.appId, keyword) })),
@@ -267,6 +266,13 @@ export function validateMetadataTool(ctx: ToolContext, args: MetadataInput) {
 }
 
 // ---------- helpers ----------
+
+/** The user's apps: picked in setup (config) plus any tracked as own via the track tool. */
+export function ownApps(ctx: ToolContext): Array<{ appId: string; title: string }> {
+  const fromConfig = ctx.config.apps.map(({ appId, title }) => ({ appId, title }));
+  const tracked = ctx.store.trackedApps().filter((app) => app.isOwn && !fromConfig.some((own) => own.appId === app.appId));
+  return [...fromConfig, ...tracked.map(({ appId, title }) => ({ appId, title: title ?? `App ${appId}` }))];
+}
 
 /**
  * Runs a paid tool with a provider that tallies every call's cost, then adds
