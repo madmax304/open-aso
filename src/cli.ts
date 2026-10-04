@@ -69,7 +69,8 @@ if (!command || command === "help" || command === "--help" || command === "-h") 
   const { runUsage } = await import("./cli/commands.js");
   runUsage(rest);
 } else if (command === "--version" || command === "-v") {
-  console.log("0.0.1");
+  const { VERSION } = await import("./core/version.js");
+  console.log(VERSION);
 } else {
   console.error(`Unknown command: ${command}\n`);
   printHelp();

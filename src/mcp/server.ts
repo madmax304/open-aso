@@ -3,6 +3,7 @@
 
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
+import { VERSION } from "../core/version.js";
 import {
   type ToolContext,
   appTool,
@@ -19,7 +20,7 @@ const APP_ARG = z
   .optional()
   .describe("App name, App Store link or id. Omit for the user's own app.");
 
-export function createMcpServer(ctx: ToolContext, version = "0.0.1"): McpServer {
+export function createMcpServer(ctx: ToolContext, version = VERSION): McpServer {
   const server = new McpServer(
     { name: "open-aso", version },
     {
