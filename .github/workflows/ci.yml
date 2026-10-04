@@ -22,5 +22,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run typecheck
+      - name: Typecheck the eval fake server
+        run: npx tsc -p evals/tsconfig.json
       - run: npm test
       - run: npm run build
