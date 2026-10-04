@@ -95,6 +95,13 @@ describe("MCP server", () => {
     expect(row.top_apps[0].title).toBe("Ovia Pregnancy");
   });
 
+  it("keywords mode 2 with with_volume: false skips the volume lookup", async () => {
+    const { json } = await call("keywords", { keywords: ["baby names"], with_volume: false });
+    expect(json.keywords[0]).not.toHaveProperty("search_volume");
+    expect(json.keywords[0].difficulty).toBeGreaterThan(0);
+    expect(json.cost_usd).toBe(0.0024);
+  });
+
   it("rankings saves history and reports change; repeat calls are cached and free", async () => {
     const first = await call("rankings", { keywords: ["pregnancy tracker"] });
     expect(first.json.rankings[0]).toMatchObject({ keyword: "pregnancy tracker", position: 4, previous_position: null });

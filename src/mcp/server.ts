@@ -38,13 +38,16 @@ export function createMcpServer(ctx: ToolContext, version = "0.0.1"): McpServer 
       description:
         "Keyword research for the US App Store. Two modes: " +
         "(1) pass `app` to list keywords that app ranks for, with search volume and position (about $0.02; add with_difficulty for ~$0.025 more); " +
-        "(2) pass `keywords` to check specific keywords: volume, difficulty (1-100), the user's position and the top apps (about $0.015 per keyword).",
+        "(2) pass `keywords` to check specific keywords: volume, difficulty (1-100), the user's position and the top apps (about $0.015 per keyword, " +
+        "or $0.0024 with with_volume: false when you already know the volume). " +
+        "Tip: list keywords with mode 1, pick the relevant ones, then score just those with mode 2.",
       inputSchema: {
         app: APP_ARG,
         keywords: z.array(z.string()).max(25).optional().describe("Specific keywords to research (mode 2). Up to 25."),
         limit: z.number().int().min(1).max(200).optional().describe("Mode 1: how many keywords to return (default 30), highest volume first."),
         max_position: z.number().int().min(1).max(100).optional().describe("Mode 1: only keywords where the app ranks at or above this position."),
-        with_difficulty: z.boolean().optional().describe("Mode 1: also score difficulty for the top 10 keywords."),
+        with_difficulty: z.boolean().optional().describe("Mode 1: also score difficulty for the top 10 keywords by volume (often brand terms; prefer mode 2 on chosen keywords)."),
+        with_volume: z.boolean().optional().describe("Mode 2: fetch search volume too (default true). Set false to only get difficulty, ranks and top apps, which is much cheaper."),
       },
       annotations: { readOnlyHint: true, openWorldHint: true },
     },

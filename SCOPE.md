@@ -6,6 +6,14 @@
 
 Decided 2026-10-03. Monetization (hosted cloud) is out of scope for v0.1.
 
+**Status (2026-10-04):** everything below is built and tested except the items needing the owner:
+- publishing to npm
+- making the repo public and turning on GitHub Pages and DNS for open-aso.com
+- the waitlist form
+- the demo GIF and the example artifact gallery
+
+Skill eval so far: `aso-audit` and `metadata-writer` were run on one real app (Natal). That led to cheaper difficulty scoring (`with_volume: false`), relevance-filtering guidance and actionable length messages.
+
 ## Principles
 
 1. **The UI configures, the agent analyzes.** No dashboards, no charts.

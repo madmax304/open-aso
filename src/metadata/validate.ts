@@ -40,10 +40,12 @@ export function validateMetadata(input: MetadataInput): ValidationResult {
   const checks: Check[] = [];
   const add = (id: string, severity: Check["severity"], ok: boolean, message: string) => checks.push({ id, severity, ok, message });
 
+  const lengthMessage = (field: string, count: number, limit: number) =>
+    `${field} is ${count}/${limit} characters.${count > limit ? ` Cut at least ${count - limit}.` : ""}`;
   add("title_length", "error", counts.title <= LIMITS.title && counts.title > 0,
-    counts.title === 0 ? "Title is empty." : `Title is ${counts.title}/${LIMITS.title} characters.`);
-  add("subtitle_length", "error", counts.subtitle <= LIMITS.subtitle, `Subtitle is ${counts.subtitle}/${LIMITS.subtitle} characters.`);
-  add("keywords_length", "error", counts.keywords <= LIMITS.keywords, `Keyword field is ${counts.keywords}/${LIMITS.keywords} characters.`);
+    counts.title === 0 ? "Title is empty." : lengthMessage("Title", counts.title, LIMITS.title));
+  add("subtitle_length", "error", counts.subtitle <= LIMITS.subtitle, lengthMessage("Subtitle", counts.subtitle, LIMITS.subtitle));
+  add("keywords_length", "error", counts.keywords <= LIMITS.keywords, lengthMessage("Keyword field", counts.keywords, LIMITS.keywords));
 
   const terms = keywordField.split(",").map((term) => term.trim()).filter(Boolean);
 

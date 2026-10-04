@@ -74,7 +74,7 @@ npm run ui            # setup page; "Connect agent" points agents at your local 
 
 | Tool | What it does | Cost |
 |---|---|---|
-| `keywords` | Keywords an app ranks for (volume, position), or research any keyword (volume, difficulty 1–100, top apps, your rank) | ~$0.013 per app · ~$0.015 per keyword |
+| `keywords` | Keywords an app ranks for (volume, position), or research any keyword (volume, difficulty 1–100, top apps, your rank) | ~$0.013 per app · ~$0.015 per keyword (~$0.0024 for difficulty only) |
 | `rankings` | Your rank for each keyword (top 100) and change since the last check; saved to history | ~$0.0024 per keyword |
 | `app` | Full listing, plus what changed since the last check (great for watching competitors) | ~$0.0012 |
 | `competitors` | Apps competing for your keywords, or the keyword gap against one competitor | ~$0.013 · ~$0.03 |

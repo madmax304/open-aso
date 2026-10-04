@@ -30,6 +30,8 @@ export interface KeywordsArgs {
   limit?: number;
   max_position?: number;
   with_difficulty?: boolean;
+  /** Mode 2: also fetch search volume (~$0.012 extra per keyword). Default true. */
+  with_volume?: boolean;
 }
 
 export async function keywordsTool(ctx: ToolContext, args: KeywordsArgs) {
@@ -43,12 +45,12 @@ export async function keywordsTool(ctx: ToolContext, args: KeywordsArgs) {
         const difficulty = keywordDifficulty(keyword, serp.results);
         const leader = serp.results[0];
         // Labs only knows volume for keywords an app ranks for, so ask about the #1 app.
-        const volume = leader
+        const volume = leader && args.with_volume !== false
           ? (await provider.keywordsForApp(leader.appId, { keywords: [keyword], limit: 1 })).data[0]?.searchVolume
           : undefined;
         return {
           keyword,
-          search_volume: volume ?? null,
+          ...(args.with_volume !== false ? { search_volume: volume ?? null } : {}),
           difficulty: difficulty.score,
           difficulty_tier: difficulty.tier,
           your_position: own ? serp.results.find((app) => app.appId === own.appId)?.position ?? null : undefined,
@@ -86,8 +88,11 @@ export async function keywordsTool(ctx: ToolContext, args: KeywordsArgs) {
           : {}),
       })),
       notes: [
-        "search_volume is DataForSEO's monthly estimate for the US App Store.",
-        ...(args.with_difficulty ? ["Difficulty was calculated for the top 10 keywords by volume."] : ["Pass with_difficulty: true to score the top 10 keywords (about $0.0024 each)."]),
+        "search_volume is DataForSEO's monthly estimate for the US App Store; compare keywords against each other rather than reading it as exact traffic.",
+        "Expect brand names (the app's own and competitors') and irrelevant terms in this list. Filter for relevance before recommending anything.",
+        args.with_difficulty
+          ? "Difficulty was calculated for the top 10 keywords by volume."
+          : "To score difficulty for the keywords that matter, call keywords mode 2 with those keywords and with_volume: false (about $0.0024 each).",
       ],
     };
   });
@@ -181,7 +186,10 @@ export async function competitorsTool(ctx: ToolContext, args: { app?: string; co
         keyword_gap: rows.filter((row) => row.your_position === null),
         competitor_ahead: rows.filter((row) => row.your_position !== null && row.competitor_position !== null && row.competitor_position < row.your_position),
         you_ahead: rows.filter((row) => row.your_position !== null && row.competitor_position !== null && row.your_position <= row.competitor_position),
-        notes: ["Based on the competitor's top 100 keywords (by volume) where it ranks in the top 20."],
+        notes: [
+          "Based on the competitor's top 100 keywords (by volume) where it ranks in the top 20.",
+          "Expect many brand names and irrelevant terms here. Only recommend keywords that describe what the app actually does.",
+        ],
       };
     }
 

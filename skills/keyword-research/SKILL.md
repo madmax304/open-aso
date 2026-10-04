@@ -22,11 +22,15 @@ Produce a shortlist of keywords the app can realistically win, backed by data fr
    - audiences ("for new moms")
    - synonyms and long-tail versions
    - App Store search is short. Prefer 1–3 word phrases.
-4. Remove competitor brand names (Apple rejects them in metadata) and anything irrelevant to what the app really does.
+4. Remove brand names (competitors' and the app's own founders' or coaches' names; Apple rejects competitor brands in metadata) and anything irrelevant to what the app really does. Expect to drop most of the raw lists: for small apps they're mostly noise.
 
 ## 2. Check candidates
 
-Run `keywords` mode 2 (`keywords: [...]`, up to 25 per call) on the candidates that don't already have data. Each result gives:
+Run `keywords` mode 2 (`keywords: [...]`, up to 25 per call) on the candidates:
+- **New ideas** (no data yet): use the default, which includes volume, at about $0.015 each.
+- **Keywords you already have volume for** from steps 1–2: add `with_volume: false`, at about $0.0024 each.
+
+Each result gives:
 - `search_volume`: a DataForSEO estimate. Compare keywords against each other rather than treating it as exact traffic.
 - `difficulty` (1–100): based on the top 10 apps' rating counts, how directly their titles target the keyword, their ratings, and how many are giants.
 - `your_position`: the user's current rank, if any.

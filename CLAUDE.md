@@ -37,16 +37,16 @@ npm run spike       # live DataForSEO calls; needs .env with real credentials an
 
 ## Repo layout and workstream ownership
 
-To avoid merge conflicts when several agents work in parallel, each workstream owns specific paths. Only edit files outside your area when the task requires it, and say so in your PR description.
+When several agents work in parallel, give each one a single area below to avoid merge conflicts. Only edit files outside your area when the task requires it, and say so in your PR description.
 
-| Path | Owner |
+| Path | Area |
 |---|---|
 | `src/core/` (shared types and config) | Foundation. Change only with care, and note it in your PR |
-| `src/data/`, `src/db/` | A: data layer (provider, cache, cost logging, spend cap, SQLite). **Built.** |
-| `src/mcp/`, `src/aso/`, `src/cli.ts` | B: MCP server and CLI. **MCP server built**; remaining CLI commands: init, track, usage |
-| `src/ui/` | C: local UI. **Home and Connect agent built**; remaining: Data connection, Tracking |
-| `src/metadata/`, `skills/` | D: skills (`validate_metadata` is **built**) |
-| `site/`, `README.md`, `CONTRIBUTING.md` | E: website and launch assets |
+| `src/data/`, `src/db/` | Data layer: provider, cache, cost logging, spend cap, SQLite |
+| `src/mcp/`, `src/aso/`, `src/cli.ts`, `src/cli/` | MCP server, ASO logic and CLI |
+| `src/ui/` | Local setup UI |
+| `src/metadata/`, `skills/`, `.claude-plugin/` | `validate_metadata`, skills and the Claude Code plugin |
+| `site/`, `README.md`, `CONTRIBUTING.md` | Website and launch assets |
 | `test/` | Whoever owns the code under test |
 
 Note: the SQLite schema lives in `src/db/schema.ts` as a string so it ships in `dist/`. `node:sqlite` is loaded via `createRequire` because Vite/vitest 2 don't recognise it yet.
