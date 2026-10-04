@@ -1,0 +1,2655 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1079 sec.",
+  "cost": 0,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10040508-2689-0428-0000-51e3ef2fa5be",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0732 sec.",
+      "cost": 0,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "app_data",
+        "apple",
+        "app_searches",
+        "task_get",
+        "advanced",
+        "10040508-2689-0428-0000-51e3ef2fa5be"
+      ],
+      "data": {
+        "se_type": "app_searches",
+        "se": "apple",
+        "api": "app_data",
+        "function": "app_searches",
+        "keyword": "messenger",
+        "location_code": 2840,
+        "language_code": "en",
+        "depth": 100,
+        "priority": 2,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "messenger",
+          "se_domain": "itunes.apple.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": null,
+          "datetime": "2026-10-04 05:08:17 +00:00",
+          "se_results_count": 249,
+          "items_count": 100,
+          "items": [
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "app_id": "454638411",
+              "title": "Messenger",
+              "url": "https://apps.apple.com/us/app/messenger/id454638411",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/02/90/9f029033-e471-5bed-24b1-60cd7c4f1077/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 13710945,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6614,
+                "votes_count": 13710945,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "app_id": "284882215",
+              "title": "Facebook",
+              "url": "https://apps.apple.com/us/app/facebook/id284882215",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/71/5e/83715e23-3e26-c24e-a948-47a168921d0b/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 28605085,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.526,
+                "votes_count": 28605085,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "app_id": "389801252",
+              "title": "Instagram",
+              "url": "https://apps.apple.com/us/app/instagram/id389801252",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/3d/fa/3a3dfa81-9e7a-f495-f177-04fbabc23f32/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 29555242,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.69067,
+                "votes_count": 29555242,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "position": "left",
+              "app_id": "835599320",
+              "title": "TikTok - Videos, Shop & LIVE",
+              "url": "https://apps.apple.com/us/app/tiktok-videos-shop-live/id835599320",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/7c/88/b07c88d8-0314-7b8b-7ab0-788e7059074b/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 18378815,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.72388,
+                "votes_count": 18378815,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 5,
+              "rank_absolute": 5,
+              "position": "left",
+              "app_id": "544007664",
+              "title": "YouTube",
+              "url": "https://apps.apple.com/us/app/youtube/id544007664",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/86/1c/77861cb6-0f87-5220-d6a5-5f11c8fcad7f/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 49257916,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6661,
+                "votes_count": 49257916,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 6,
+              "rank_absolute": 6,
+              "position": "left",
+              "app_id": "686449807",
+              "title": "Telegram Messenger",
+              "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 281986,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.00549,
+                "votes_count": 281986,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 7,
+              "rank_absolute": 7,
+              "position": "left",
+              "app_id": "310633997",
+              "title": "WhatsApp Messenger",
+              "url": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/08/2d/54082dca-2973-b8b7-5481-a6299244b8c6/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 18710778,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.68363,
+                "votes_count": 18710778,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 8,
+              "rank_absolute": 8,
+              "position": "left",
+              "app_id": "422689480",
+              "title": "Gmail - Email by Google",
+              "url": "https://apps.apple.com/us/app/gmail-email-by-google/id422689480",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/e2/23/91e223e2-0de8-367b-ae90-5bb895662760/gmail_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2442153,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.71454,
+                "votes_count": 2442153,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 9,
+              "rank_absolute": 9,
+              "position": "left",
+              "app_id": "447188370",
+              "title": "Snapchat",
+              "url": "https://apps.apple.com/us/app/snapchat/id447188370",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/68/70/3d6870f6-2ee7-c178-0b3e-9b5430ebf2e5/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 5952784,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.50532,
+                "votes_count": 5952784,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 10,
+              "rank_absolute": 10,
+              "position": "left",
+              "app_id": "1146560473",
+              "title": "Messages",
+              "url": "https://apps.apple.com/us/app/messages/id1146560473",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/e8/a7/08e8a793-2b70-af16-e7d8-78877235d3a5/messagesCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 38765,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.06723,
+                "votes_count": 38765,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 11,
+              "rank_absolute": 11,
+              "position": "left",
+              "app_id": "585027354",
+              "title": "Google Maps",
+              "url": "https://apps.apple.com/us/app/google-maps/id585027354",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/e8/45/25e845b4-1b18-27da-1b78-42170245a48a/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 7393451,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.66819,
+                "votes_count": 7393451,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 12,
+              "rank_absolute": 12,
+              "position": "left",
+              "app_id": "333903271",
+              "title": "X",
+              "url": "https://apps.apple.com/us/app/x/id333903271",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/78/41/94784127-5cce-177d-7828-6f2d7c91c12e/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 11079114,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.58198,
+                "votes_count": 11079114,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 13,
+              "rank_absolute": 13,
+              "position": "left",
+              "app_id": "284815942",
+              "title": "Google",
+              "url": "https://apps.apple.com/us/app/google/id284815942",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/d3/5b/4fd35b53-e6d3-ee49-342a-8a7ace6fe960/SuperG_ios26-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 5167633,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.64645,
+                "votes_count": 5167633,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 14,
+              "rank_absolute": 14,
+              "position": "left",
+              "app_id": "535886823",
+              "title": "Google Chrome",
+              "url": "https://apps.apple.com/us/app/google-chrome/id535886823",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/bf/c3/01bfc3a7-2888-0624-d32d-13024d9cfa0c/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 3901728,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.68679,
+                "votes_count": 3901728,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 15,
+              "rank_absolute": 15,
+              "position": "left",
+              "app_id": "6446901002",
+              "title": "Threads",
+              "url": "https://apps.apple.com/us/app/threads/id6446901002",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/a9/44/6ca944d1-3c78-9114-4b3c-e32dff750bc2/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 2277282,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.63591,
+                "votes_count": 2277282,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 16,
+              "rank_absolute": 16,
+              "position": "left",
+              "app_id": "874139669",
+              "title": "Signal - Private Messenger",
+              "url": "https://apps.apple.com/us/app/signal-private-messenger/id874139669",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/5a/16/b15a169c-8360-1f71-3808-8b82c4a3e255/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1094245,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.73261,
+                "votes_count": 1094245,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 17,
+              "rank_absolute": 17,
+              "position": "left",
+              "app_id": "382617920",
+              "title": "Rakuten Viber Messenger",
+              "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/d3/aa/18d3aa96-7829-5a86-5d98-9f577e5eb90a/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 831101,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.59734,
+                "votes_count": 831101,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 18,
+              "rank_absolute": 18,
+              "position": "left",
+              "app_id": "414706506",
+              "title": "Google Translate",
+              "url": "https://apps.apple.com/us/app/google-translate/id414706506",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/b0/60/e1b060af-54a8-488f-cdd9-5cffb15998dc/logo_translate_color-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 83828,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.29206,
+                "votes_count": 83828,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 19,
+              "rank_absolute": 19,
+              "position": "left",
+              "app_id": "962194608",
+              "title": "Google Photos: Backup & Edit",
+              "url": "https://apps.apple.com/us/app/google-photos-backup-edit/id962194608",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/05/0a/27050a19-8485-60d3-da9f-245d6da3c8aa/Photos-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1597302,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.83209,
+                "votes_count": 1597302,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 20,
+              "rank_absolute": 20,
+              "position": "left",
+              "app_id": "1285713171",
+              "title": "Messenger Kids",
+              "url": "https://apps.apple.com/us/app/messenger-kids/id1285713171",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/cb/ef/17cbef74-2656-3629-77c4-d5189ea8569e/icon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 116048,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.25678,
+                "votes_count": 116048,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 21,
+              "rank_absolute": 21,
+              "position": "left",
+              "app_id": "1017492454",
+              "title": "YouTube Music",
+              "url": "https://apps.apple.com/us/app/youtube-music/id1017492454",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/fa/01/75fa0196-aa1b-fe52-96b5-9c68129aa78a/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1515542,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.76738,
+                "votes_count": 1515542,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 22,
+              "rank_absolute": 22,
+              "position": "left",
+              "app_id": "1386412985",
+              "title": "WhatsApp Business",
+              "url": "https://apps.apple.com/us/app/whatsapp-business/id1386412985",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/f7/2e/fff72e36-182c-aed2-1991-70e23d660883/AppIconSMB-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1515881,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.68424,
+                "votes_count": 1515881,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 23,
+              "rank_absolute": 23,
+              "position": "left",
+              "app_id": "429047995",
+              "title": "Pinterest",
+              "url": "https://apps.apple.com/us/app/pinterest/id429047995",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/61/5b/a2615b1a-6c30-d9c6-b607-769a5de0c198/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 5786228,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.77724,
+                "votes_count": 5786228,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 24,
+              "rank_absolute": 24,
+              "position": "left",
+              "app_id": "1388718354",
+              "title": "wim messenger",
+              "url": "https://apps.apple.com/us/app/wim-messenger/id1388718354",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b3/3b/35/b33b3546-07cb-91c0-4f73-04b5505a29d2/AppIconLive-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 25,
+              "rank_absolute": 25,
+              "position": "left",
+              "app_id": "6746353635",
+              "title": "Tello Messenger",
+              "url": "https://apps.apple.com/us/app/tello-messenger/id6746353635",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/fe/b7/89feb737-7b48-c142-1e5f-eb204eb51fd4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 26,
+              "rank_absolute": 26,
+              "position": "left",
+              "app_id": "1393141663",
+              "title": "ChatsApp Messaging Service",
+              "url": "https://apps.apple.com/us/app/chatsapp-messaging-service/id1393141663",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/8a/54/95/8a549530-a6e5-bd47-8d5d-175939da1ed6/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 27,
+              "rank_absolute": 27,
+              "position": "left",
+              "app_id": "6755958832",
+              "title": "Dual Messenger - 2 Accounts",
+              "url": "https://apps.apple.com/us/app/dual-messenger-2-accounts/id6755958832",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/c8/7d/2fc87d8e-8f39-1e15-0388-883b086ac277/first_icon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 28,
+              "rank_absolute": 28,
+              "position": "left",
+              "app_id": "6737417088",
+              "title": "Zivvy Messenger",
+              "url": "https://apps.apple.com/us/app/zivvy-messenger/id6737417088",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/8a/57/228a57f4-b739-4e4b-aad6-471a23699bb3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 29,
+              "rank_absolute": 29,
+              "position": "left",
+              "app_id": "952596231",
+              "title": "TalkKing",
+              "url": "https://apps.apple.com/us/app/talkking/id952596231",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/f7/b9/e9f7b92f-a76d-2c17-deee-c35a7bf83a72/AppIcons-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 4,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.25,
+                "votes_count": 4,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 30,
+              "rank_absolute": 30,
+              "position": "left",
+              "app_id": "6754703974",
+              "title": "GAM: Messenger",
+              "url": "https://apps.apple.com/us/app/gam-messenger/id6754703974",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/34/c3/ab34c3b5-c283-1455-0bd0-1d2ec5345e42/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 31,
+              "rank_absolute": 31,
+              "position": "left",
+              "app_id": "6785374482",
+              "title": "Graf Chat",
+              "url": "https://apps.apple.com/us/app/graf-chat/id6785374482",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/78/21/ed782141-e141-9415-ec09-c2d4c05c3a3e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 32,
+              "rank_absolute": 32,
+              "position": "left",
+              "app_id": "927023657",
+              "title": "Protonet Messenger",
+              "url": "https://apps.apple.com/us/app/protonet-messenger/id927023657",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/88/1f/fb/881ffb46-6475-51f3-01db-b70803f06be9/AppIcon-0-1x_U007emarketing-0-85-220-0-9.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 33,
+              "rank_absolute": 33,
+              "position": "left",
+              "app_id": "1403227380",
+              "title": "IDr Messenger",
+              "url": "https://apps.apple.com/us/app/idr-messenger/id1403227380",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/f5/a4/f5f5a4c2-81a7-9005-afd7-36ba4210f9ed/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 34,
+              "rank_absolute": 34,
+              "position": "left",
+              "app_id": "1388280078",
+              "title": "Officetree Messenger",
+              "url": "https://apps.apple.com/us/app/officetree-messenger/id1388280078",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/6b/50/81/6b5081a8-669d-3379-9da6-3f1a8d5dea36/AppIcons-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 35,
+              "rank_absolute": 35,
+              "position": "left",
+              "app_id": "1555003391",
+              "title": "Alter Messenger",
+              "url": "https://apps.apple.com/us/app/alter-messenger/id1555003391",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/dd/bd/b9/ddbdb990-9279-33f5-ac32-6816f1671236/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 36,
+              "rank_absolute": 36,
+              "position": "left",
+              "app_id": "886767209",
+              "title": "Ginger Messenger",
+              "url": "https://apps.apple.com/us/app/ginger-messenger/id886767209",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple2/v4/eb/0b/aa/eb0baaed-4e8e-0161-7986-5d965440c276/mzl.wgwakjcl.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 37,
+              "rank_absolute": 37,
+              "position": "left",
+              "app_id": "1110145091",
+              "title": "FaceTime",
+              "url": "https://apps.apple.com/us/app/facetime/id1110145091",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/dc/9f/12dc9f48-b560-da8c-83af-7c8e80c4e2ee/facetimeCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 27096,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.18246,
+                "votes_count": 27096,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 38,
+              "rank_absolute": 38,
+              "position": "left",
+              "app_id": "6780532820",
+              "title": "Pigeon: Private Messenger",
+              "url": "https://apps.apple.com/us/app/pigeon-private-messenger/id6780532820",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/28/79/6b287920-4bd7-77d9-c336-0ebd209a883a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 39,
+              "rank_absolute": 39,
+              "position": "left",
+              "app_id": "6467877971",
+              "title": "Leo Messenger",
+              "url": "https://apps.apple.com/us/app/leo-messenger/id6467877971",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/cf/85/57cf85a0-47d1-0760-8a9b-84593033bb1c/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 40,
+              "rank_absolute": 40,
+              "position": "left",
+              "app_id": "1578162044",
+              "title": "UChat - Messenger",
+              "url": "https://apps.apple.com/us/app/uchat-messenger/id1578162044",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/85/00/648500af-37e8-e68c-c741-fc8ec98c5dc2/icon_default-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 41,
+              "rank_absolute": 41,
+              "position": "left",
+              "app_id": "1196831220",
+              "title": "BLE Messenger",
+              "url": "https://apps.apple.com/us/app/ble-messenger/id1196831220",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/d1/9c/c3d19c82-84b7-73a7-8b7b-012b1f69317d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.66667,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 42,
+              "rank_absolute": 42,
+              "position": "left",
+              "app_id": "1626066143",
+              "title": "BChat Messenger",
+              "url": "https://apps.apple.com/us/app/bchat-messenger/id1626066143",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/48/17/7b481714-192d-364a-58c7-2d2f7a741855/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 43,
+              "rank_absolute": 43,
+              "position": "left",
+              "app_id": "6754181968",
+              "title": "Viper Messenger",
+              "url": "https://apps.apple.com/us/app/viper-messenger/id6754181968",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/ef/39/82ef3998-d9e5-d7cb-9a09-0353fd529cb3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 44,
+              "rank_absolute": 44,
+              "position": "left",
+              "app_id": "6461728173",
+              "title": "TiTi - Chat",
+              "url": "https://apps.apple.com/us/app/titi-chat/id6461728173",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/1c/86/e21c8608-6eb7-aabb-c1e6-357168ad0852/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 45,
+              "rank_absolute": 45,
+              "position": "left",
+              "app_id": "1494593637",
+              "title": "Jungle Messenger",
+              "url": "https://apps.apple.com/us/app/jungle-messenger/id1494593637",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/4c/12/b84c1288-5a7d-0e2e-ba0e-ce96acf30dfa/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 46,
+              "rank_absolute": 46,
+              "position": "left",
+              "app_id": "6747683518",
+              "title": "Dual Chat - Duo Messenger",
+              "url": "https://apps.apple.com/us/app/dual-chat-duo-messenger/id6747683518",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/22/dc/6c22dc65-4b20-2b45-9116-18a09e7362cf/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 4,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.75,
+                "votes_count": 4,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 47,
+              "rank_absolute": 47,
+              "position": "left",
+              "app_id": "1130226787",
+              "title": "Beeper Secure Messenger",
+              "url": "https://apps.apple.com/us/app/beeper-secure-messenger/id1130226787",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/22/d7/06/22d706b4-69b6-b7cc-d4c1-55c94b5037a6/mzl.knnmuldp.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 48,
+              "rank_absolute": 48,
+              "position": "left",
+              "app_id": "507874739",
+              "title": "Google Drive",
+              "url": "https://apps.apple.com/us/app/google-drive/id507874739",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/7e/b2/b77eb26a-5d8c-fefa-82b1-da8c49b19f8d/drive_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 7837663,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.77712,
+                "votes_count": 7837663,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 49,
+              "rank_absolute": 49,
+              "position": "left",
+              "app_id": "6747968701",
+              "title": "UC Messenger",
+              "url": "https://apps.apple.com/us/app/uc-messenger/id6747968701",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/6e/26/416e2648-a2df-f153-f5c0-4b6715d55d03/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 50,
+              "rank_absolute": 50,
+              "position": "left",
+              "app_id": "6569246841",
+              "title": "Text messaging",
+              "url": "https://apps.apple.com/us/app/text-messaging/id6569246841",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/a7/6d/fea76dd2-8801-4f98-8d6b-bc91a75f09bb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 5,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.59999,
+                "votes_count": 5,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 51,
+              "rank_absolute": 51,
+              "position": "left",
+              "app_id": "514643583",
+              "title": "Meta Business Suite",
+              "url": "https://apps.apple.com/us/app/meta-business-suite/id514643583",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/e8/95/dae89536-4fb6-f580-d413-2894bf772e64/MBS-LiquidGlass-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 504205,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.68193,
+                "votes_count": 504205,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 52,
+              "rank_absolute": 52,
+              "position": "left",
+              "app_id": "6769800949",
+              "title": "Direct Chat & Messaging",
+              "url": "https://apps.apple.com/us/app/direct-chat-messaging/id6769800949",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/a3/1c/5ea31c94-16ea-4f4d-3f92-f412fd3ededd/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 53,
+              "rank_absolute": 53,
+              "position": "left",
+              "app_id": "6756604913",
+              "title": "Parrot Chat Messenger",
+              "url": "https://apps.apple.com/us/app/parrot-chat-messenger/id6756604913",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/e4/44/07e44478-20a6-0210-443a-477e0fdd49c7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 4,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 4,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 54,
+              "rank_absolute": 54,
+              "position": "left",
+              "app_id": "6753579477",
+              "title": "QPoss Messenger",
+              "url": "https://apps.apple.com/us/app/qposs-messenger/id6753579477",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/d6/dc/45d6dc83-bf08-8f1a-3414-c6842d6ea04a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 55,
+              "rank_absolute": 55,
+              "position": "left",
+              "app_id": "6755116985",
+              "title": "OnAir Messenger",
+              "url": "https://apps.apple.com/us/app/onair-messenger/id6755116985",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/79/f3/1e79f351-dace-2bf0-bee6-53c79858fd96/AppIcon-0-0-1x_U007ephone-0-1-0-P3-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 56,
+              "rank_absolute": 56,
+              "position": "left",
+              "app_id": "6758995631",
+              "title": "Encrypted Messenger - P2P E2EE",
+              "url": "https://apps.apple.com/us/app/encrypted-messenger-p2p-e2ee/id6758995631",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/13/b1/2313b112-cd93-44db-2f2b-dc3cd5cad027/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 57,
+              "rank_absolute": 57,
+              "position": "left",
+              "app_id": "1489335158",
+              "title": "IMMUNE Messenger",
+              "url": "https://apps.apple.com/us/app/immune-messenger/id1489335158",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/fc/7d/09fc7da2-cc97-c1c6-4555-41bc2699f06a/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 58,
+              "rank_absolute": 58,
+              "position": "left",
+              "app_id": "6473384641",
+              "title": "Twake Chat - Secure Messenger",
+              "url": "https://apps.apple.com/us/app/twake-chat-secure-messenger/id6473384641",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/7f/41/0e7f4131-5491-828f-db11-0baffc895d6c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 59,
+              "rank_absolute": 59,
+              "position": "left",
+              "app_id": "6448311069",
+              "title": "ChatGPT",
+              "url": "https://apps.apple.com/us/app/chatgpt/id6448311069",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/b3/01/e8b30151-1abb-e33c-75e2-a2e230c85b52/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 10940384,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.82728,
+                "votes_count": 10940384,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 60,
+              "rank_absolute": 60,
+              "position": "left",
+              "app_id": "6463402906",
+              "title": "Messenger for Messages",
+              "url": "https://apps.apple.com/us/app/messenger-for-messages/id6463402906",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0d/8a/fd/0d8afdb2-eaea-b4e4-07ce-5aea1ce63ddf/AppIcon-0-0-1x_U007epad-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 416,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.46875,
+                "votes_count": 416,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 61,
+              "rank_absolute": 61,
+              "position": "left",
+              "app_id": "6760417329",
+              "title": "Secretly: Secure Messenger",
+              "url": "https://apps.apple.com/us/app/secretly-secure-messenger/id6760417329",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/9f/ad/a49fadb6-bc54-ec5b-7d85-f23b8cf9d675/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 62,
+              "rank_absolute": 62,
+              "position": "left",
+              "app_id": "929297105",
+              "title": "Zing Messenger",
+              "url": "https://apps.apple.com/us/app/zing-messenger/id929297105",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/0f/20/dd/0f20ddae-c1b3-b094-9670-f8bc4c142952/AppIcon-0-1x_U007emarketing-0-85-220-5.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 63,
+              "rank_absolute": 63,
+              "position": "left",
+              "app_id": "1459272529",
+              "title": "Yubee Messenger",
+              "url": "https://apps.apple.com/us/app/yubee-messenger/id1459272529",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/e7/f1/d2e7f1c1-5719-59c4-8a3c-d776ccbab3af/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 64,
+              "rank_absolute": 64,
+              "position": "left",
+              "app_id": "549493839",
+              "title": "Zangi - Private Messenger",
+              "url": "https://apps.apple.com/us/app/zangi-private-messenger/id549493839",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/80/dd/0e80ddb7-713e-fe0f-2906-07abc7ba4157/AppIcon-0-0-1x_U007epad-0-1-0-P3-85-220.png/512x512bb.jpg",
+              "reviews_count": 9981,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.97525,
+                "votes_count": 9981,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 65,
+              "rank_absolute": 65,
+              "position": "left",
+              "app_id": "414478124",
+              "title": "WeChat",
+              "url": "https://apps.apple.com/us/app/wechat/id414478124",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/70/2e/61702e05-0531-165f-5cd3-012c8b5b3b20/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 81257,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.93107,
+                "votes_count": 81257,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 66,
+              "rank_absolute": 66,
+              "position": "left",
+              "app_id": "6782247061",
+              "title": "AIM250",
+              "url": "https://apps.apple.com/us/app/aim250/id6782247061",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/ce/d9/1fced94b-4540-ab18-02fc-13ce0cff2224/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 67,
+              "rank_absolute": 67,
+              "position": "left",
+              "app_id": "582993443",
+              "title": "OMessenger",
+              "url": "https://apps.apple.com/us/app/omessenger/id582993443",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple7/v4/fe/8e/77/fe8e77f3-18c3-3459-92d7-233cae44e895/mzl.kahswucg.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 68,
+              "rank_absolute": 68,
+              "position": "left",
+              "app_id": "1163852619",
+              "title": "Google Chat",
+              "url": "https://apps.apple.com/us/app/google-chat/id1163852619",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/e5/ce/7ee5ce92-5a39-a89d-d432-770e9064151e/chat_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 306261,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.63656,
+                "votes_count": 306261,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 69,
+              "rank_absolute": 69,
+              "position": "left",
+              "app_id": "1078486343",
+              "title": "Flex Messenger",
+              "url": "https://apps.apple.com/us/app/flex-messenger/id1078486343",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple18/v4/3a/e9/e1/3ae9e1ba-07f8-e07b-029c-3e9240126b0c/mzl.ugeiriag.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 70,
+              "rank_absolute": 70,
+              "position": "left",
+              "app_id": "6470359351",
+              "title": "Doot - Aatman Messenger",
+              "url": "https://apps.apple.com/us/app/doot-aatman-messenger/id6470359351",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/df/b9/7fdfb9f0-40c0-d25c-35a2-65e6e4e14bcc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 71,
+              "rank_absolute": 71,
+              "position": "left",
+              "app_id": "6780178262",
+              "title": "Nexumi: Messenger",
+              "url": "https://apps.apple.com/us/app/nexumi-messenger/id6780178262",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/9c/6c/259c6c42-b165-79d2-12c1-7c2eded3cec9/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 72,
+              "rank_absolute": 72,
+              "position": "left",
+              "app_id": "850193975",
+              "title": "LaKeel Messenger",
+              "url": "https://apps.apple.com/us/app/lakeel-messenger/id850193975",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/c9/fa/adc9fad1-24aa-942c-0228-848cef5cf9ed/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 73,
+              "rank_absolute": 73,
+              "position": "left",
+              "app_id": "982895719",
+              "title": "tongtong messenger",
+              "url": "https://apps.apple.com/us/app/tongtong-messenger/id982895719",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/09/95/16099574-0bea-d32d-6623-9b862ba69dcd/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 74,
+              "rank_absolute": 74,
+              "position": "left",
+              "app_id": "6740438233",
+              "title": "CallHarbor Messenger",
+              "url": "https://apps.apple.com/us/app/callharbor-messenger/id6740438233",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/ad/50/82ad5033-5b65-9d75-4463-4279dd79393b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 75,
+              "rank_absolute": 75,
+              "position": "left",
+              "app_id": "6741796873",
+              "title": "TikTok Pro - Events",
+              "url": "https://apps.apple.com/us/app/tiktok-pro-events/id6741796873",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/c6/1d/8ec61d8b-34a1-dbb1-ec6c-6267090aba11/AppIcon_TikTok-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 65973,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.84016,
+                "votes_count": 65973,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 76,
+              "rank_absolute": 76,
+              "position": "left",
+              "app_id": "1217677388",
+              "title": "GeoSafe Messenger",
+              "url": "https://apps.apple.com/us/app/geosafe-messenger/id1217677388",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/d2/9e/14/d29e1486-c756-eb1d-08df-bc319b930271/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 77,
+              "rank_absolute": 77,
+              "position": "left",
+              "app_id": "1498791933",
+              "title": "Cross Messenger",
+              "url": "https://apps.apple.com/us/app/cross-messenger/id1498791933",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/36/a0/ff/36a0ff47-47f2-47c7-9e5f-56a6410a68f3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 78,
+              "rank_absolute": 78,
+              "position": "left",
+              "app_id": "6757155529",
+              "title": "Bazon – Private Messenger",
+              "url": "https://apps.apple.com/us/app/bazon-private-messenger/id6757155529",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/14/05/86140522-39cb-9041-5c85-a122a2d2e769/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 79,
+              "rank_absolute": 79,
+              "position": "left",
+              "app_id": "1125296280",
+              "title": "Messenger Soccer 2016 NEW",
+              "url": "https://apps.apple.com/us/app/messenger-soccer-2016-new/id1125296280",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple30/v4/d1/46/9f/d1469fff-b4b0-efc5-10cc-8965243e6f3c/mzl.nbgcictn.png/512x512bb.jpg",
+              "reviews_count": 5,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4,
+                "votes_count": 5,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 80,
+              "rank_absolute": 80,
+              "position": "left",
+              "app_id": "1096918571",
+              "title": "Google Meet",
+              "url": "https://apps.apple.com/us/app/google-meet/id1096918571",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/a8/33/14a83319-7aa6-9949-63cb-8df0018c234b/meet_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2332586,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.75924,
+                "votes_count": 2332586,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 81,
+              "rank_absolute": 81,
+              "position": "left",
+              "app_id": "6755473590",
+              "title": "Sendily",
+              "url": "https://apps.apple.com/us/app/sendily/id6755473590",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/ec/55/a4ec55dc-1572-be06-a6d5-e567171dbb73/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 82,
+              "rank_absolute": 82,
+              "position": "left",
+              "app_id": "6749173799",
+              "title": "cherry.fun: Solana Messenger",
+              "url": "https://apps.apple.com/us/app/cherry-fun-solana-messenger/id6749173799",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/4e/43/d04e436c-82dc-64d7-e77f-b242d2ca1063/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 83,
+              "rank_absolute": 83,
+              "position": "left",
+              "app_id": "443904275",
+              "title": "LINE",
+              "url": "https://apps.apple.com/us/app/line/id443904275",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/94/41/029441a9-1b22-89ae-b80f-ffac0749eba0/basic_default-0-0-1x_U007epad-0-6-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 18415,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.1981,
+                "votes_count": 18415,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 84,
+              "rank_absolute": 84,
+              "position": "left",
+              "app_id": "6446579430",
+              "title": "Virola Messenger",
+              "url": "https://apps.apple.com/us/app/virola-messenger/id6446579430",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/14/99/5714999d-71cd-8be3-01ca-ce5cc79f7366/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.33333,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 85,
+              "rank_absolute": 85,
+              "position": "left",
+              "app_id": "6744175842",
+              "title": "Falcon: Secure Messenger",
+              "url": "https://apps.apple.com/us/app/falcon-secure-messenger/id6744175842",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/26/79/16267969-e64d-3ca2-f66d-7d35619210cb/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 86,
+              "rank_absolute": 86,
+              "position": "left",
+              "app_id": "1135026482",
+              "title": "Messenger Archery 2016 : Bow And Arrow NEW",
+              "url": "https://apps.apple.com/us/app/messenger-archery-2016-bow-and-arrow-new/id1135026482",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple30/v4/6d/b2/4e/6db24eca-ffda-a096-85e1-21b9b9579539/mzl.ylbghdrg.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.33333,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 87,
+              "rank_absolute": 87,
+              "position": "left",
+              "app_id": "1666277672",
+              "title": "Humo Messenger",
+              "url": "https://apps.apple.com/us/app/humo-messenger/id1666277672",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/3f/23/083f237c-6ee6-eb33-26b8-d74c6917a4e9/AppIconLLC-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 88,
+              "rank_absolute": 88,
+              "position": "left",
+              "app_id": "6746665912",
+              "title": "Jumper Messenger",
+              "url": "https://apps.apple.com/us/app/jumper-messenger/id6746665912",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/31/a3/de31a305-b14c-6515-b39a-ee510f6e51d0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 89,
+              "rank_absolute": 89,
+              "position": "left",
+              "app_id": "6770438819",
+              "title": "All Web Messenger",
+              "url": "https://apps.apple.com/us/app/all-web-messenger/id6770438819",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/17/e6/d817e671-f1c0-bf77-7613-a0b6d1263370/AppIcon-0-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 90,
+              "rank_absolute": 90,
+              "position": "left",
+              "app_id": "1021691598",
+              "title": "Intouch Notification Manager",
+              "url": "https://apps.apple.com/us/app/intouch-notification-manager/id1021691598",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/e8/92/22/e89222b2-9187-8703-cbe2-b6c5b075b118/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/512x512bb.jpg",
+              "reviews_count": 4,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.75,
+                "votes_count": 4,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 91,
+              "rank_absolute": 91,
+              "position": "left",
+              "app_id": "1587570376",
+              "title": "HelloTalk Messenger",
+              "url": "https://apps.apple.com/us/app/hellotalk-messenger/id1587570376",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d6/c0/f9/d6c0f9a8-edd7-1d1b-54b2-9dccd8162ff0/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 92,
+              "rank_absolute": 92,
+              "position": "left",
+              "app_id": "6755964544",
+              "title": "EvaLine",
+              "url": "https://apps.apple.com/us/app/evaline/id6755964544",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/44/15/1544155a-ab47-6b08-9a31-b512040ce2e6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 93,
+              "rank_absolute": 93,
+              "position": "left",
+              "app_id": "1556431350",
+              "title": "intern@ Time Clock & Messenger",
+              "url": "https://apps.apple.com/us/app/intern-time-clock-messenger/id1556431350",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c6/14/5b/c6145bf3-c201-e07a-6cab-88716b3ad8c1/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 94,
+              "rank_absolute": 94,
+              "position": "left",
+              "app_id": "1045140760",
+              "title": "OneMessage",
+              "url": "https://apps.apple.com/us/app/onemessage/id1045140760",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/56/f0/a056f07a-246a-4b18-7ead-4614b19e01f2/AppIcon-0-0-1x_U007epad-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 95,
+              "rank_absolute": 95,
+              "position": "left",
+              "app_id": "392796698",
+              "title": "GroupMe",
+              "url": "https://apps.apple.com/us/app/groupme/id392796698",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/8c/55/1e8c555d-1ef6-9811-94ce-59bd5becf60e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 1559117,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.71992,
+                "votes_count": 1559117,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 96,
+              "rank_absolute": 96,
+              "position": "left",
+              "app_id": "1641486558",
+              "title": "Temu: Shop Like a Billionaire",
+              "url": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/65/a6/ff65a660-d2b1-01c9-0cb1-8b4aad24a389/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": 2224383,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6594,
+                "votes_count": 2224383,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 97,
+              "rank_absolute": 97,
+              "position": "left",
+              "app_id": "985746746",
+              "title": "Discord - Talk, Play, Hang Out",
+              "url": "https://apps.apple.com/us/app/discord-talk-play-hang-out/id985746746",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/62/89/6d628952-77a9-1995-09af-470a21fd53bd/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 3559116,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.69791,
+                "votes_count": 3559116,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 98,
+              "rank_absolute": 98,
+              "position": "left",
+              "app_id": "6737697395",
+              "title": "Gunter messenger",
+              "url": "https://apps.apple.com/us/app/gunter-messenger/id6737697395",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/89/88/a4898845-ba3a-0026-911a-c30e4a04fc1d/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 99,
+              "rank_absolute": 99,
+              "position": "left",
+              "app_id": "6736827851",
+              "title": "All in one Messenger",
+              "url": "https://apps.apple.com/us/app/all-in-one-messenger/id6736827851",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/0a/b7/750ab7a3-520c-acd8-fe18-9745f2576fee/AppIcon-0-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 100,
+              "rank_absolute": 100,
+              "position": "left",
+              "app_id": "1321963611",
+              "title": "GroupWise Messenger",
+              "url": "https://apps.apple.com/us/app/groupwise-messenger/id1321963611",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/ca/62/15/ca621545-c719-f803-0b03-53618a9db961/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+              "reviews_count": 5,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.4,
+                "votes_count": 5,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

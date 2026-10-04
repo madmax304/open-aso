@@ -1,0 +1,317 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "9.0833 sec.",
+  "cost": 0.0132,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10040507-2689-0450-0000-a8c8b5c7b859",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "9.0480 sec.",
+      "cost": 0.0132,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "apple",
+        "app_competitors",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "app_competitors",
+        "se_type": "apple",
+        "app_id": "686449807",
+        "location_code": 2840,
+        "language_code": "en",
+        "limit": 10
+      },
+      "result": [
+        {
+          "se_type": "apple",
+          "app_id": "686449807",
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 592490,
+          "items_count": 10,
+          "items": [
+            {
+              "se_type": "apple",
+              "app_id": "686449807",
+              "avg_position": 34.69382108714141,
+              "sum_position": 9831084,
+              "intersections": 283367,
+              "competitor_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 2863,
+                  "pos_2_3": 8920,
+                  "pos_4_10": 50160,
+                  "pos_11_100": 221424,
+                  "count": 283367,
+                  "search_volume": 181786651
+                }
+              },
+              "full_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 2863,
+                  "pos_2_3": 8920,
+                  "pos_4_10": 50160,
+                  "pos_11_100": 221424,
+                  "count": 283367,
+                  "search_volume": 181786651
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "app_id": "310633997",
+              "avg_position": 7.038714797251524,
+              "sum_position": 1818276,
+              "intersections": 258325,
+              "competitor_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 47535,
+                  "pos_2_3": 68624,
+                  "pos_4_10": 90814,
+                  "pos_11_100": 51352,
+                  "count": 258325,
+                  "search_volume": 179229631
+                }
+              },
+              "full_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 195238,
+                  "pos_2_3": 237728,
+                  "pos_4_10": 309714,
+                  "pos_11_100": 512216,
+                  "count": 1254896,
+                  "search_volume": 299654625
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "app_id": "454638411",
+              "avg_position": 27.66644688470934,
+              "sum_position": 5832502,
+              "intersections": 210815,
+              "competitor_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 4169,
+                  "pos_2_3": 10310,
+                  "pos_4_10": 46275,
+                  "pos_11_100": 150061,
+                  "count": 210815,
+                  "search_volume": 174063374
+                }
+              },
+              "full_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 9104,
+                  "pos_2_3": 29261,
+                  "pos_4_10": 103787,
+                  "pos_11_100": 341935,
+                  "count": 484087,
+                  "search_volume": 311796008
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "app_id": "585027354",
+              "avg_position": 12.10779523376234,
+              "sum_position": 2302043,
+              "intersections": 190129,
+              "competitor_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 7010,
+                  "pos_2_3": 39318,
+                  "pos_4_10": 70577,
+                  "pos_11_100": 73224,
+                  "count": 190129,
+                  "search_volume": 146251007
+                }
+              },
+              "full_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 40999,
+                  "pos_2_3": 119427,
+                  "pos_4_10": 183780,
+                  "pos_11_100": 333321,
+                  "count": 677527,
+                  "search_volume": 270682453
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "app_id": "535886823",
+              "avg_position": 38.27303838632419,
+              "sum_position": 6967377,
+              "intersections": 182044,
+              "competitor_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 2407,
+                  "pos_2_3": 2731,
+                  "pos_4_10": 22706,
+                  "pos_11_100": 154200,
+                  "count": 182044,
+                  "search_volume": 169641074
+                }
+              },
+              "full_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 12435,
+                  "pos_2_3": 27340,
+                  "pos_4_10": 103275,
+                  "pos_11_100": 454726,
+                  "count": 597776,
+                  "search_volume": 352664338
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "app_id": "363590051",
+              "avg_position": 34.09754792461163,
+              "sum_position": 4014543,
+              "intersections": 117737,
+              "competitor_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 1763,
+                  "pos_2_3": 3311,
+                  "pos_4_10": 19373,
+                  "pos_11_100": 93290,
+                  "count": 117737,
+                  "search_volume": 101906731
+                }
+              },
+              "full_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 9229,
+                  "pos_2_3": 14805,
+                  "pos_4_10": 53806,
+                  "pos_11_100": 228122,
+                  "count": 305962,
+                  "search_volume": 154241172
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "app_id": "835599320",
+              "avg_position": 32.91738881754314,
+              "sum_position": 3050224,
+              "intersections": 92663,
+              "competitor_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 6194,
+                  "pos_2_3": 7270,
+                  "pos_4_10": 15038,
+                  "pos_11_100": 64161,
+                  "count": 92663,
+                  "search_volume": 146462855
+                }
+              },
+              "full_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 30582,
+                  "pos_2_3": 19240,
+                  "pos_4_10": 36969,
+                  "pos_11_100": 156166,
+                  "count": 242957,
+                  "search_volume": 176578733
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "app_id": "297606951",
+              "avg_position": 29.658618646814883,
+              "sum_position": 2653349,
+              "intersections": 89463,
+              "competitor_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 2169,
+                  "pos_2_3": 3222,
+                  "pos_4_10": 16655,
+                  "pos_11_100": 67417,
+                  "count": 89463,
+                  "search_volume": 70050925
+                }
+              },
+              "full_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 10478,
+                  "pos_2_3": 21693,
+                  "pos_4_10": 62203,
+                  "pos_11_100": 186194,
+                  "count": 280568,
+                  "search_volume": 167520646
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "app_id": "414706506",
+              "avg_position": 39.350068356037305,
+              "sum_position": 3223715,
+              "intersections": 81924,
+              "competitor_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 131,
+                  "pos_2_3": 626,
+                  "pos_4_10": 8257,
+                  "pos_11_100": 72910,
+                  "count": 81924,
+                  "search_volume": 149099203
+                }
+              },
+              "full_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 21879,
+                  "pos_2_3": 14996,
+                  "pos_4_10": 32281,
+                  "pos_11_100": 159354,
+                  "count": 228510,
+                  "search_volume": 249110251
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "app_id": "429047995",
+              "avg_position": 44.89211662349738,
+              "sum_position": 3379703,
+              "intersections": 75285,
+              "competitor_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 453,
+                  "pos_2_3": 314,
+                  "pos_4_10": 4197,
+                  "pos_11_100": 70321,
+                  "count": 75285,
+                  "search_volume": 133722474
+                }
+              },
+              "full_metrics": {
+                "app_store_search_organic": {
+                  "pos_1": 2383,
+                  "pos_2_3": 3448,
+                  "pos_4_10": 15993,
+                  "pos_11_100": 133971,
+                  "count": 155795,
+                  "search_volume": 225187489
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

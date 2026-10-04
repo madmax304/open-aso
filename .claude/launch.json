@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "open-aso-ui",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "ui", "--", "--no-open"],
+      "port": 4319
+    }
+  ]
+}

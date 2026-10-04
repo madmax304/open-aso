@@ -1,0 +1,2747 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.4242 sec.",
+  "cost": 0.018,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10040507-2689-0451-0000-1a13ea38492e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.4073 sec.",
+      "cost": 0.018,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "apple",
+        "keywords_for_app",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keywords_for_app",
+        "se_type": "apple",
+        "app_id": "686449807",
+        "location_code": 2840,
+        "language_code": "en",
+        "limit": 50
+      },
+      "result": [
+        {
+          "se_type": "apple",
+          "app_id": "686449807",
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 283367,
+          "items_count": 50,
+          "items": [
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "youtube",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-09 02:18:10 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 53799336,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 19,
+                  "rank_absolute": 19,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279455,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279455,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 247,
+                "last_updated_time": "2026-09-09 02:18:10 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "gmail",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-15 14:16:42 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 25847175,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 18,
+                  "rank_absolute": 18,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280159,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280159,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 249,
+                "last_updated_time": "2026-09-15 14:16:42 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "facebook",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-16 05:52:08 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 21247230,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 12,
+                  "rank_absolute": 12,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280225,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280225,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 249,
+                "last_updated_time": "2026-09-16 05:52:07 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "chat gpt",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-17 03:51:27 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 15168718,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 92,
+                  "rank_absolute": 92,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280292,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280292,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 245,
+                "last_updated_time": "2026-09-17 03:51:27 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "google maps",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-15 12:29:15 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 9049832,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 20,
+                  "rank_absolute": 20,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280140,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280140,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 250,
+                "last_updated_time": "2026-09-15 12:29:15 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "google-maps",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-15 11:48:24 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 9049832,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 20,
+                  "rank_absolute": 20,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280140,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280140,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 250,
+                "last_updated_time": "2026-09-15 11:48:24 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "amazon prime",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-19 10:41:53 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 5512470,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 91,
+                  "rank_absolute": 91,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280472,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280472,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 247,
+                "last_updated_time": "2026-09-19 10:41:52 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "you tube",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-09 02:25:16 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 2682847,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 29,
+                  "rank_absolute": 29,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279455,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279455,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 244,
+                "last_updated_time": "2026-09-09 02:25:15 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "reddit",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-18 11:42:27 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 2256100,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 6,
+                  "rank_absolute": 6,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280376,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280376,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 248,
+                "last_updated_time": "2026-09-18 11:42:26 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "pinterest",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-18 16:12:29 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 1939155,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 16,
+                  "rank_absolute": 16,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280397,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280397,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 249,
+                "last_updated_time": "2026-09-18 16:12:29 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "discord",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-16 15:14:36 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 1878157,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 11,
+                  "rank_absolute": 11,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280247,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280247,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 245,
+                "last_updated_time": "2026-09-16 15:14:36 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "save up to",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-09 18:26:01 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 1794440,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 43,
+                  "rank_absolute": 43,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279522,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279522,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 236,
+                "last_updated_time": "2026-09-09 18:26:01 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "instagram",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-15 00:31:00 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 1602674,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 10,
+                  "rank_absolute": 10,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280116,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280116,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 250,
+                "last_updated_time": "2026-09-15 00:31:00 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "instagram##",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-15 00:15:40 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 1599605,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 10,
+                  "rank_absolute": 10,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280116,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280116,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 250,
+                "last_updated_time": "2026-09-15 00:15:40 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "amazon my account",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-19 10:43:36 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 1441900,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 32,
+                  "rank_absolute": 32,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280472,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280472,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 151,
+                "last_updated_time": "2026-09-19 10:43:36 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "msn",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 09:15:21 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 1026871,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 73,
+                  "rank_absolute": 73,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279627,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279627,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 155,
+                "last_updated_time": "2026-09-10 09:15:19 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "twitter",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-13 17:18:47 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 1022401,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 10,
+                  "rank_absolute": 10,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279977,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279977,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 248,
+                "last_updated_time": "2026-09-13 17:18:47 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "youtube &tv",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-09 02:18:10 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 1018670,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 19,
+                  "rank_absolute": 19,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279455,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279455,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 247,
+                "last_updated_time": "2026-09-09 02:18:10 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "whatsapp",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-13 10:19:13 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 912058,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 7,
+                  "rank_absolute": 7,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279932,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279932,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 247,
+                "last_updated_time": "2026-09-13 10:19:13 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "twitch",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-13 17:19:44 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 898057,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 12,
+                  "rank_absolute": 12,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279977,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279977,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 249,
+                "last_updated_time": "2026-09-13 17:19:44 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "amazon.prime video",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-19 10:34:18 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 839390,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 13,
+                  "rank_absolute": 13,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280458,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280458,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 241,
+                "last_updated_time": "2026-09-19 10:34:16 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "tiktok",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-13 20:56:56 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 804903,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 14,
+                  "rank_absolute": 14,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279998,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279998,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 249,
+                "last_updated_time": "2026-09-13 20:56:56 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "snapchat",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-14 06:09:18 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 743054,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 9,
+                  "rank_absolute": 9,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280043,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280043,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 249,
+                "last_updated_time": "2026-09-14 06:09:17 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "chat",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-17 03:54:19 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 555869,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 9,
+                  "rank_absolute": 9,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280292,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280292,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 244,
+                "last_updated_time": "2026-09-17 03:54:19 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "a for an apple",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-18 02:32:31 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 529027,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 84,
+                  "rank_absolute": 84,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280354,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280354,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 248,
+                "last_updated_time": "2026-09-18 02:32:30 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "msn homepage",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 09:15:26 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 508402,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 11,
+                  "rank_absolute": 11,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279627,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279627,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 143,
+                "last_updated_time": "2026-09-10 09:15:26 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "yandex in",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-09 02:47:25 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 506836,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 12,
+                  "rank_absolute": 12,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279455,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279455,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 104,
+                "last_updated_time": "2026-09-09 02:47:25 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "turbotax login",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-09 10:13:47 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 487215,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 22,
+                  "rank_absolute": 22,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279516,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279516,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 239,
+                "last_updated_time": "2026-09-09 10:13:46 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "gmail.com login",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-15 14:12:09 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 450964,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 72,
+                  "rank_absolute": 72,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280159,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280159,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 248,
+                "last_updated_time": "2026-09-15 14:12:09 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "facebook log in to facebook",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-16 05:44:08 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 408953,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 56,
+                  "rank_absolute": 56,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280225,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280225,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 127,
+                "last_updated_time": "2026-09-16 05:44:06 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "pintrest",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-18 16:11:09 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 338580,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 16,
+                  "rank_absolute": 16,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280397,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280397,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 249,
+                "last_updated_time": "2026-09-18 16:11:08 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "microsoft of",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 12:49:37 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 317145,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 61,
+                  "rank_absolute": 61,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279655,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279655,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 214,
+                "last_updated_time": "2026-09-10 12:49:37 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "microsoft",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 12:55:27 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 315480,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 81,
+                  "rank_absolute": 81,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279655,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279655,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 246,
+                "last_updated_time": "2026-09-10 12:55:27 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "fb",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-16 04:04:09 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 310965,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 9,
+                  "rank_absolute": 9,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280225,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280225,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 249,
+                "last_updated_time": "2026-09-16 04:04:08 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "fb is",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-16 04:03:07 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 310965,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 10,
+                  "rank_absolute": 10,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280225,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280225,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 250,
+                "last_updated_time": "2026-09-16 04:03:07 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "an fb",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-18 00:57:41 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 310050,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 31,
+                  "rank_absolute": 31,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280354,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280354,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 224,
+                "last_updated_time": "2026-09-18 00:57:40 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "linkedin : login",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 20:12:25 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 297220,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 16,
+                  "rank_absolute": 16,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279686,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279686,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 248,
+                "last_updated_time": "2026-09-10 20:12:25 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "linkedin: login",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 20:10:49 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 297220,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 16,
+                  "rank_absolute": 16,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279686,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279686,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 248,
+                "last_updated_time": "2026-09-10 20:10:48 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "google meèt",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-15 12:22:33 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 296419,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 27,
+                  "rank_absolute": 27,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280140,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280140,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 249,
+                "last_updated_time": "2026-09-15 12:22:33 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "google meet",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-15 12:24:23 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 292124,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 27,
+                  "rank_absolute": 27,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280140,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280140,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 249,
+                "last_updated_time": "2026-09-15 12:24:23 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "messenger",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 13:31:05 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 239245,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 8,
+                  "rank_absolute": 8,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279655,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279655,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 247,
+                "last_updated_time": "2026-09-10 13:31:05 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "my apps",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 08:22:49 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 219313,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 57,
+                  "rank_absolute": 57,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279627,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279627,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 249,
+                "last_updated_time": "2026-09-10 08:22:49 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "telegram",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-13 23:39:45 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 213056,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279998,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279998,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 242,
+                "last_updated_time": "2026-09-13 23:39:43 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "tèlegram",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-13 17:06:43 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 209228,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279977,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279977,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 242,
+                "last_updated_time": "2026-09-13 17:06:42 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "google play",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-15 12:14:00 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 205928,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 21,
+                  "rank_absolute": 21,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280140,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280140,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 250,
+                "last_updated_time": "2026-09-15 12:14:00 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "www facebook.com",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-09 03:23:15 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 204881,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 46,
+                  "rank_absolute": 46,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279461,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279461,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 204,
+                "last_updated_time": "2026-09-09 03:23:15 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "play store",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-18 15:14:52 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 186307,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 17,
+                  "rank_absolute": 17,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280397,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280397,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 249,
+                "last_updated_time": "2026-09-18 15:14:52 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "msn.com",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 09:14:35 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 182063,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 65,
+                  "rank_absolute": 65,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279627,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279627,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 163,
+                "last_updated_time": "2026-09-10 09:14:35 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "onlyfans sign in",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 01:03:42 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 169417,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 7,
+                  "rank_absolute": 7,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279593,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279593,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 244,
+                "last_updated_time": "2026-09-10 01:03:41 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "old navy",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 02:27:12 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 169394,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "apple",
+                "serp_item": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 75,
+                  "rank_absolute": 75,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279607,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279607,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "check_url": null,
+                "se_results_count": 106,
+                "last_updated_time": "2026-09-10 02:27:12 +00:00",
+                "previous_updated_time": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

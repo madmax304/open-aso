@@ -1,0 +1,2655 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0294 sec.",
+  "cost": 0,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10040508-2689-0428-0000-8234b6e2f30e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0235 sec.",
+      "cost": 0,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "app_data",
+        "apple",
+        "app_searches",
+        "task_get",
+        "advanced",
+        "10040508-2689-0428-0000-8234b6e2f30e"
+      ],
+      "data": {
+        "se_type": "app_searches",
+        "se": "apple",
+        "api": "app_data",
+        "function": "app_searches",
+        "keyword": "chat app",
+        "location_code": 2840,
+        "language_code": "en",
+        "depth": 100,
+        "priority": 2,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "chat app",
+          "se_domain": "itunes.apple.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": null,
+          "datetime": "2026-10-04 05:08:23 +00:00",
+          "se_results_count": 246,
+          "items_count": 100,
+          "items": [
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "app_id": "874139669",
+              "title": "Signal - Private Messenger",
+              "url": "https://apps.apple.com/us/app/signal-private-messenger/id874139669",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/5a/16/b15a169c-8360-1f71-3808-8b82c4a3e255/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1094245,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.73261,
+                "votes_count": 1094245,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "app_id": "686449807",
+              "title": "Telegram Messenger",
+              "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 281986,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.00549,
+                "votes_count": 281986,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "app_id": "1452906710",
+              "title": "Wizz App - chat now",
+              "url": "https://apps.apple.com/us/app/wizz-app-chat-now/id1452906710",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/d7/a8/7bd7a8d2-da9f-926a-c1a2-be85fd0a8b01/AppIcon_1-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 303662,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.19048,
+                "votes_count": 303662,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "position": "left",
+              "app_id": "1487911809",
+              "title": "Social Chat: Make New Friends",
+              "url": "https://apps.apple.com/us/app/social-chat-make-new-friends/id1487911809",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/7d/f3/fd7df3d9-2d90-7c04-560a-49ddb53671ea/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 4844,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.71222,
+                "votes_count": 4844,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 5,
+              "rank_absolute": 5,
+              "position": "left",
+              "app_id": "357218860",
+              "title": "Kik Messaging & Chat App",
+              "url": "https://apps.apple.com/us/app/kik-messaging-chat-app/id357218860",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/f0/a3/8af0a35a-abf1-f833-060f-1da3a8526c9c/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 485359,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.26281,
+                "votes_count": 485359,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 6,
+              "rank_absolute": 6,
+              "position": "left",
+              "app_id": "310633997",
+              "title": "WhatsApp Messenger",
+              "url": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/08/2d/54082dca-2973-b8b7-5481-a6299244b8c6/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 18710778,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.68363,
+                "votes_count": 18710778,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 7,
+              "rank_absolute": 7,
+              "position": "left",
+              "app_id": "1163852619",
+              "title": "Google Chat",
+              "url": "https://apps.apple.com/us/app/google-chat/id1163852619",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/e5/ce/7ee5ce92-5a39-a89d-d432-770e9064151e/chat_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 306261,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.63656,
+                "votes_count": 306261,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 8,
+              "rank_absolute": 8,
+              "position": "left",
+              "app_id": "1241622005",
+              "title": "Bored Chat-chat with strangers",
+              "url": "https://apps.apple.com/us/app/bored-chat-chat-with-strangers/id1241622005",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/10/3b/38103b85-bdf8-0b4a-7805-70212642990b/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1797,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.13411,
+                "votes_count": 1797,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 9,
+              "rank_absolute": 9,
+              "position": "left",
+              "app_id": "372648912",
+              "title": "MeetMe: Go Live & Meet People",
+              "url": "https://apps.apple.com/us/app/meetme-go-live-meet-people/id372648912",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/0b/1a/900b1a37-b5cc-875f-c296-6d9bcdc887e3/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 373828,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.29241,
+                "votes_count": 373828,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 10,
+              "rank_absolute": 10,
+              "position": "left",
+              "app_id": "469609836",
+              "title": "SayHi Chat - Meet New People",
+              "url": "https://apps.apple.com/us/app/sayhi-chat-meet-new-people/id469609836",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/b2/b9/03b2b93a-1199-b548-b7ed-69f4ab30b6ce/SayHiAppIcon-0-0-1x_U007ephone-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 6404,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.38335,
+                "votes_count": 6404,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 11,
+              "rank_absolute": 11,
+              "position": "left",
+              "app_id": "1534105525",
+              "title": "Flirtini - Match, Chat, Flirt",
+              "url": "https://apps.apple.com/us/app/flirtini-match-chat-flirt/id1534105525",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/05/6e/0b056eed-6d92-bde7-a367-166e2d2be275/AppIcon-0-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": 39494,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.04481,
+                "votes_count": 39494,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 12,
+              "rank_absolute": 12,
+              "position": "left",
+              "app_id": "1038653883",
+              "title": "Yubo: Chat Meet & Make Friends",
+              "url": "https://apps.apple.com/us/app/yubo-chat-meet-make-friends/id1038653883",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/75/e5/f175e53e-c014-0989-9fdb-a35549940b10/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 373402,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.51844,
+                "votes_count": 373402,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 13,
+              "rank_absolute": 13,
+              "position": "left",
+              "app_id": "985746746",
+              "title": "Discord - Talk, Play, Hang Out",
+              "url": "https://apps.apple.com/us/app/discord-talk-play-hang-out/id985746746",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/62/89/6d628952-77a9-1995-09af-470a21fd53bd/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 3559116,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.69791,
+                "votes_count": 3559116,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 14,
+              "rank_absolute": 14,
+              "position": "left",
+              "app_id": "414478124",
+              "title": "WeChat",
+              "url": "https://apps.apple.com/us/app/wechat/id414478124",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/70/2e/61702e05-0531-165f-5cd3-012c8b5b3b20/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 81257,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.93107,
+                "votes_count": 81257,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 15,
+              "rank_absolute": 15,
+              "position": "left",
+              "app_id": "1021171706",
+              "title": "LEMON - very fun chat app",
+              "url": "https://apps.apple.com/us/app/lemon-very-fun-chat-app/id1021171706",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/dd/d6/c4ddd6ba-7726-4510-bdb1-b668cbbbbab6/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2390,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.65313,
+                "votes_count": 2390,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 16,
+              "rank_absolute": 16,
+              "position": "left",
+              "app_id": "392796698",
+              "title": "GroupMe",
+              "url": "https://apps.apple.com/us/app/groupme/id392796698",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/8c/55/1e8c555d-1ef6-9811-94ce-59bd5becf60e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 1559117,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.71992,
+                "votes_count": 1559117,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 17,
+              "rank_absolute": 17,
+              "position": "left",
+              "app_id": "447188370",
+              "title": "Snapchat",
+              "url": "https://apps.apple.com/us/app/snapchat/id447188370",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/68/70/3d6870f6-2ee7-c178-0b3e-9b5430ebf2e5/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 5952784,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.50532,
+                "votes_count": 5952784,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 18,
+              "rank_absolute": 18,
+              "position": "left",
+              "app_id": "547702041",
+              "title": "Tinder Dating App: Date & Chat",
+              "url": "https://apps.apple.com/us/app/tinder-dating-app-date-chat/id547702041",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/cb/fc/fbcbfc23-7dae-e9d2-bcda-2447002f52de/AppIcon-BrandFlame-0-0-1x_U007ephone-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1753098,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.19895,
+                "votes_count": 1753098,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 19,
+              "rank_absolute": 19,
+              "position": "left",
+              "app_id": "6480405757",
+              "title": "Spark: Chat, Dating & Flirt",
+              "url": "https://apps.apple.com/us/app/spark-chat-dating-flirt/id6480405757",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/b4/28/0ab42868-c16b-e9dc-4aa6-0020528dd618/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 11878,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.81697,
+                "votes_count": 11878,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 20,
+              "rank_absolute": 20,
+              "position": "left",
+              "app_id": "454638411",
+              "title": "Messenger",
+              "url": "https://apps.apple.com/us/app/messenger/id454638411",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/02/90/9f029033-e471-5bed-24b1-60cd7c4f1077/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 13710945,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6614,
+                "votes_count": 13710945,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 21,
+              "rank_absolute": 21,
+              "position": "left",
+              "app_id": "302324249",
+              "title": "Skout Dating App & Live Chat",
+              "url": "https://apps.apple.com/us/app/skout-dating-app-live-chat/id302324249",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c5/11/7e/c5117e45-c74c-dd85-779e-da0c48610525/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 188780,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.37064,
+                "votes_count": 188780,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 22,
+              "rank_absolute": 22,
+              "position": "left",
+              "app_id": "1328695473",
+              "title": "18+ Flirt Chat | Dating USA",
+              "url": "https://apps.apple.com/us/app/18-flirt-chat-dating-usa/id1328695473",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/3c/1d/063c1dad-269b-7e79-7f66-14463e518b03/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 17064,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.56751,
+                "votes_count": 17064,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 23,
+              "rank_absolute": 23,
+              "position": "left",
+              "app_id": "6754549808",
+              "title": "OkTalk Chat",
+              "url": "https://apps.apple.com/us/app/oktalk-chat/id6754549808",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/65/b6/d665b66f-757a-8452-58e7-b1834cc3ffd1/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 24,
+              "rank_absolute": 24,
+              "position": "left",
+              "app_id": "369971145",
+              "title": "Moco - Chat, Meet People",
+              "url": "https://apps.apple.com/us/app/moco-chat-meet-people/id369971145",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/45/66/1f4566c7-f1de-6cb4-5d8d-0da83b647dd5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 25313,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.13941,
+                "votes_count": 25313,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 25,
+              "rank_absolute": 25,
+              "position": "left",
+              "app_id": "557997762",
+              "title": "Waplog - Dating & Video Call",
+              "url": "https://apps.apple.com/us/app/waplog-dating-video-call/id557997762",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/63/3d/40633d51-869c-f2ab-04fb-bffd313528d5/AppIcon-2-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 55576,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.56019,
+                "votes_count": 55576,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 26,
+              "rank_absolute": 26,
+              "position": "left",
+              "app_id": "1442571346",
+              "title": "Hoop - make new friends",
+              "url": "https://apps.apple.com/us/app/hoop-make-new-friends/id1442571346",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/7b/52/0a7b5262-69b0-e465-40df-32226aa30598/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 684087,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.48566,
+                "votes_count": 684087,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 27,
+              "rank_absolute": 27,
+              "position": "left",
+              "app_id": "6448311069",
+              "title": "ChatGPT",
+              "url": "https://apps.apple.com/us/app/chatgpt/id6448311069",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/b3/01/e8b30151-1abb-e33c-75e2-a2e230c85b52/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 10940384,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.82728,
+                "votes_count": 10940384,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 28,
+              "rank_absolute": 28,
+              "position": "left",
+              "app_id": "6774925566",
+              "title": "Hello Chat: Quick Talk",
+              "url": "https://apps.apple.com/us/app/hello-chat-quick-talk/id6774925566",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/0a/69/130a69a5-a869-9461-005f-70963970917c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 29,
+              "rank_absolute": 29,
+              "position": "left",
+              "app_id": "6461728173",
+              "title": "TiTi - Chat",
+              "url": "https://apps.apple.com/us/app/titi-chat/id6461728173",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/1c/86/e21c8608-6eb7-aabb-c1e6-357168ad0852/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 30,
+              "rank_absolute": 30,
+              "position": "left",
+              "app_id": "972558973",
+              "title": "Azar: Chat, Meet Friends",
+              "url": "https://apps.apple.com/us/app/azar-chat-meet-friends/id972558973",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/71/ce/2d71ce10-fd34-7929-6f01-7751e5987e2c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 101966,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.33207,
+                "votes_count": 101966,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 31,
+              "rank_absolute": 31,
+              "position": "left",
+              "app_id": "1498889847",
+              "title": "Litmatch - Make new friends",
+              "url": "https://apps.apple.com/us/app/litmatch-make-new-friends/id1498889847",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/f8/9c/b7f89cca-e996-8a33-47cd-c93f0ffe1b73/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 5133,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.28423,
+                "votes_count": 5133,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 32,
+              "rank_absolute": 32,
+              "position": "left",
+              "app_id": "351331194",
+              "title": "Badoo Dating: Meet New People",
+              "url": "https://apps.apple.com/us/app/badoo-dating-meet-new-people/id351331194",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/6d/90/596d90e5-ec02-3f25-9117-6dcef247fbdb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 149045,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.57599,
+                "votes_count": 149045,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 33,
+              "rank_absolute": 33,
+              "position": "left",
+              "app_id": "6756893559",
+              "title": "NoChat - Ultra Private Chat",
+              "url": "https://apps.apple.com/us/app/nochat-ultra-private-chat/id6756893559",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/ce/bd/8acebd2c-3e20-39a0-ad4a-9f31fc0463d8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 10,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 10,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 34,
+              "rank_absolute": 34,
+              "position": "left",
+              "app_id": "358899126",
+              "title": "Tagged Dating: Chat & Go Live!",
+              "url": "https://apps.apple.com/us/app/tagged-dating-chat-go-live/id358899126",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/7e/a3/4f7ea3a8-1878-0d2a-7aa8-cc0c63008008/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 461296,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.48474,
+                "votes_count": 461296,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 35,
+              "rank_absolute": 35,
+              "position": "left",
+              "app_id": "6739787233",
+              "title": "Offline Talk: Bluetooth Chat",
+              "url": "https://apps.apple.com/us/app/offline-talk-bluetooth-chat/id6739787233",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/42/22/664222ba-e4fd-3596-44ee-36e9ec926f0f/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.jpeg/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.66667,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 36,
+              "rank_absolute": 36,
+              "position": "left",
+              "app_id": "6786309105",
+              "title": "Tendera: AI Companion Chat",
+              "url": "https://apps.apple.com/us/app/tendera-ai-companion-chat/id6786309105",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/09/b4/d009b4bc-cfc6-0f00-4d54-c7c5af81a581/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 4,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 4,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 37,
+              "rank_absolute": 37,
+              "position": "left",
+              "app_id": "6453762480",
+              "title": "ChatBeam",
+              "url": "https://apps.apple.com/us/app/chatbeam/id6453762480",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/be/8e/2c/be8e2cb5-534a-ff36-28e9-e6955672bbf5/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 2.33333,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 38,
+              "rank_absolute": 38,
+              "position": "left",
+              "app_id": "6759072399",
+              "title": " Deto ديتو دردشة صوتية",
+              "url": "https://apps.apple.com/us/app/deto-%D8%AF%D9%8A%D8%AA%D9%88-%D8%AF%D8%B1%D8%AF%D8%B4%D8%A9-%D8%B5%D9%88%D8%AA%D9%8A%D8%A9/id6759072399",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/04/9b/9c049be2-8994-a731-5424-a8abd4d27459/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 39,
+              "rank_absolute": 39,
+              "position": "left",
+              "app_id": "6473702043",
+              "title": "TeamChat APP",
+              "url": "https://apps.apple.com/us/app/teamchat-app/id6473702043",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/16/e6/29/16e62983-c7ca-f5af-7225-8e842cb07e23/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 40,
+              "rank_absolute": 40,
+              "position": "left",
+              "app_id": "1537012560",
+              "title": "BeFriend - Make new friends",
+              "url": "https://apps.apple.com/us/app/befriend-make-new-friends/id1537012560",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/8f/f8/988ff8af-5233-ca3f-76fe-de0126095689/YellowAppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 36805,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.61015,
+                "votes_count": 36805,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 41,
+              "rank_absolute": 41,
+              "position": "left",
+              "app_id": "1534542670",
+              "title": "Superchat App",
+              "url": "https://apps.apple.com/us/app/superchat-app/id1534542670",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/71/ff/5b71ff42-fbd7-88e0-f296-7b58c7eee13c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 42,
+              "rank_absolute": 42,
+              "position": "left",
+              "app_id": "6741313802",
+              "title": "Sideye - Chat Now",
+              "url": "https://apps.apple.com/us/app/sideye-chat-now/id6741313802",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/5c/08/8c5c0854-333f-48e3-030f-7bfa9a3edbda/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 43,
+              "rank_absolute": 43,
+              "position": "left",
+              "app_id": "1506577189",
+              "title": "Gaze: Live Video Chat App",
+              "url": "https://apps.apple.com/us/app/gaze-live-video-chat-app/id1506577189",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/2e/dc/fc2edc70-ea6b-cf80-339e-ae2fa75fefd0/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 20715,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.41453,
+                "votes_count": 20715,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 44,
+              "rank_absolute": 44,
+              "position": "left",
+              "app_id": "6763991790",
+              "title": "Callimo",
+              "url": "https://apps.apple.com/us/app/callimo/id6763991790",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/e8/9a/a1e89aed-b3ff-6fe0-4bc2-5593e63e2003/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg",
+              "reviews_count": 20,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.34999,
+                "votes_count": 20,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 45,
+              "rank_absolute": 45,
+              "position": "left",
+              "app_id": "6748846730",
+              "title": "MeetCalls: Video Chat & Calls",
+              "url": "https://apps.apple.com/us/app/meetcalls-video-chat-calls/id6748846730",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/ed/2e/a6ed2e91-ed29-afec-b9bd-2959fbfdea26/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 46,
+              "rank_absolute": 46,
+              "position": "left",
+              "app_id": "6466331416",
+              "title": "Migu - Live Video Chat",
+              "url": "https://apps.apple.com/us/app/migu-live-video-chat/id6466331416",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/e4/26/69e42691-ad00-235b-2b19-6cc3bb20f701/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 47,
+              "rank_absolute": 47,
+              "position": "left",
+              "app_id": "6479958649",
+              "title": "Wanasa-Chat & Game",
+              "url": "https://apps.apple.com/us/app/wanasa-chat-game/id6479958649",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/b9/9e/e6b99e6b-e6ed-1155-debc-57ef70bd50ff/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 48,
+              "rank_absolute": 48,
+              "position": "left",
+              "app_id": "6739035394",
+              "title": "Dika",
+              "url": "https://apps.apple.com/us/app/dika/id6739035394",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/11/d4/8711d4bc-b71d-adf1-eefc-bae894fb5d50/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 49,
+              "rank_absolute": 49,
+              "position": "left",
+              "app_id": "6768631369",
+              "title": "Sweet Dream AI  Companion",
+              "url": "https://apps.apple.com/us/app/sweet-dream-ai-companion/id6768631369",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/db/26/57db26c3-045d-3519-6a32-50a08bdc341d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 50,
+              "rank_absolute": 50,
+              "position": "left",
+              "app_id": "6746744516",
+              "title": "Webelight Chat App",
+              "url": "https://apps.apple.com/us/app/webelight-chat-app/id6746744516",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/8b/9f/a88b9fc5-f119-cf96-25d8-924b40d066d1/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 51,
+              "rank_absolute": 51,
+              "position": "left",
+              "app_id": "6769624630",
+              "title": "LuLu: Character AI Chat",
+              "url": "https://apps.apple.com/us/app/lulu-character-ai-chat/id6769624630",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/9b/32/739b3222-08ac-7d47-af2e-52be1c26e467/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": 5,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 2.8,
+                "votes_count": 5,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 52,
+              "rank_absolute": 52,
+              "position": "left",
+              "app_id": "6789467671",
+              "title": "Liga Chat: Audio Rooms Party",
+              "url": "https://apps.apple.com/us/app/liga-chat-audio-rooms-party/id6789467671",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/d5/98/4ad59835-3eb6-726b-5c73-77aee4b8a40b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 53,
+              "rank_absolute": 53,
+              "position": "left",
+              "app_id": "6771467499",
+              "title": "ChatAlya: Chat & Connect",
+              "url": "https://apps.apple.com/us/app/chatalya-chat-connect/id6771467499",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/b1/a8/89b1a80e-12e1-2736-7841-43c279c9f270/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 54,
+              "rank_absolute": 54,
+              "position": "left",
+              "app_id": "6768238480",
+              "title": "Heavira AI: Chat Companion",
+              "url": "https://apps.apple.com/us/app/heavira-ai-chat-companion/id6768238480",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/2d/a2/322da270-b66c-78b6-0613-1b7335e35d0f/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 11,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1.90909,
+                "votes_count": 11,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 55,
+              "rank_absolute": 55,
+              "position": "left",
+              "app_id": "6763449735",
+              "title": "Revo: AI Chat, Real Talk",
+              "url": "https://apps.apple.com/us/app/revo-ai-chat-real-talk/id6763449735",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/aa/de/59aade16-00ac-2e23-74ec-4884f4255d8e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 56,
+              "rank_absolute": 56,
+              "position": "left",
+              "app_id": "6788286417",
+              "title": "Flipped Chat: AI Characters",
+              "url": "https://apps.apple.com/us/app/flipped-chat-ai-characters/id6788286417",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/07/99/160799c3-c184-cbc6-a1b3-6b872514e4c9/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": 30,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1.6,
+                "votes_count": 30,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 57,
+              "rank_absolute": 57,
+              "position": "left",
+              "app_id": "6502877372",
+              "title": "Chat-Assistent – Rizz Coach",
+              "url": "https://apps.apple.com/us/app/chat-assistent-rizz-coach/id6502877372",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/71/98/13719894-e553-5533-3469-bf5b973efecc/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 58,
+              "rank_absolute": 58,
+              "position": "left",
+              "app_id": "6744646452",
+              "title": "ZONE - Group Voice Chat Room",
+              "url": "https://apps.apple.com/us/app/zone-group-voice-chat-room/id6744646452",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/de/16/16de1684-5487-b34e-d58d-8f4adfed4ab1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 59,
+              "rank_absolute": 59,
+              "position": "left",
+              "app_id": "922881396",
+              "title": "NiftyChat - Simple chat app",
+              "url": "https://apps.apple.com/us/app/niftychat-simple-chat-app/id922881396",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/f7/9a/42/f79a4253-9ff5-4d86-6352-b0ae11615f43/AppIcon-0-1x_U007emarketing-0-0-85-220-0-10.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 2,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 60,
+              "rank_absolute": 60,
+              "position": "left",
+              "app_id": "832556482",
+              "title": "Connected2.me",
+              "url": "https://apps.apple.com/us/app/connected2-me/id832556482",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/bf/55/23bf5515-54c6-685f-490b-3cd3c2e66efd/AppIcon-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 31045,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.37043,
+                "votes_count": 31045,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 61,
+              "rank_absolute": 61,
+              "position": "left",
+              "app_id": "6740839366",
+              "title": "Zaapi - All Chats in One Inbox",
+              "url": "https://apps.apple.com/us/app/zaapi-all-chats-in-one-inbox/id6740839366",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/37/eb/5c37eb10-90df-05a1-0fb8-d9ba20fe4c55/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 62,
+              "rank_absolute": 62,
+              "position": "left",
+              "app_id": "6761653552",
+              "title": "Bloome Chat",
+              "url": "https://apps.apple.com/us/app/bloome-chat/id6761653552",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7b/ab/ef7bab12-a7c8-e9c7-fd4a-063445831f39/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 63,
+              "rank_absolute": 63,
+              "position": "left",
+              "app_id": "6738487787",
+              "title": "Disorder - Talk, Meet, Repeat",
+              "url": "https://apps.apple.com/us/app/disorder-talk-meet-repeat/id6738487787",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/74/36/487436bd-5f24-7509-1a02-b0e81e47b2df/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 64,
+              "rank_absolute": 64,
+              "position": "left",
+              "app_id": "6446209620",
+              "title": "Open Book AI Chat",
+              "url": "https://apps.apple.com/us/app/open-book-ai-chat/id6446209620",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/9b/9e/a99b9eb9-dd8b-d0a0-23c3-3bbd26761c7f/AppIconAIChat-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 65,
+              "rank_absolute": 65,
+              "position": "left",
+              "app_id": "1126405527",
+              "title": "CHATeau - smart messenger with group chats",
+              "url": "https://apps.apple.com/us/app/chateau-smart-messenger-with-group-chats/id1126405527",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/ed/8d/50/ed8d502e-f359-7422-2ac7-cd919c687cc0/pr_source.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 66,
+              "rank_absolute": 66,
+              "position": "left",
+              "app_id": "1594176938",
+              "title": "Tact Chat",
+              "url": "https://apps.apple.com/us/app/tact-chat/id1594176938",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/8f/76/da8f76f9-648c-6dc9-b4b2-8016ee33c5b1/AppIcon-iOS-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 67,
+              "rank_absolute": 67,
+              "position": "left",
+              "app_id": "6755319232",
+              "title": "Spells: Malleable Group Chat",
+              "url": "https://apps.apple.com/us/app/spells-malleable-group-chat/id6755319232",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/d0/ec/efd0ec10-a142-506c-8ba0-23e357d366ab/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 68,
+              "rank_absolute": 68,
+              "position": "left",
+              "app_id": "1514175088",
+              "title": "Twiq - Social Chat",
+              "url": "https://apps.apple.com/us/app/twiq-social-chat/id1514175088",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/3c/6e/bd3c6e9c-685e-ec7f-4143-8e89e0bb54b7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2171,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.40074,
+                "votes_count": 2171,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 69,
+              "rank_absolute": 69,
+              "position": "left",
+              "app_id": "6499314367",
+              "title": "Hola - Voice Chat & Friends",
+              "url": "https://apps.apple.com/us/app/hola-voice-chat-friends/id6499314367",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/a7/39/0aa73933-404f-b76f-1ce6-430c36c56634/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.66667,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 70,
+              "rank_absolute": 70,
+              "position": "left",
+              "app_id": "6654924329",
+              "title": "Lax: Community Chat",
+              "url": "https://apps.apple.com/us/app/lax-community-chat/id6654924329",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/89/20/99892031-ac87-9bfa-b52f-52fd3d566536/AppIcon-0-0-1x_U007epad-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 71,
+              "rank_absolute": 71,
+              "position": "left",
+              "app_id": "1565661363",
+              "title": "Geminni App",
+              "url": "https://apps.apple.com/us/app/geminni-app/id1565661363",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/a4/5c/68/a45c682d-e4da-c5b8-70cd-06455a75f272/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 72,
+              "rank_absolute": 72,
+              "position": "left",
+              "app_id": "6749673618",
+              "title": "Hey Me - Chat Notes",
+              "url": "https://apps.apple.com/us/app/hey-me-chat-notes/id6749673618",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/49/a1/8849a1bf-12b6-edc5-e8e5-20b5fdb99d2d/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 73,
+              "rank_absolute": 73,
+              "position": "left",
+              "app_id": "6447638950",
+              "title": "AI Chat: Chatbot Assistant App",
+              "url": "https://apps.apple.com/us/app/ai-chat-chatbot-assistant-app/id6447638950",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/b9/12/b5b91209-392d-7915-150e-3783ed6bf3bc/AppIcon-0-0-1x_U007ephone-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 74,
+              "rank_absolute": 74,
+              "position": "left",
+              "app_id": "1600314633",
+              "title": "MakaMeets: Friends & Events",
+              "url": "https://apps.apple.com/us/app/makameets-friends-events/id1600314633",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/07/5e/29075e7a-cedc-de70-f2bf-448171484ae7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 75,
+              "rank_absolute": 75,
+              "position": "left",
+              "app_id": "6705116968",
+              "title": "Yip Yap: Chat for Communities",
+              "url": "https://apps.apple.com/us/app/yip-yap-chat-for-communities/id6705116968",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/9d/fa/fd9dfa0c-7b22-fe7b-7ee6-f7fadec7a788/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 76,
+              "rank_absolute": 76,
+              "position": "left",
+              "app_id": "6502881627",
+              "title": "unsend app",
+              "url": "https://apps.apple.com/us/app/unsend-app/id6502881627",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/99/a1/cb99a1be-1180-1986-9d0d-53256b48b573/AppIcon-0-0-1x_U007epad-0-6-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 77,
+              "rank_absolute": 77,
+              "position": "left",
+              "app_id": "6453683240",
+              "title": "Convo: Location Based Chatting",
+              "url": "https://apps.apple.com/us/app/convo-location-based-chatting/id6453683240",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/2f/d6/162fd6a3-a2c4-13be-6a93-7b5fd692e3ad/AppIcon-0-0-1x_U007ephone-0-sRGB-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 78,
+              "rank_absolute": 78,
+              "position": "left",
+              "app_id": "6462336009",
+              "title": "Rooms (chat)",
+              "url": "https://apps.apple.com/us/app/rooms-chat/id6462336009",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ac/0e/31/ac0e31be-763e-815b-73e2-563b431466a3/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 79,
+              "rank_absolute": 79,
+              "position": "left",
+              "app_id": "6738576513",
+              "title": "Chatcast - Live Public Chats",
+              "url": "https://apps.apple.com/us/app/chatcast-live-public-chats/id6738576513",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/25/d3/ce25d397-7283-e2d4-5296-194742e549ab/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 80,
+              "rank_absolute": 80,
+              "position": "left",
+              "app_id": "1588989268",
+              "title": "LgtechInc Chat",
+              "url": "https://apps.apple.com/us/app/lgtechinc-chat/id1588989268",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/73/fa/89/73fa89be-b421-f4a6-bb66-efd66e2422de/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 81,
+              "rank_absolute": 81,
+              "position": "left",
+              "app_id": "6443651374",
+              "title": "Dusty | Talk to 8 People",
+              "url": "https://apps.apple.com/us/app/dusty-talk-to-8-people/id6443651374",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a5/fc/a2/a5fca270-7c34-8c3d-2f5a-fe85a01422e8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 82,
+              "rank_absolute": 82,
+              "position": "left",
+              "app_id": "1611223104",
+              "title": "MocaChat",
+              "url": "https://apps.apple.com/us/app/mocachat/id1611223104",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c5/44/cf/c544cfa4-3160-cdd9-a929-baf735d0f4a5/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 83,
+              "rank_absolute": 83,
+              "position": "left",
+              "app_id": "1135284959",
+              "title": "TxChat - free chat rooms",
+              "url": "https://apps.apple.com/us/app/txchat-free-chat-rooms/id1135284959",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple60/v4/67/c5/8f/67c58f41-83df-226a-c177-32507c6b9b71/mzl.xhcxudrb.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.33333,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 84,
+              "rank_absolute": 84,
+              "position": "left",
+              "app_id": "627958823",
+              "title": "JusTalk - Video Chat & Calls",
+              "url": "https://apps.apple.com/us/app/justalk-video-chat-calls/id627958823",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/f1/26/e7f1261f-6c22-0709-8de3-8e165771df24/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 75791,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.44018,
+                "votes_count": 75791,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 85,
+              "rank_absolute": 85,
+              "position": "left",
+              "app_id": "6759942951",
+              "title": "meepachat",
+              "url": "https://apps.apple.com/us/app/meepachat/id6759942951",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/9c/23/ce9c23ae-a5f5-0f6f-cc76-7d07ac2de515/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 86,
+              "rank_absolute": 86,
+              "position": "left",
+              "app_id": "1243572373",
+              "title": "Quick Chat App",
+              "url": "https://apps.apple.com/us/app/quick-chat-app/id1243572373",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/3a/e2/fe/3ae2fe81-222a-d6ae-1d66-c4a39f283489/pr_source.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 87,
+              "rank_absolute": 87,
+              "position": "left",
+              "app_id": "6751137440",
+              "title": "ChatTrip: Make new Friends",
+              "url": "https://apps.apple.com/us/app/chattrip-make-new-friends/id6751137440",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/0c/97/710c97b1-9d6c-faea-b354-be45ac03c4d4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 5,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 2.6,
+                "votes_count": 5,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 88,
+              "rank_absolute": 88,
+              "position": "left",
+              "app_id": "6743082859",
+              "title": "Wechill-Voice Chat & Party",
+              "url": "https://apps.apple.com/us/app/wechill-voice-chat-party/id6743082859",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/01/93/830193ad-920e-a3fa-3490-884bf593c8c3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 89,
+              "rank_absolute": 89,
+              "position": "left",
+              "app_id": "1090500918",
+              "title": "CrazyTalkie",
+              "url": "https://apps.apple.com/us/app/crazytalkie/id1090500918",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple20/v4/fe/d7/93/fed7933e-2612-32d3-35f7-a7a279025ab3/mzl.oglyxghi.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 90,
+              "rank_absolute": 90,
+              "position": "left",
+              "app_id": "6503730115",
+              "title": "Salo - Meet & Chat",
+              "url": "https://apps.apple.com/us/app/salo-meet-chat/id6503730115",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/19/5f/b3195fdd-b2f9-4a17-7b5e-f85e351fb565/AppIcon-1x_U007ephone-0-10-0-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 91,
+              "rank_absolute": 91,
+              "position": "left",
+              "app_id": "6745877543",
+              "title": "TalkWave - Share&Chat",
+              "url": "https://apps.apple.com/us/app/talkwave-share-chat/id6745877543",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/c0/25/17c025fe-141e-bafa-19cd-20659574f555/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 92,
+              "rank_absolute": 92,
+              "position": "left",
+              "app_id": "6765562077",
+              "title": "FortressChat",
+              "url": "https://apps.apple.com/us/app/fortresschat/id6765562077",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/a6/30/1da63017-9028-80ca-339c-61088efeb6f7/AppIcon-Fortress-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 93,
+              "rank_absolute": 93,
+              "position": "left",
+              "app_id": "6756334309",
+              "title": "ChatTown",
+              "url": "https://apps.apple.com/us/app/chattown/id6756334309",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/13/75/d1137583-a7fa-1b5d-77ad-65c6b0566732/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 94,
+              "rank_absolute": 94,
+              "position": "left",
+              "app_id": "6749514945",
+              "title": "LED Banner Maker: Bannrs",
+              "url": "https://apps.apple.com/us/app/led-banner-maker-bannrs/id6749514945",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/6d/27/3c6d270a-9199-3684-9945-7018d1225abd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 95,
+              "rank_absolute": 95,
+              "position": "left",
+              "app_id": "6760934984",
+              "title": "Waves - Dark Mesh Chat",
+              "url": "https://apps.apple.com/us/app/waves-dark-mesh-chat/id6760934984",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/e5/97/9fe597ff-1664-3fcb-ce68-3b88583dc2ab/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 96,
+              "rank_absolute": 96,
+              "position": "left",
+              "app_id": "6760700818",
+              "title": "The Lounge Chat",
+              "url": "https://apps.apple.com/us/app/the-lounge-chat/id6760700818",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/7d/04/6b7d0413-e7f0-168d-f2bf-16caa370275f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 2,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 2,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 97,
+              "rank_absolute": 97,
+              "position": "left",
+              "app_id": "6446084780",
+              "title": "Taya - Group Voice Party",
+              "url": "https://apps.apple.com/us/app/taya-group-voice-party/id6446084780",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/52/62/3c52628a-7ccc-992a-ffca-42e5914a2e0e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 3,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 98,
+              "rank_absolute": 98,
+              "position": "left",
+              "app_id": "1544048824",
+              "title": "Talka-Group Voice Chat Rooms",
+              "url": "https://apps.apple.com/us/app/talka-group-voice-chat-rooms/id1544048824",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/c2/64/6fc2641a-ef21-faec-09e9-f2055e3392e0/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+              "reviews_count": null,
+              "rating": {
+                "rating_type": "Max5",
+                "value": null,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 99,
+              "rank_absolute": 99,
+              "position": "left",
+              "app_id": "6760397331",
+              "title": "Baatein Chat",
+              "url": "https://apps.apple.com/us/app/baatein-chat/id6760397331",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/c0/5f/b0c05fef-a1d9-2f17-2146-18105eb63bac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            },
+            {
+              "type": "app_store_search_organic",
+              "rank_group": 100,
+              "rank_absolute": 100,
+              "position": "left",
+              "app_id": "6762177891",
+              "title": "Karzoun Chat v3",
+              "url": "https://apps.apple.com/us/app/karzoun-chat-v3/id6762177891",
+              "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/a0/e9/c1a0e9c6-5556-4684-a96a-219e569dc1e7/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+              "reviews_count": 1,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "is_free": true,
+              "price": {
+                "current": 0,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

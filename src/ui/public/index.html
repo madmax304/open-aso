@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>open-aso setup</title>
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --surface: #ffffff;
+    --surface-2: #f1f1ee;
+    --text: #1b1b18;
+    --muted: #6b6b64;
+    --border: #e3e3de;
+    --accent: #3b5bdb;
+    --accent-text: #ffffff;
+    --success: #2b8a3e;
+    --success-bg: #ebfbee;
+    --danger: #c92a2a;
+    --danger-bg: #fff5f5;
+    --shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 16px rgba(0,0,0,.04);
+    --radius: 12px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111110;
+      --surface: #1a1a18;
+      --surface-2: #232320;
+      --text: #ededea;
+      --muted: #9a9a92;
+      --border: #2e2e2a;
+      --accent: #748ffc;
+      --accent-text: #0b0b0a;
+      --success: #69db7c;
+      --success-bg: #12261a;
+      --danger: #ff8787;
+      --danger-bg: #2a1414;
+      --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  a { color: var(--accent); }
+  header {
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+  }
+  .bar {
+    max-width: 960px; margin: 0 auto; padding: 14px 20px;
+    display: flex; align-items: center; gap: 24px; flex-wrap: wrap;
+  }
+  .logo { font-weight: 700; font-size: 17px; letter-spacing: -.01em; }
+  .logo span { color: var(--muted); font-weight: 500; }
+  nav { display: flex; gap: 4px; flex-wrap: wrap; }
+  nav a {
+    padding: 6px 10px; border-radius: 8px; color: var(--muted);
+    text-decoration: none; font-size: 14px;
+  }
+  nav a.active { background: var(--surface-2); color: var(--text); font-weight: 600; }
+  nav a.soon { pointer-events: none; opacity: .55; }
+  nav a.soon::after { content: " · soon"; font-size: 12px; }
+
+  main {
+    max-width: 960px; margin: 0 auto; padding: 32px 20px 64px;
+    display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 24px; align-items: start;
+  }
+  @media (max-width: 800px) { main { grid-template-columns: minmax(0, 1fr); } }
+  main > section, main > aside { min-width: 0; }
+
+  h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -.02em; }
+  .lede { color: var(--muted); margin: 0 0 24px; }
+  .progress { height: 6px; background: var(--surface-2); border-radius: 99px; overflow: hidden; margin-bottom: 24px; }
+  .progress > div { height: 100%; background: var(--accent); transition: width .3s; }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); box-shadow: var(--shadow);
+    padding: 20px; margin-bottom: 16px;
+  }
+  .step-head { display: flex; gap: 12px; align-items: flex-start; }
+  .badge {
+    flex: none; width: 28px; height: 28px; border-radius: 50%;
+    display: grid; place-items: center; font-weight: 700; font-size: 14px;
+    background: var(--surface-2); color: var(--muted);
+  }
+  .badge.done { background: var(--success-bg); color: var(--success); }
+  .step-head h2 { margin: 2px 0 2px; font-size: 17px; }
+  .step-head p { margin: 0; color: var(--muted); font-size: 14px; }
+  .step-body { margin: 16px 0 0 40px; }
+  @media (max-width: 520px) { .step-body { margin-left: 0; } }
+  .card.muted { opacity: .7; }
+
+  label { display: block; font-weight: 600; font-size: 14px; margin: 12px 0 4px; }
+  label .hint { font-weight: 400; color: var(--muted); }
+  input[type=text], input[type=email], input[type=password], input[type=search] {
+    width: 100%; padding: 10px 12px; font: inherit; color: var(--text);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+  }
+  input:focus { outline: 2px solid var(--accent); outline-offset: -1px; border-color: transparent; }
+  button, .button {
+    font: inherit; font-weight: 600; border: 0; border-radius: 8px; cursor: pointer;
+    padding: 9px 14px; background: var(--accent); color: var(--accent-text);
+    display: inline-flex; align-items: center; gap: 8px; text-decoration: none;
+  }
+  button.secondary, .button.secondary { background: var(--surface-2); color: var(--text); }
+  button.link { background: none; color: var(--accent); padding: 0; font-weight: 500; }
+  button:disabled { opacity: .6; cursor: default; }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 16px; }
+
+  /* App picker */
+  .picker { position: relative; }
+  .results {
+    position: absolute; z-index: 10; left: 0; right: 0; top: calc(100% + 4px);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12); overflow: hidden; display: none;
+  }
+  .results.open { display: block; }
+  .result {
+    display: flex; gap: 12px; align-items: center; width: 100%;
+    padding: 10px 12px; background: none; color: var(--text); border-radius: 0;
+    font-weight: 400; text-align: left;
+  }
+  .result:hover, .result.active { background: var(--surface-2); }
+  .result-note { padding: 12px; color: var(--muted); font-size: 14px; }
+  .icon { width: 40px; height: 40px; border-radius: 9px; flex: none; background: var(--surface-2); object-fit: cover; }
+  .app-meta { min-width: 0; flex: 1; }
+  .app-title { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .app-sub { color: var(--muted); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .chosen { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+  .chosen-app {
+    display: flex; gap: 12px; align-items: center; padding: 10px 12px;
+    border: 1px solid var(--border); border-radius: 10px; background: var(--surface-2);
+  }
+
+  /* Notices */
+  .notice { padding: 10px 12px; border-radius: 8px; font-size: 14px; margin-top: 12px; }
+  .notice.ok { background: var(--success-bg); color: var(--success); }
+  .notice.err { background: var(--danger-bg); color: var(--danger); }
+  ol.how { margin: 0; padding-left: 20px; color: var(--muted); font-size: 14px; }
+  ol.how li { margin: 2px 0; }
+  details { margin-top: 12px; }
+  summary { cursor: pointer; color: var(--accent); font-size: 14px; }
+
+  /* Sidebar */
+  aside .card h3 { margin: 0 0 6px; font-size: 15px; }
+  aside .card p { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+  .spinner {
+    width: 14px; height: 14px; border-radius: 50%;
+    border: 2px solid currentColor; border-right-color: transparent;
+    animation: spin .7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  [hidden] { display: none !important; }
+
+  /* Agent page */
+  .agent-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .agent-head h2 { margin: 0; font-size: 17px; flex: 1; }
+  .agent-desc { color: var(--muted); font-size: 14px; margin: 4px 0 0; }
+  .pill {
+    font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 99px;
+    background: var(--surface-2); color: var(--muted); white-space: nowrap;
+  }
+  .pill.ok { background: var(--success-bg); color: var(--success); }
+  pre {
+    margin: 8px 0 0; padding: 12px; border-radius: 8px; background: var(--surface-2);
+    font: 12.5px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+    overflow-x: auto; white-space: pre;
+  }
+  code { font: 13px ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .code-wrap { position: relative; }
+  .code-wrap .copy { position: absolute; top: 8px; right: 8px; padding: 4px 9px; font-size: 12px; }
+  .prompt {
+    display: flex; gap: 10px; align-items: center; padding: 10px 12px; margin-top: 8px;
+    border: 1px solid var(--border); border-radius: 10px; background: var(--surface-2);
+  }
+  .prompt span { flex: 1; }
+  .small { font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="logo">open-aso <span>setup</span></div>
+    <nav>
+      <a href="#/" data-page="home">Home</a>
+      <a href="#" class="soon">Data connection</a>
+      <a href="#/agent" data-page="agent">Connect agent</a>
+      <a href="#" class="soon">Tracking</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="page-home">
+    <h1>Set up open-aso</h1>
+    <p class="lede">Three quick steps, then your AI agent does the ASO work.</p>
+    <div class="progress" aria-hidden="true"><div id="progress-bar" style="width:0"></div></div>
+
+    <!-- Step 1: Find your app -->
+    <div class="card" id="step-app">
+      <div class="step-head">
+        <div class="badge" id="badge-app">1</div>
+        <div>
+          <h2>Find your app</h2>
+          <p>Search by name, or paste your App Store link. No App Store ID needed.</p>
+        </div>
+      </div>
+      <div class="step-body">
+        <div class="chosen" id="chosen-apps"></div>
+        <div class="picker">
+          <label for="app-search" class="sr-only">Search the App Store</label>
+          <input id="app-search" type="search" autocomplete="off" spellcheck="false"
+                 placeholder="e.g. Streaks, or https://apps.apple.com/…"
+                 role="combobox" aria-expanded="false" aria-controls="app-results">
+          <div class="results" id="app-results" role="listbox"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 2: Connect DataForSEO -->
+    <div class="card" id="step-data">
+      <div class="step-head">
+        <div class="badge" id="badge-data">2</div>
+        <div>
+          <h2>Connect DataForSEO</h2>
+          <p>open-aso gets App Store data from DataForSEO at cost price. No subscription, no markup.</p>
+        </div>
+      </div>
+      <div class="step-body" id="data-body"></div>
+    </div>
+
+    <!-- Step 3: Connect your agent -->
+    <div class="card" id="step-agent">
+      <div class="step-head">
+        <div class="badge" id="badge-agent">3</div>
+        <div>
+          <h2>Connect your AI agent</h2>
+          <p id="agent-summary">One-click setup for Claude Code, Claude Desktop and Cursor.</p>
+        </div>
+      </div>
+      <div class="step-body">
+        <a class="button" href="#/agent" id="agent-cta">Connect an agent</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="page-agent" hidden>
+    <h1>Connect your AI agent</h1>
+    <p class="lede">open-aso works inside the AI tools you already use. Connect one, then just ask.</p>
+    <div id="agent-list"><div class="card"><span class="small">Checking which agents are installed…</span></div></div>
+    <div class="card" id="agent-other"></div>
+    <div class="card" id="agent-try"></div>
+  </section>
+
+  <aside>
+    <div class="card">
+      <h3>⭐ Star open-aso on GitHub</h3>
+      <p>It's free and open source. A star helps other indie developers find it.</p>
+      <a class="button secondary" id="link-github" target="_blank" rel="noopener">Star on GitHub</a>
+    </div>
+    <div class="card">
+      <h3>☁️ Cloud hosting is coming</h3>
+      <p>No DataForSEO account, no setup, rank tracking that runs while you sleep. Start with $5, not $50.</p>
+      <a class="button secondary" id="link-waitlist" target="_blank" rel="noopener">Join the waitlist</a>
+    </div>
+  </aside>
+</main>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let state = null;
+let agentsState = null;
+
+async function api(path, options = {}) {
+  const res = await fetch(path, {
+    ...options,
+    headers: { "Content-Type": "application/json", ...(options.headers || {}) },
+  });
+  const body = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(body.error || `Something went wrong (HTTP ${res.status})`);
+  return body;
+}
+
+function el(tag, props = {}, ...children) {
+  const node = document.createElement(tag);
+  for (const [key, value] of Object.entries(props)) {
+    if (key === "class") node.className = value;
+    else if (key.startsWith("on")) node.addEventListener(key.slice(2), value);
+    else if (value !== undefined && value !== null) node.setAttribute(key, value);
+  }
+  for (const child of children.flat()) {
+    if (child !== null && child !== undefined && child !== false) {
+      node.append(child instanceof Node ? child : document.createTextNode(String(child)));
+    }
+  }
+  return node;
+}
+
+function appRow(app, trailing) {
+  const rating = app.rating ? ` · ★ ${app.rating.toFixed(1)}` : "";
+  const ratings = app.ratingCount ? ` (${app.ratingCount.toLocaleString()})` : "";
+  return [
+    app.iconUrl ? el("img", { class: "icon", src: app.iconUrl, alt: "" }) : el("div", { class: "icon" }),
+    el("div", { class: "app-meta" },
+      el("div", { class: "app-title" }, app.title),
+      el("div", { class: "app-sub" }, `${app.developer || "Unknown developer"}${rating}${ratings}`),
+    ),
+    trailing,
+  ];
+}
+
+// ---------- Render ----------
+
+function render() {
+  const appDone = state.apps.length > 0;
+  const dataDone = state.dataforseo.connected;
+  $("badge-app").textContent = appDone ? "✓" : "1";
+  $("badge-app").classList.toggle("done", appDone);
+  $("badge-data").textContent = dataDone ? "✓" : "2";
+  $("badge-data").classList.toggle("done", dataDone);
+  const connectedAgents = agentsState ? agentsState.agents.filter((agent) => agent.connected) : [];
+  const agentDone = connectedAgents.length > 0;
+  $("badge-agent").textContent = agentDone ? "✓" : "3";
+  $("badge-agent").classList.toggle("done", agentDone);
+  $("agent-summary").textContent = agentDone
+    ? `Connected to ${connectedAgents.map((agent) => agent.name).join(", ")}.`
+    : "One-click setup for Claude Code, Claude Desktop and Cursor.";
+  $("agent-cta").textContent = agentDone ? "Manage agents" : "Connect an agent";
+  $("agent-cta").classList.toggle("secondary", agentDone);
+  $("progress-bar").style.width = `${((appDone ? 1 : 0) + (dataDone ? 1 : 0) + (agentDone ? 1 : 0)) / 3 * 100}%`;
+
+  const chosen = $("chosen-apps");
+  chosen.replaceChildren(...state.apps.map((app) =>
+    el("div", { class: "chosen-app" }, ...appRow(app,
+      el("button", { class: "link", onclick: () => removeApp(app.appId), "aria-label": `Remove ${app.title}` }, "Remove"),
+    )),
+  ));
+  $("app-search").placeholder = appDone
+    ? "Add another app: search by name or paste a link"
+    : "e.g. Streaks, or https://apps.apple.com/…";
+
+  renderData();
+  $("link-github").href = state.links.github;
+  $("link-waitlist").href = state.links.waitlist;
+}
+
+function renderData(message) {
+  const body = $("data-body");
+  const ds = state.dataforseo;
+
+  if (ds.connected) {
+    const balance = el("span", { id: "balance" }, "checking balance…");
+    body.replaceChildren(
+      el("div", { class: "notice ok" },
+        "✓ Connected", ds.email ? ` as ${ds.email}` : "", " · Balance: ", balance),
+      ds.source === "environment"
+        ? el("p", { class: "lede", style: "margin:12px 0 0" }, "Using credentials from environment variables.")
+        : el("div", { class: "row" },
+            el("button", { class: "secondary", onclick: disconnect }, "Disconnect")),
+    );
+    api("/api/dataforseo/balance")
+      .then((r) => { balance.textContent = r.balanceUsd == null ? "unknown" : `$${r.balanceUsd.toFixed(2)}`; })
+      .catch(() => { balance.textContent = "couldn't check"; });
+    return;
+  }
+
+  const email = el("input", { id: "ds-email", type: "email", autocomplete: "off", placeholder: "you@example.com" });
+  const apiKey = el("input", { id: "ds-key", type: "password", autocomplete: "off", placeholder: "Paste your API key" });
+  const base64 = el("input", { id: "ds-base64", type: "password", autocomplete: "off", placeholder: "Paste the Base64 value" });
+  const submit = el("button", { type: "submit" }, "Connect");
+  const status = el("div", { "aria-live": "polite" },
+    message ? el("div", { class: "notice err" }, message) : null);
+
+  const form = el("form", { onsubmit: (event) => { event.preventDefault(); connect(submit, status); } },
+    el("ol", { class: "how" },
+      el("li", {}, el("a", { href: state.links.dataforseoSignup, target: "_blank", rel: "noopener" }, "Create a DataForSEO account"),
+        " (new accounts get $1 of free credit)"),
+      el("li", {}, "Open ", el("a", { href: state.links.dataforseoApiAccess, target: "_blank", rel: "noopener" }, "API Access"),
+        " and click ", el("strong", {}, "Send by email")),
+      el("li", {}, "Copy the two values from that email below"),
+    ),
+    el("label", { for: "ds-email" }, "Email ", el("span", { class: "hint" }, "· DataForSEO calls this “API login”")),
+    email,
+    el("label", { for: "ds-key" }, "API key ", el("span", { class: "hint" }, "· DataForSEO calls this “API password” (not your website password)")),
+    apiKey,
+    el("details", {},
+      el("summary", {}, "Have the Base64 value instead?"),
+      el("label", { for: "ds-base64" }, "Base64 ", el("span", { class: "hint" }, "· replaces email + API key")),
+      base64,
+    ),
+    el("div", { class: "row" }, submit),
+    status,
+  );
+  body.replaceChildren(form);
+}
+
+// ---------- Actions ----------
+
+async function connect(button, status) {
+  button.disabled = true;
+  button.replaceChildren(el("span", { class: "spinner" }), "Testing connection…");
+  status.replaceChildren();
+  try {
+    state = await api("/api/dataforseo", {
+      method: "POST",
+      body: JSON.stringify({
+        email: $("ds-email").value,
+        apiKey: $("ds-key").value,
+        base64: $("ds-base64").value,
+      }),
+    });
+    render();
+  } catch (error) {
+    status.replaceChildren(el("div", { class: "notice err" }, error.message));
+    button.disabled = false;
+    button.replaceChildren("Connect");
+  }
+}
+
+async function disconnect() {
+  state = await api("/api/dataforseo", { method: "DELETE" });
+  render();
+}
+
+async function addApp(app) {
+  state = await api("/api/apps", { method: "POST", body: JSON.stringify({ app }) });
+  closeResults();
+  $("app-search").value = "";
+  render();
+}
+
+async function removeApp(appId) {
+  state = await api(`/api/apps/${appId}`, { method: "DELETE" });
+  render();
+}
+
+// ---------- App picker ----------
+
+const search = $("app-search");
+const results = $("app-results");
+let searchTimer = null;
+let searchSeq = 0;
+let currentResults = [];
+let activeIndex = -1;
+
+function openResults(...children) {
+  results.replaceChildren(...children);
+  results.classList.add("open");
+  search.setAttribute("aria-expanded", "true");
+}
+
+function closeResults() {
+  results.classList.remove("open");
+  search.setAttribute("aria-expanded", "false");
+  activeIndex = -1;
+}
+
+function showResults(apps) {
+  currentResults = apps;
+  activeIndex = -1;
+  if (!apps.length) return openResults(el("div", { class: "result-note" }, "No apps found. Try the exact app name, or paste its App Store link."));
+  const already = new Set(state.apps.map((app) => app.appId));
+  openResults(...apps.map((app, index) =>
+    el("button", {
+      class: "result", type: "button", role: "option", "data-index": index,
+      onclick: () => addApp(app),
+    }, ...appRow(app, already.has(app.appId) ? el("span", { class: "app-sub" }, "Added") : null)),
+  ));
+}
+
+search.addEventListener("input", () => {
+  clearTimeout(searchTimer);
+  const query = search.value.trim();
+  if (query.length < 2) return closeResults();
+  searchTimer = setTimeout(async () => {
+    const seq = ++searchSeq;
+    openResults(el("div", { class: "result-note" }, "Searching the App Store…"));
+    try {
+      const { apps } = await api(`/api/apps/search?q=${encodeURIComponent(query)}`);
+      if (seq === searchSeq) showResults(apps);
+    } catch (error) {
+      if (seq === searchSeq) openResults(el("div", { class: "result-note" }, error.message));
+    }
+  }, 300);
+});
+
+search.addEventListener("keydown", (event) => {
+  const options = [...results.querySelectorAll(".result")];
+  if (!results.classList.contains("open") || !options.length) return;
+  if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+    event.preventDefault();
+    activeIndex = (activeIndex + (event.key === "ArrowDown" ? 1 : -1) + options.length) % options.length;
+    options.forEach((option, index) => option.classList.toggle("active", index === activeIndex));
+    options[activeIndex].scrollIntoView({ block: "nearest" });
+  } else if (event.key === "Enter" && activeIndex >= 0) {
+    event.preventDefault();
+    addApp(currentResults[activeIndex]);
+  } else if (event.key === "Escape") {
+    closeResults();
+  }
+});
+
+document.addEventListener("click", (event) => {
+  if (!event.target.closest(".picker")) closeResults();
+});
+
+// ---------- Connect your agent ----------
+
+const AGENT_INFO = {
+  "claude-code": {
+    desc: "Anthropic's coding agent in your terminal, IDE or the Claude desktop app.",
+    download: "https://claude.com/claude-code",
+  },
+  "claude-desktop": {
+    desc: "The Claude app for Mac and Windows.",
+    download: "https://claude.ai/download",
+  },
+  cursor: {
+    desc: "The AI code editor.",
+    download: "https://cursor.com",
+  },
+};
+
+function copyButton(text, label = "Copy") {
+  const button = el("button", { class: "secondary copy", type: "button" }, label);
+  button.addEventListener("click", async () => {
+    await navigator.clipboard.writeText(text);
+    button.textContent = "Copied";
+    setTimeout(() => { button.textContent = label; }, 1500);
+  });
+  return button;
+}
+
+function codeBlock(text) {
+  return el("div", { class: "code-wrap" }, el("pre", {}, text), copyButton(text));
+}
+
+async function loadAgents() {
+  try {
+    agentsState = await api("/api/agents");
+  } catch (error) {
+    $("agent-list").replaceChildren(el("div", { class: "card" }, el("div", { class: "notice err" }, error.message)));
+    return;
+  }
+  renderAgents();
+  if (state) render();
+}
+
+function renderAgents(messages = {}) {
+  const { agents, launch, snippet } = agentsState;
+  const command = [launch.command, ...launch.args].map((part) => (/\s/.test(part) ? `"${part}"` : part)).join(" ");
+
+  $("agent-list").replaceChildren(...agents.map((agent) => {
+    const info = AGENT_INFO[agent.id];
+    const message = messages[agent.id];
+    let pill;
+    let action;
+    if (!agent.installed) {
+      pill = el("span", { class: "pill" }, "Not installed");
+      action = el("a", { class: "button secondary", href: info.download, target: "_blank", rel: "noopener" }, "Get it");
+    } else if (agent.connected) {
+      pill = el("span", { class: "pill ok" }, "✓ Connected");
+      action = el("button", { class: "secondary", onclick: (event) => toggleAgent(agent.id, "disconnect", event.currentTarget) }, "Disconnect");
+    } else {
+      pill = el("span", { class: "pill" }, "Ready to connect");
+      action = el("button", { onclick: (event) => toggleAgent(agent.id, "connect", event.currentTarget), disabled: agent.problem ? "" : null }, "Connect");
+    }
+
+    const manual = agent.id === "claude-code"
+      ? codeBlock(`claude mcp add --scope user open-aso -- ${command}`)
+      : el("div", {},
+          agent.configPath ? el("p", { class: "small", style: "margin:8px 0 0" }, "Adds this to ", el("code", {}, agent.configPath), ":") : null,
+          codeBlock(snippet));
+
+    return el("div", { class: "card" },
+      el("div", { class: "agent-head" }, el("h2", {}, agent.name), pill, action),
+      el("p", { class: "agent-desc" }, info.desc),
+      agent.problem ? el("div", { class: "notice err" }, agent.problem) : null,
+      message ? el("div", { class: `notice ${message.ok ? "ok" : "err"}` }, message.text) : null,
+      agent.installed ? el("details", {}, el("summary", {}, agent.id === "claude-code" ? "Prefer to run the command yourself?" : "See what this changes"), manual) : null,
+    );
+  }));
+
+  $("agent-other").replaceChildren(
+    el("div", { class: "agent-head" }, el("h2", {}, "Another MCP client?")),
+    el("p", { class: "agent-desc" }, "Most MCP clients (Windsurf, Zed, Cline and others) accept this config. Paste it into the client's MCP settings."),
+    codeBlock(snippet),
+    launch.command.includes("tsx")
+      ? el("p", { class: "small", style: "margin:10px 0 0" }, "You're running open-aso from source, so agents will use your local copy.")
+      : null,
+  );
+
+  const appName = state && state.apps[0] ? state.apps[0].title : "my app";
+  const prompts = [
+    `Use open-aso to audit the App Store listing for ${appName}`,
+    `Use open-aso to find keywords ${appName} should target`,
+    `Use open-aso to write a new title, subtitle and keyword field for ${appName}`,
+  ];
+  $("agent-try").replaceChildren(
+    el("div", { class: "agent-head" }, el("h2", {}, "Then try asking")),
+    el("p", { class: "agent-desc" }, "Your agent does the analysis, and can build any report or dashboard you ask for."),
+    ...prompts.map((prompt) => el("div", { class: "prompt" }, el("span", {}, prompt), copyButton(prompt))),
+  );
+}
+
+async function toggleAgent(id, action, button) {
+  button.disabled = true;
+  button.replaceChildren(el("span", { class: "spinner" }), action === "connect" ? "Connecting…" : "Disconnecting…");
+  try {
+    const { agent } = await api(`/api/agents/${id}/${action}`, { method: "POST" });
+    agentsState.agents = agentsState.agents.map((existing) => (existing.id === id ? agent : existing));
+    renderAgents({
+      [id]: action === "connect"
+        ? { ok: true, text: `✓ open-aso added to ${agent.name}. ${agent.afterConnect || ""}` }
+        : { ok: true, text: `Removed open-aso from ${agent.name}.` },
+    });
+  } catch (error) {
+    renderAgents({ [id]: { ok: false, text: error.message } });
+  }
+  render();
+}
+
+// ---------- Routing ----------
+
+function showPage() {
+  const page = location.hash === "#/agent" ? "agent" : "home";
+  $("page-home").hidden = page !== "home";
+  $("page-agent").hidden = page !== "agent";
+  document.querySelectorAll("nav a[data-page]").forEach((link) => {
+    link.classList.toggle("active", link.dataset.page === page);
+  });
+  if (page === "agent" && agentsState) renderAgents();
+  window.scrollTo(0, 0);
+}
+
+window.addEventListener("hashchange", showPage);
+
+// ---------- Start ----------
+
+showPage();
+api("/api/state").then((s) => { state = s; render(); loadAgents(); }).catch((error) => {
+  document.querySelector("main").replaceChildren(el("div", { class: "card" }, `Couldn't load open-aso: ${error.message}`));
+});
+</script>
+</body>
+</html>

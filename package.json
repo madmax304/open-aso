@@ -1,0 +1,48 @@
+{
+  "name": "open-aso",
+  "version": "0.0.1",
+  "description": "The open-source alternative to AppTweak and Sensor Tower. Agent-first App Store Optimization: MCP server, CLI and skills, with data at cost.",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://open-aso.com",
+  "keywords": [
+    "aso",
+    "app-store-optimization",
+    "mcp",
+    "app-store",
+    "keywords",
+    "apptweak-alternative",
+    "sensor-tower-alternative"
+  ],
+  "bin": {
+    "open-aso": "dist/cli.js",
+    "oaso": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node -e \"require('fs').cpSync('src/ui/public','dist/ui/public',{recursive:true})\"",
+    "dev": "tsx src/cli.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "spike": "tsx scripts/spike.ts",
+    "ui": "tsx src/cli.ts ui"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

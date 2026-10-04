@@ -1,0 +1,1713 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "16.3512 sec.",
+  "cost": 0.0144,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10040507-2689-0452-0000-5d9d97710a9e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "16.2861 sec.",
+      "cost": 0.0144,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "apple",
+        "app_intersection",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "app_intersection",
+        "se_type": "apple",
+        "app_ids": {
+          "1": "686449807",
+          "2": "382617920"
+        },
+        "location_code": 2840,
+        "language_code": "en",
+        "limit": 20
+      },
+      "result": [
+        {
+          "se_type": "apple",
+          "app_ids": {
+            "1": "686449807",
+            "2": "382617920"
+          },
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 18338,
+          "items_count": 20,
+          "items": [
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "facebook",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-16 05:52:08 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 21247230,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 249,
+                  "last_updated_time": "2026-09-16 05:52:07 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 12,
+                  "rank_absolute": 12,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280225,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280225,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 27,
+                  "rank_absolute": 27,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831019,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831019,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "instagram",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-15 00:31:00 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 1602674,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 250,
+                  "last_updated_time": "2026-09-15 00:31:00 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 10,
+                  "rank_absolute": 10,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280116,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280116,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 66,
+                  "rank_absolute": 66,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831020,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831020,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "instagram##",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-15 00:15:40 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 1599605,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 250,
+                  "last_updated_time": "2026-09-15 00:15:40 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 10,
+                  "rank_absolute": 10,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280116,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280116,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 66,
+                  "rank_absolute": 66,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831020,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831020,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "msn",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 09:15:21 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 1026871,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 155,
+                  "last_updated_time": "2026-09-10 09:15:19 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 73,
+                  "rank_absolute": 73,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279627,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279627,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 99,
+                  "rank_absolute": 99,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831023,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831023,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "tiktok",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-13 20:56:56 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 804903,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 249,
+                  "last_updated_time": "2026-09-13 20:56:56 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 14,
+                  "rank_absolute": 14,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279998,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279998,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 67,
+                  "rank_absolute": 67,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831019,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831019,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "snapchat",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-14 06:09:18 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 743054,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 249,
+                  "last_updated_time": "2026-09-14 06:09:17 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 9,
+                  "rank_absolute": 9,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280043,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280043,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 28,
+                  "rank_absolute": 28,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831015,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831015,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "msn homepage",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 09:15:26 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 508402,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 143,
+                  "last_updated_time": "2026-09-10 09:15:26 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 11,
+                  "rank_absolute": 11,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279627,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279627,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 21,
+                  "rank_absolute": 21,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831023,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831023,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "fb is",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-16 04:03:07 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 310965,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 250,
+                  "last_updated_time": "2026-09-16 04:03:07 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 10,
+                  "rank_absolute": 10,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280225,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280225,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 46,
+                  "rank_absolute": 46,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831019,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831019,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "fb",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-16 04:04:09 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 310965,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 249,
+                  "last_updated_time": "2026-09-16 04:04:08 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 9,
+                  "rank_absolute": 9,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280225,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280225,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 24,
+                  "rank_absolute": 24,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831019,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831019,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "an fb",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-18 00:57:41 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 310050,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 224,
+                  "last_updated_time": "2026-09-18 00:57:40 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 31,
+                  "rank_absolute": 31,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280354,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280354,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 86,
+                  "rank_absolute": 86,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/d0/2f/2dd02fe4-d6d1-0a39-1938-15db169c8343/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831034,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831034,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "messenger",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 13:31:05 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 239245,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 247,
+                  "last_updated_time": "2026-09-10 13:31:05 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 8,
+                  "rank_absolute": 8,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279655,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279655,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 17,
+                  "rank_absolute": 17,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831022,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831022,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "telegram",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-13 23:39:45 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 213056,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 242,
+                  "last_updated_time": "2026-09-13 23:39:43 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279998,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279998,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 60,
+                  "rank_absolute": 60,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831019,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831019,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "tèlegram",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-13 17:06:43 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 209228,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 242,
+                  "last_updated_time": "2026-09-13 17:06:42 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279977,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279977,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 61,
+                  "rank_absolute": 61,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831019,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831019,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "msn.com",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-10 09:14:35 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 182063,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 163,
+                  "last_updated_time": "2026-09-10 09:14:35 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 65,
+                  "rank_absolute": 65,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279627,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279627,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 95,
+                  "rank_absolute": 95,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831023,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831023,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "facebook messenger",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-16 05:42:08 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 95066,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 249,
+                  "last_updated_time": "2026-09-16 05:42:07 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 12,
+                  "rank_absolute": 12,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280225,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280225,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 48,
+                  "rank_absolute": 48,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831019,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831019,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "face book",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-16 06:00:21 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 91546,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 250,
+                  "last_updated_time": "2026-09-16 06:00:20 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 12,
+                  "rank_absolute": 12,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280225,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280225,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 27,
+                  "rank_absolute": 27,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831019,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831019,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "gmail account gmail sign in",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-15 14:16:35 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 85465,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 242,
+                  "last_updated_time": "2026-09-15 14:16:34 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 21,
+                  "rank_absolute": 21,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 280159,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 280159,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 71,
+                  "rank_absolute": 71,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831024,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831024,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "tik tôk",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-13 20:57:35 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 75799,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 249,
+                  "last_updated_time": "2026-09-13 20:57:35 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 14,
+                  "rank_absolute": 14,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279998,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279998,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 68,
+                  "rank_absolute": 68,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831019,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831019,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "tmobile sign in",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-13 20:25:20 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 66616,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 249,
+                  "last_updated_time": "2026-09-13 20:25:20 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 18,
+                  "rank_absolute": 18,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279998,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279998,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 50,
+                  "rank_absolute": 50,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831019,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831019,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            },
+            {
+              "se_type": "apple",
+              "keyword_data": {
+                "se_type": "apple",
+                "keyword": "tik tok",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "apple",
+                  "last_updated_time": "2026-09-13 20:59:19 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 63289,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": null,
+                  "monthly_searches": null
+                },
+                "serp_info": {
+                  "se_type": "apple",
+                  "check_url": null,
+                  "serp_item_types": null,
+                  "se_results_count": 249,
+                  "last_updated_time": "2026-09-13 20:59:18 +00:00",
+                  "previous_updated_time": null
+                }
+              },
+              "intersection_result": {
+                "1": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 14,
+                  "rank_absolute": 14,
+                  "position": "left",
+                  "app_id": "686449807",
+                  "title": "Telegram Messenger",
+                  "url": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/b6/99/01b699a0-d264-d1c3-c798-50aedd0be3db/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+                  "reviews_count": 279998,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.01,
+                    "votes_count": 279998,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                },
+                "2": {
+                  "type": "app_store_search_organic",
+                  "rank_group": 68,
+                  "rank_absolute": 68,
+                  "position": "left",
+                  "app_id": "382617920",
+                  "title": "Rakuten Viber Messenger",
+                  "url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920",
+                  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/35/6b/07356b41-711f-3d05-25d7-a79af8af4b30/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg",
+                  "reviews_count": 831019,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 831019,
+                    "rating_max": 5
+                  },
+                  "is_free": true,
+                  "price": {
+                    "current": 0,
+                    "regular": 0,
+                    "max_value": 0,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": ""
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

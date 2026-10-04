@@ -1,0 +1,1113 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0884 sec.",
+  "cost": 0,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10040508-2689-0425-0000-3bfb2a6eb80f",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0665 sec.",
+      "cost": 0,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "app_data",
+        "apple",
+        "app_reviews",
+        "task_get",
+        "advanced",
+        "10040508-2689-0425-0000-3bfb2a6eb80f"
+      ],
+      "data": {
+        "se_type": "app_reviews",
+        "se": "apple",
+        "api": "app_data",
+        "function": "app_reviews",
+        "app_id": "686449807",
+        "location_code": 2840,
+        "language_code": "en",
+        "depth": 50,
+        "priority": 2,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "app_id": "686449807",
+          "type": "reviews",
+          "se_domain": "itunes.apple.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://apps.apple.com/us/app/id686449807?see-all=reviews",
+          "datetime": "2026-10-04 05:08:41 +00:00",
+          "title": "Telegram Messenger",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4,
+            "votes_count": 281986,
+            "rating_max": 5
+          },
+          "reviews_count": 281986,
+          "items_count": 50,
+          "items": [
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "position": "left",
+              "version": "12.4",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-02-07 00:00:00 +00:00",
+              "id": "13723631074",
+              "title": "New video/GIF player overlay is distracting – please let controls disappear completely",
+              "review_text": "When I tap the screen while watching a video or GIF in Telegram to hide the playback controls (pause, 5-second skip buttons), they no longer disappear fully. Instead, they fade into a semi-transparent, glossy overlay that stays visible over the entire screen.\nThis glossy effect makes the video or GIF harder to view clearly — especially in darker scenes or when I just want a clean, immersive fullscreen experience. The previous behavior was much better: one tap and the controls would vanish completely, leaving nothing but the media itself.\nI understand Telegram has been experimenting with more transparent / “Liquid Glass” style elements in the recent updates, but in the video player it feels like a step backward. The semi-visible overlay is quite distracting and reduces the quality of watching content inline.\n\nThanks for considering feedback — the old clean view was really nice.",
+              "user_profile": {
+                "profile_name": "Amirni021",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "position": "left",
+              "version": "6.2.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2020-07-13 00:00:00 +00:00",
+              "id": "6192642408",
+              "title": "Not private enough",
+              "review_text": "I like most of the features of this app (text, call, group chats, forwarding messages and sending, etc) I also like how you can build group chats with people that are in your contacts as well as include people from other people who may not necessarily be a contact but connected to someone else in the chat. \nI gave this app a 3 instead of a 5\nbecause of its privacy settings. I didn’t like the fact that as soon as i joined the whole “telegram world” so to speak gets an alert that I joined. Your settings default to that so there’s no way to control that going on. I know this because immediately after I joined, I get a message from someone (in my contacts) that I had not spoken to in ages! I completely forgot this person was in my contacts. I received this message before I could even figure out the features of the app work, before I could figure out how it works, and even before I configure the settings the way I wanted them.  That was very uncomfortable.  Also, I don’t like that the privacy settings are not completely private. For instance I changed my privacy settings for “Last seen online” to “Nobody”. Meaning nobody should see when I was online. However, that’s not the case. If you select “Nobody” as opposed to Everybody or My contacts, the default setting next to your name for last seen online defaults to “Recently”.  Well to me that isn’t private. No that isn’t given the actual time stamp, but that is still letting All of your contacts know that you were “recently” on telegram. So that to me is a downfall of this app. That isn’t private.",
+              "user_profile": {
+                "profile_name": "RandB Lover",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "position": "left",
+              "version": "5.1.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2019-01-05 00:00:00 +00:00",
+              "id": "3616318982",
+              "title": "Eh",
+              "review_text": "The app is great except it logs me out like 90% of the time and while this wasn’t a problem at first, you can only have so many clients open at the same time so when I would open the app from the app instead of just reopening the same window (which like 25% of the time it would log me out anyway) using the home button (I’m on an iPhone) to go back to the chat bc I’m lazy or whatever anyway basically you can only open so many clients at a time and eventually there’s a cap to how many you could open so every time I logged in it was opening a new client (in its coding? I don’t know there was always only one open on my phone but when I would check to see how many clients were open on “other devices” there would be a list of every time I had been kicked and logged back in on the same device) so here I am exceeding the limit of clients because the coding is counting every single new log in as a completely new device instead of the same device over and over. In the end, it takes 12 hours for telegram to automatically end the last client logged into. Oh and the clock resets every time you try to log in. Another thing it won’t let me send anything through telegram suddenly? It was working perfectly before but it just freezes the app I’m sending from and logs me out of my current telegram client. Over all I think that Telegram could be a wonderful app but with the current problems I’m having, I can’t even use it so it’s kind of pointless? I hope they fix these problems, if so I’ll definitely try it out again",
+              "user_profile": {
+                "profile_name": "MuteThePanda",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "position": "left",
+              "version": "12.6.3",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-05-03 00:00:00 +00:00",
+              "id": "14024660491",
+              "title": "Partial accessibility equals no accessibility for the total Blind",
+              "review_text": "I have tried contacting the developers from inside this app, and only have gotten radio silence! I have tried contacting via Twitter, Facebook, and every other platform the developers might be on. Again, radio silence. This app is only partially accessible, which means for those of us fully depending upon a screen reader, it’s practically unusable and anything other than a very basic form. I expect to be able to use every feature, not just a couple features. Please correct this soonest. Oh, and there’s 385 million other like me that would like you to correct this, now.\n\nUpdate, as of May 3, 2026, this app is no longer usable by a totally blind individual using a screen reader at all. Most buttons are unlabeled, there is no back button for when you enter a chat. There’s also no profile button, and there are no longer any tabs at the bottom, which means I can’t even modify settings. I would rate this app lower than one, but that option is not available! The developers have failed in any minimal obligation to the entire population of the planet to make their client accessible for everyone! The developers of this app taught on their website, the equitability of the client, the inclusion of the client, and the diversity of its users. At least two of those three terms they are not living up to. As of today’s date, this client is no longer accessible at all.",
+              "user_profile": {
+                "profile_name": "eric oyen",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 5,
+              "rank_absolute": 5,
+              "position": "left",
+              "version": "9.6.3",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2023-06-10 00:00:00 +00:00",
+              "id": "10019222732",
+              "title": "An app that revolves around add revenue",
+              "review_text": "This app use to be able to give you the option to see explicit content on a normal basis. Now however? I’m not able to see, receive or even visit the sites where these pictures come from. There’s no need for me to have to go to the desktop version of the app only to change a few settings that can be changed with a single button. The amount of neglect towards the enjoyment of the actual messaging system is worse than Kik. But at least Kik has updates that involve improving the experience of the users. Telegram will diminish the experience of all users, specifically consenting adults who wish to talk to each other. It’s very sad to see apps like this run by corporates who have no interest in the enjoyment of the app and will make bots to overflow the main stream of REAL people who leave reviews. They don’t wish for your experience to get better, if so then there would be a button on the app to enable or disable sexual content from being showed. Stop treating everyone on your platform like children and having blockers on all things that “aren’t good for ad revenue” which again. When two adults are having a conversation and one posts something explicit? I’m not able to see it because of a child or parentel block that’s on the app despite having legal age to see such things. If the company cares about the experience of the users they would’ve had a button that you can turn on and off to be able to allow sexual content on your account. But you need to go on the casual desktop website to be able to change that which is just tedious.",
+              "user_profile": {
+                "profile_name": "Edib J",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 6,
+              "rank_absolute": 6,
+              "position": "left",
+              "version": "12.3.2",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-01-31 00:00:00 +00:00",
+              "id": "13697696429",
+              "title": "Inaccessible user interface makes this app not worth using, and is not ADA compliant.",
+              "review_text": "This app is always had accessibility bugs in the past. The share sheet is notorious for being completely unusable for voiceover users, unless you want to turn off voiceover and play that random touch game that could cause you to accidentally share with the wrong friend, or worse. however, for the most part, I’ve been able to use the app until recently. now, with the latest update, they broke the ability for voiceover to even see the message box, so good luck trying to send a message if you’re completely blind! And it gets worse, because it turns out, nothing along the bottom of the screen is accessible by voiceover. I cannot go into the settings for the app, or activate any of the other tabs at the bottom of the screen. Pathetic telegram. This is 2025, and there are laws in place stating that this kind of neglect to test the accessibility of apps before they’re released or updated is unacceptable. i’m going to see if I can roll back the updates somehow; if that doesn’t work, forget it; going back to regular old text messaging until these issues are resolved. this is incredibly disappointing, as my family uses this for our chat, and since I live on the other side of the US, this is my primary means of communicating with them.",
+              "user_profile": {
+                "profile_name": "Murgle Skiffer",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 7,
+              "rank_absolute": 7,
+              "position": "left",
+              "version": "9.6.6",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2023-08-11 00:00:00 +00:00",
+              "id": "10244936265",
+              "title": "Worst app since 2023",
+              "review_text": "This application has proven to be disappointing, reaching its lowest point since 2023. It is apparent that the introduction of the premium subscription has shifted the focus towards pushing users into purchasing it, leading to an unfortunate degradation of the basic functionalities. Notably, the severe limitation placed on sending messages, even when used responsibly, is particularly concerning. As an illustration, I found myself unable to communicate effectively within work-related groups, where I was seeking job opportunities. The necessity to compose messages daily, amidst the flood of communication, to ensure visibility for potential employers is both impractical and counterproductive.\n\nDespite multiple attempts to address this issue through support inquiries, the lack of response is disheartening. Instead, I received a notification suggesting that the solution lies in acquiring a premium subscription – specifically, to regain the ability to send messages. This approach appears illogical and far from user-friendly. While I am inclined to assign a zero-star rating to reflect my discontent accurately, unfortunately, this option isn't available. I remain hopeful that a more competent alternative emerges in the near future, drawing users away from this application. The current state of Telegram leaves much to be desired and is becoming increasingly untenable for practical use.",
+              "user_profile": {
+                "profile_name": "LackVoltia",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 8,
+              "rank_absolute": 8,
+              "position": "left",
+              "version": "12.5",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-03-03 00:00:00 +00:00",
+              "id": "13809175701",
+              "title": "Delete my comment if you want, cause you’ve been, gross",
+              "review_text": "This app is being use to target/harrassing me, people are exposing and spreading child pornaghraphy of me from mistakes I made as a child, I found this out bc someone was impersonating in order to sell it better, don’t support this app do what you can to help get it taken down, only 5 star so it gets seen. Read while you can might get removed, but will do my best to keep the word out- with everything these sick people are getting away with I honestly doubt it will ever change,our gov lets Snapchat telegram discord all these app do this, I honestly would rather tik tok have been stealing my data than apps like this be allowed and used to target are youth, speaking from bad experiences, predator use these apps to target and lure the ones they can, and they have before, and in the end none of these apps make true changes to account for that, god forbid they ever take responsibility for what they created too. I don’t blame the kid that didn’t get help or know any better I blame the pedo and the app that allowed it to take place.",
+              "user_profile": {
+                "profile_name": "Your last player",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 9,
+              "rank_absolute": 9,
+              "position": "left",
+              "version": "11.8.2",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 2,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2025-03-15 00:00:00 +00:00",
+              "id": "12424403632",
+              "title": "From innovation to disappointment!",
+              "review_text": "I’ve been using Telegram since its release and have always admired its innovative approach and useful updates. It used to be a platform that prioritized user experience, constantly rolling out features that genuinely made communication more efficient and enjoyable. However, over time, Telegram seems to have lost its way. The focus has shifted drastically, turning into what feels like a crypto heaven rather than a messaging app. Instead of addressing bugs or enhancing the core functionality, updates now feel like unnecessary data bloat with little to no value for long-term users. For example, free users are still stuck with very limited reaction options—a glaring issue that hasn’t been addressed for years. Meanwhile, newer updates often introduce more problems than they solve. The latest update, in particular, has been a nightmare; it causes my iPhone 13 Pro Max to overheat to the point where it feels like it’s hot as lava. Telegram’s declining focus on free users is another disappointment. Features are increasingly locked behind paywalls, making the app feel more useless for those who don’t subscribe. What was once a forward-thinking platform now seems more concerned with monetization than user satisfaction.",
+              "user_profile": {
+                "profile_name": "Rouldenn",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 10,
+              "rank_absolute": 10,
+              "position": "left",
+              "version": "11.13.2",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2025-07-13 00:00:00 +00:00",
+              "id": "12886816945",
+              "title": "Further ruining it, now with A.I.",
+              "review_text": "Several problems have been introduced to Telegram over time, but this is way too far. The leadership has lost my respect and i can no longer in good conscience recommend Telegram to anyone anymore. After many bad moves, now even A.I. is being added to the platform soon, the functions of which will include most importantly the extremely unreliable, misleading, and false \"fact-checking\" nonsense where broken A.I. will teach incorrect information that gullible people think is accurate because they think A.I.s are all-knowing gods instead of the super imperfect programs they really are, often trained on propaganda and otherwise just making tons of mistakes. How dare anyone simply have a normal conversation without the flawed robot god dictating speech, yeah? Another feature will be making (flawed) \"summaries\" of messages to help fuel the already diminishing attention spans of people by providing inaccurate alternatives in order to further reduce actual understanding, fuel more misconception, and break down relationships by replacing them with what a computer insists someone means instead. The head of Telegram proudly announced that this was a big money-making move for him. Because already being insanely rich doesn't quite make society's well-being matter to him more than inflating his bank accounts even further. Pathetic. The current direction of society is horrendous. Please find and support and share any GOOD platforms you can possibly find, which value truth, free speech, real connection, focus, intelligence, people's *mental health*, and actual privacy.  Ditch Telegram.\nAlso, translation was removed weeks ago.",
+              "user_profile": {
+                "profile_name": "Adoso Waseli",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 11,
+              "rank_absolute": 11,
+              "position": "left",
+              "version": "12.6.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 2,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-04-07 00:00:00 +00:00",
+              "id": "13930838533",
+              "title": "What happened, Telegram?",
+              "review_text": "Seriously. Who asked for “Cocoon A.I.”? And if anyone sane did indeed ask, because they cannot write their own messages without handholding, did they ask for the button to be above “Send”? Why? And did they ask for this feature to override the native, secure “Translate” feature in iOS? Did they ask for Cocoon to translate the names of my contacts? Why? What for? At least give us an opt–out toggle. And I mean tomorrow.\n\nNot only is this app unfashionably late to the party (Apple Intelligence, itself a late entrant to this bonfire of the “vanities,” was released several months ago), they seem to be blind to the fact that most people have grown to absolutely despise A.I. invading every single aspect of our daily lives, trivializing our humanity and our lived experiences. Now Telegram has also contrived an additional security layer, to be iterated and implemented by its security team (insofar as Telegram does have one), which has never been proven to know what they’re doing. Fantastic.\n\nI would have long ago switched to Signal, if not for Telegram’s incumbency among my peers and groups. Telegram’s reputation for gratuitous security issues, and as a shelter (cocoon? I’ll show myself out) for the most heinous Internet crimes and botnets, is now mainstream enough among non–tech people that I thought they were working more to improve. But this advent of A.I. underscored the notion that they may not be paying attention at all. I no longer say to new acquaintances that I have Telegram, unless they say that they do. And I have been an advocate since 2016; I’d say to everyone that, no matter its issues, Telegram remained undefeated and unparalleled in its user experience among messaging platforms. The crown has slipped. What happened?",
+              "user_profile": {
+                "profile_name": "Khasi عبد الله",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 12,
+              "rank_absolute": 12,
+              "position": "left",
+              "version": "12.1.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2025-10-19 00:00:00 +00:00",
+              "id": "13288292087",
+              "title": "New UI after update",
+              "review_text": "I think previous UI before this last update seemed kind of better and more simple and efficient and integrated with the environment of the app, now to be honest it can seem kind of distracting at times or interfere with the content of app and what you want to read, like floating on screen and also as for the colors in previous ui, the navigation and tab bar or that mute/unmute button below the page seemed integrated and consistent with the rest of screen as for the color as well as their position, and also in previous UI, shape of tab bar and Navigation and tab bar below the screen seemed more fine and fit and detailed now it can seem kind of less fine and unfit, like kind of thicker, plus I think the color of these elements seemed better in previous ui than now which has got grey. Like many people said I think it should be either turned back to previous ui or a feature to return to previous UI as an option would be added, because I think in previous UI reading and using could be faster, more efficient without distraction.",
+              "user_profile": {
+                "profile_name": "grungerock91",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 13,
+              "rank_absolute": 13,
+              "position": "left",
+              "version": "12.7",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-05-24 00:00:00 +00:00",
+              "id": "14102043181",
+              "title": "Easily hackable and no customer support!",
+              "review_text": "I got telegram because it was the best way to transfer larger files and keep the quality. I am shocked that when I got hacked the hacker had the upper hand without every using SMS or email to get into the account. I used my personal number to log in and somehow I was the one getting kicked out over and over again. I set up 2-factor while I had access to the account for a few minutes before I was kicked out again and STILL the hacker was the one who was able to kick me out again and again. They did not boot them out when I set up 2-factor which would force them to verify my identity which they wouldn’t be able to do and I would easily get my account back. Telegram support basically doesn’t exist. They don’t respond to emails or requests, it’s silence from them. Extremely disappointed in the service and for this reason do not recommend. I got access for a minute before hacker booted me out and was able to quickly delete the whole account- using my two factor password. And I will not be returning. You’re on your own if you get hacked. Figure it out yourself, for this reason I’ll never get this app again!",
+              "user_profile": {
+                "profile_name": "Rachelforpaz",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 14,
+              "rank_absolute": 14,
+              "position": "left",
+              "version": "12.6.3",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-04-19 00:00:00 +00:00",
+              "id": "13975077109",
+              "title": "ensloppified, go elsewhere.",
+              "review_text": "Been using telegram exclusively for a decade. Recently they added an AI editor that can NOT be turned off, at all, in any way. wWhich, mind you, it does literally nothing. The only thing the AI editor will do, provided you type better than someone with a TBI, is add emojis where you didn’t want them. If you ask support about this they will ask you why you want to get rid of it and tell you it’s in a spot where nothing was before. To that I say, the brain injury must be contagious. The reason nothing was there before is because it’s right above the send button. AKA, it’s in a spot where you constantly accidentally press it. This is likely by design so they can say someone uses it when nobody truly does. Beyond that, the implication is that there’s no privacy anymore because they’re scraping your personal conversations for AI. And the absolute insult to answer only with ‘why would you wanna get rid of it dummy? This is a present! For you! You’re ridiculous for wanting it to go anywhere’. Absolutely ridiculous, obstructive, and constantly impedes my use of the app. At this point, I think MySpace messages would be easier to send and more convenient",
+              "user_profile": {
+                "profile_name": "InterstellarAutumn",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 15,
+              "rank_absolute": 15,
+              "position": "left",
+              "version": "9.6.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2023-04-25 00:00:00 +00:00",
+              "id": "9858663692",
+              "title": "Support very bad my account  hacked",
+              "review_text": "I am extremely disappointed to inform everyone that this chat application is poorly designed. When I used this application, my account was hacked, and my personal information and account security were seriously threatened. Even when I tried to contact customer service for help, their response was very slow and almost no substantive help was provided. In the end, I had to give up using this application and completely delete all my personal data.\n\nI am very concerned about my personal information and account security, and this application clearly does not have enough security measures to prevent hacking and other security issues. I suggest that everyone should not download this application to protect your personal information and account security.\n\nIn summary, the antivirus function of this application is poorly designed, which caused my account to be hacked, and the customer service department's response was also very slow and ineffective. I hope the development team of this application can take proactive measures to solve this problem, as well as improve its security and customer service quality.",
+              "user_profile": {
+                "profile_name": "Ng weng",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 16,
+              "rank_absolute": 16,
+              "position": "left",
+              "version": "5.9.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2019-07-15 00:00:00 +00:00",
+              "id": "4467230265",
+              "title": "Great for exposing corrupt governments with ease of read.",
+              "review_text": "Amazing app! You don’t believe me? This app is fast, reliable and able to destroy an entire political party instantly. \n\n  \n\nGreat for exposing corrupt governments with ease of read. \n\nPolitical parties may specially enjoy the large groups, usernames and powerful file sharing options. It support replies, mentions and hashtagsthat help maintain order and keep communication in large communities efficiently. For example; when confidential information was leaked nationwide, it made it particularly easy for all puertoricans to to keep up with the content of each conversation.  \n\nIn case you're more into pictures, (and the governor of Puerto Rico and some of his top public advisors sure were! ) \n\nTelegram has animated gif search, a state of the art photo editor, and an open sticker platform.   \n\nWhat‘s more, there is no need to worry about disk space on your device, with Telegram’s cloud support and cache management options, Telegram can take up nearly zero space on your phone, this feature was exceptionally great when taking into consideration the people of Puerto Rico were able to read and review 889 pages of political scandals; from fraud, insults, to pretty much the cause of the disappearance of millions in public funds and of course the cover up for the unaccounted death of thousands of Puertorican citizens.    \n\nIm not sure about their privacy policy but we sure are grateful as a nation for all of the  great features mentioned above.",
+              "user_profile": {
+                "profile_name": "RickyRenuncia",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 17,
+              "rank_absolute": 17,
+              "position": "left",
+              "version": "12.5.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-03-06 00:00:00 +00:00",
+              "id": "13819988247",
+              "title": "Feature Request: Filter Your Own Messages in Telegram Groups",
+              "review_text": "Sometimes, as a user, I need to find messages that I personally wrote in group chats. However, this can take a lot of time because I often cannot remember the exact text or even the specific topic of the message.\n\nIt would be extremely helpful if Telegram introduced a feature that allows users to easily find or mark their own messages within group chats. For example, users could filter the chat to display only the messages they have written, or they could mark important messages for quick access later.\n\nA feature like this would significantly improve the user experience by saving time and making message management much easier. If Telegram implemented such an option, it could become one of the most useful and innovative features among messaging platforms worldwide.",
+              "user_profile": {
+                "profile_name": "Gamer1234567777776",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 18,
+              "rank_absolute": 18,
+              "position": "left",
+              "version": "9.2.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2022-12-29 00:00:00 +00:00",
+              "id": "9446234330",
+              "title": "Potential scam, employee scam",
+              "review_text": "Hey folks, be careful who you talk to on this app. I was a victim of potential employment scam/fraud. An entity pretended to be a part of a corporation only to be a lonely hacker who wanted my information. Had a check bounced and had it reported, but they could never track it. They were never able to find the source of the hack/scam. And they made themselves seem very believable. Even a fabricated interview process that felt completely real. It’s that bad, folks. Before you go on here, think about the places you applied to and what information you gave out. I know for me I only gave name address and number, but nothing more. But that is still enough. They can access your information at the click of a button. It’s that bad. Be safe folks. I’m still keeping an eye out for hackers and I’m content with my real job that doesn’t scam people. But please. For the love of god. Don’t download this app. They can’t help you if you do get hacked. They didn’t help me. And that’s proof enough.",
+              "user_profile": {
+                "profile_name": "stevejeffreythethird",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 19,
+              "rank_absolute": 19,
+              "position": "left",
+              "version": "10.6",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2024-01-16 00:00:00 +00:00",
+              "id": "10828311792",
+              "title": "Glitchy. No privacy.",
+              "review_text": "Every time I get a new phone, telegram syncs my contacts even though I distinctly select for it not to. I realized this because I had to get two new phones within one week and it happened both times with Telegram. Sign up, they asked me if I want to sync my contacts and I denied the permission, it sinks my contacts anyway and I don’t realize until I start going through my list or until someone messages me. I declined to give the app access to my contacts as I joined this to be private. Additionallu, to my extreme dismay as soon as you sign up, if other people have your phone number in their contacts, they are notified of your account immediately. Do you know how embarrassing that is??????? It completely defeats the purpose of this app. I deleted Snapchat for the same exact reason just for telegram to go do that. The app has a lot of weird bugs. For example, once the fourth person likes your pictures sometimes, you can no longer long press the reaction and see who reacted in what way. All you can do is see who saw the message. Sometimes this happens, sometimes it doesn’t. A bug",
+              "user_profile": {
+                "profile_name": "FOH757",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 20,
+              "rank_absolute": 20,
+              "position": "left",
+              "version": "5.12.2",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2019-11-19 00:00:00 +00:00",
+              "id": "5169749317",
+              "title": "Video calling",
+              "review_text": "In this day and age video calling is a must with every app such as Telegram, and lack of it unnecessarily opens the door for the competition. Despite my desire to solely use Telegram to connect with friends & family all over the world, I’m having to use other apps, because of the lack of this feature in this app, and I’m sure this is the case for most of its other users.\nI’d give this app 4 stars if it had the video calling feature, and 5 if it wasn’t for some other malfunctions I come across every now and then, such as, all of a sudden losing all my communications with a contact from the beginning till a random date, or altogether till the present! This has happened to me several times with different contacts, so I highly recommend backing your communications up if they’re important to you. \nI really hope, and strongly suggest that the developers add the video calling feature ASAP. \nThank you for all your efforts for providing the public with a great communication tool! 🙏🌹",
+              "user_profile": {
+                "profile_name": "hatxus",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 21,
+              "rank_absolute": 21,
+              "position": "left",
+              "version": "12.2.4",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2025-12-18 00:00:00 +00:00",
+              "id": "13527596646",
+              "title": "Serious voiceover in compatibility",
+              "review_text": "I am a blind voiceover user and have been using Telegram for years. It’s always had a few bugs but it never was too bad. The update to version 12.2.4 has made the app essentially unusable for people with vision impairment. Voiceover no longer recognizes that there’s a text box at the bottom of the screen so I have to play a guessing game with VoiceOver off touching the screen just to activate the text box so I can send a message. But it gets worse… Literally nothing on the bottom of the screen registers on voiceover anymore. Want to go to settings? You can’t unless you can tap around to find it with VoiceOver off. Wanna go to the archive? You can’t..In the settings and want to go back to the chat? Good luck finding that. Want to send someone a picture or a video? Locate the text box and then try to figure out where it is to the left of that from there. This app is now entirely noncompliant with the Americans With Disabilities Act past in 1973 but applies to online applications. Blind people like me deserve secure messengers as well so please fix this.",
+              "user_profile": {
+                "profile_name": "Ifupfpjcpydos",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 22,
+              "rank_absolute": 22,
+              "position": "left",
+              "version": "5.13",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2020-01-02 00:00:00 +00:00",
+              "id": "5348868551",
+              "title": "Please don’t alert me on who has joined Telegram",
+              "review_text": "I have had Telegram for a few years. I installed it because some contact mentioned that they use is for communication just like many other of global contacts who use various different Apps for communication and I download them to make it easy for my contact to reach me. I have about 11 such apps and Telegram is the only App that will intermittently big me with notifications that someone in my contact list has joined Telegram and other silly alerts that have noting to go with me receiving a message from a contact. I just received 11 notifications back to back that 11 of my contacts joined Telegram. First of all it’s not a coincidence that 11 different people who have nothing in common other than being in my contact list join Telegram at the very same second. So obviously, this is a cheap way of Telegram trying to engage with me. I seriously don’t give a crap who is in or not. If they are and they need to reach me then and only then I’d like to be alerted. Kindly fix your unnecessary alerts or give me the option of what alerts I’d like to get and I’ll change my ratings for you.",
+              "user_profile": {
+                "profile_name": "Specialist 101",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 23,
+              "rank_absolute": 23,
+              "position": "left",
+              "version": "12.3.2",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-01-23 00:00:00 +00:00",
+              "id": "13667135099",
+              "title": "The Telegram application is not opened, and it has been running in the background. Can it be improve",
+              "review_text": "Telegram is not turned on, and there is no background. The mobile phone is refreshed and closed. The Telegram application turned off the background to receive data. After updating Telegram twice, there has been power consumption in the background. This application is too rogue. Please improve it. The Telegram I downloaded in October has been no background operation. In the past three months, Telegram has been updated more and more permanent applications in the background. Even if the Apple iOS system can be restricted, Telegram has been updated to the recent two new versions of Telegram. Even if I refresh the background and closes, the application receives messages in the background. There is still a telegram background refresh after a while. It consumes power consumption. It's disgusting. Recently, the telegram has become so rogue that it can't accept the latest Telegram. This situation did not exist before. Please improve it quickly. Thank you 🙏",
+              "user_profile": {
+                "profile_name": "Mikes’shhb",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 24,
+              "rank_absolute": 24,
+              "position": "left",
+              "version": "10.12",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2024-05-07 00:00:00 +00:00",
+              "id": "11240098981",
+              "title": "Huge Privacy Concern",
+              "review_text": "Telegram notified one of my contacts that I downloaded the app. I specifically and deliberately did not allow Telegram to access any of my contacts. Yet somehow this person was notified that I downloaded this app. Keep in mind, this is not even a person I even saved in my contacts. Just someone I txtd once. This person must have my number saved, though, and Telegram notified them of my new Telegram account.\n\nThis is a huge privacy concern because they is something that I should be in control of. Imagine if this was a stalker or someone else with I’ll intentions. I might have had this person blocked on all other apps and services but now they know of a new way to contact me. And I had no idea they were even notified about this!\n\nHow is this a feature that’s even allowed in the App Store and how is this even a feature that benefits anyone but telegram. I immediately deleted the app and will never use it again. I’m highly disappointed in Telegram but also with Apple for allowing an app in their ecosystem to operate in this manner.",
+              "user_profile": {
+                "profile_name": "CapnCody1622",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 25,
+              "rank_absolute": 25,
+              "position": "left",
+              "version": "10.3.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2023-12-19 00:00:00 +00:00",
+              "id": "10715789328",
+              "title": "Frustration",
+              "review_text": "In truth I love this app, I have been something of a “power user” of it for years. I am the first place my friends that are also users come to with questions about how to use the app or best practices, etc. but this last month I have been infuriatingly frustrated by a lack of response to a simple issue: I paid for premium, and my app has not reflected that and I am about to have paid for a whole month for no reason. I have gone through apple support who have tried to help but can only tell me that my purchase is reflected in their records but they can’t help me with any of the features themselves. I have emailed. I have messaged the volunteers I even tweeted at telegram to no avail. This is ridiculous. Please don’t make me change my opinion of this app because some sort of what I assume is a clerical error has prevented me from being able to use the premium subscription. Suffice it to say I won’t be paying for another month until I am given the month that I am owed. PLEASE Help. I have logged in and out on all my devices and nothing works",
+              "user_profile": {
+                "profile_name": "Sazerac Slaps",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 26,
+              "rank_absolute": 26,
+              "position": "left",
+              "version": "7.6.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2021-04-03 00:00:00 +00:00",
+              "id": "7179917223",
+              "title": "Scammer’s Paradise",
+              "review_text": "Positives: Telegram had some positive features. You can start a secret chat with someone. There’s freedom of speech in that app and you can say politically incorrect things without getting banned. You can post content which are deemed offensive. That’s why I like Telegram. I do miss the app, though. Unfortunately, I can’t go back, not after what happened to me. \n\nNegatives: I was catfished by a scammer. The problem with Telegram is that it doesn’t have a report feature. I reported the scammer via using Yahoo mail, Gmail, and even messaged notoscam. Sadly, Telegram wouldn’t do anything about it. I had to delete my account, and deleted the app itself because of how persistent and dangerous the scammer is. The scammer is using a photo of an actual doctor and is pretending to be him. I suspect it’s an African scammer, but I’ll never know. The only thing I had done was to block the scammer on Telegram, but that wasn’t enough.",
+              "user_profile": {
+                "profile_name": "ButterflyCrescent92",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 27,
+              "rank_absolute": 27,
+              "position": "left",
+              "version": "7.3.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2021-01-21 00:00:00 +00:00",
+              "id": "6896771656",
+              "title": "So far so good 😎",
+              "review_text": "I am on a mission to get as many people away from the tentacles of Zuckerboss as possible. Have managed to get a few dozens of people to switch from whatsflop to this better platform. The only complain I get is that this does not have status, which apparently social media junkies can’t live without 🤦🏻‍♂️ Another complain is that the app freezes or acts slow in low connection spots some thing those users of whatsflop supposedly didn’t deal with it. Hopefully these things will be addressed and improved/fixed. I know this is still evolving and growing so I am hopeful it would become the dominant messaging platform and I will contribute to that by getting people to jump ship. I only hope we don’t get sold out like all these other money hungry corps out there. Keep up the good work guys, I wish you great success in the years to come 👍🏼👍🏼",
+              "user_profile": {
+                "profile_name": "ALPHAĚL",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 28,
+              "rank_absolute": 28,
+              "position": "left",
+              "version": "5.7",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2019-06-01 00:00:00 +00:00",
+              "id": "4246973831",
+              "title": "Telegram Review",
+              "review_text": "I enjoy using the app much more than any other social media messaging platform. The ability to create group chats, call people, and customizable features in addition to a UI that is seamless with other devices, and doesn't stutter is a treat.\n\n But, in some areas telegram falls short due to lack of video messaging, the traffic seems to be lower than other platforms, and searching for groups isn't as easy as some may like it to be. Regardless, a video chat feature similar to instagrams live mode would be perfect for the group chats. If possible maybe even allowing features thats on discord to be on the app, better bots would be a plus that telegram makes themselves rather than relying on other people bots. Most bots seem to not work as well as the competition. \n\nOverall its a great 1 v 1 app, but apps such as WhatsApp or instagrams video-calling is superior, and discords bots and chat customization is superior. Telegram is the perfect middle ground that could do better.",
+              "user_profile": {
+                "profile_name": "Faris Nabeel",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 29,
+              "rank_absolute": 29,
+              "position": "left",
+              "version": "12.5.2",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-03-22 00:00:00 +00:00",
+              "id": "13873892410",
+              "title": "This app is amazing!",
+              "review_text": "This is the #1 messenger I use. It’s very comfortable, feels premium, secure, fast, etc. This is literally like a whole internet in 1 messenger. Want to check important news? No problem, there are like thousands of channels. Want to watch videos or some media? Millions of stuff available. Or maybe you just want to listen to music, see the life of your favorite content creator? They are all there. Calls, and video calls are high quality, and I enjoy this app VERY much.\n\nBut sometimes you have to be cautious as well as on the whole internet: there are scammers, and they exist.\nAlso, before you get the app, there are a lot of Russians, and this app is popular among Slavic countries, so keep that in mind. But I’m not against it because telegram is a great messenger that delivers everything you need.",
+              "user_profile": {
+                "profile_name": "Danxco",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 30,
+              "rank_absolute": 30,
+              "position": "left",
+              "version": "11.1.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2024-10-03 00:00:00 +00:00",
+              "id": "11792601945",
+              "title": "Badge notification",
+              "review_text": "Hello I have a issue with the badge notifications after updating to iOS 18 the badge notifications count won't go away I open the app then close it it claims I have 1 notification next to the app I open the app and there are no unread messages when I go to close the app sometimes it doesn't get rid of the 1 notification. I have to open and close many times to get rid of it it doesn't happen every time but happens enough to warrant a complaint about it. I am updating my review I just updated the telegram app to Verison 11.1.1 and the badge notification issues have not been fixed I'm still having that issue very frequently almost every other time I open the app to sue them close it when l'm done I get a badge notification stating I have a new message when I know for sure I don't and when I try to open the app back up and close to get rid of the unwanted notification next to my app it sometimes\nDoesn't get rid of it. l've sent customer support a email no response back yet",
+              "user_profile": {
+                "profile_name": "Amirali laje",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 31,
+              "rank_absolute": 31,
+              "position": "left",
+              "version": "9.6.3",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2023-05-18 00:00:00 +00:00",
+              "id": "9938584093",
+              "title": "Great app!",
+              "review_text": "I love it. I may sound like someone who’s working in Telegram but I don’t. I am just a user for several years since its first release and know the app quite well.\nThe best app in its category. Have lots of great features that other apps can only dream about. In every aspect it is great, privacy, features and...\nTelegram is kind of like a world, you can create public and private groups and channels to share content. Sometimes I spend hours in different channels, there are lots of great news, recreational and… channels.\nThe share feature is also a breeze. unlike whatsapp you don't need to download a file and then upload it for sharing (yeah! this is why whatsapp is so slow on sharing), Telegram just share the content with the name of its original uploader, and you can easily click and checkout the channel (if it was shared from a channel) or contact the user.\nThe other unique feature is, it is a free cloud space for users. you can upload your photos, videos and other documents to your personal “saved messages” and they never get deleted (unlike whatsapp).\nTelegram has lots of other features which I can’t just type it here, you need to check it out, but I genuinely believe it is the best app in its category.",
+              "user_profile": {
+                "profile_name": "Arsalan Rad",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 32,
+              "rank_absolute": 32,
+              "position": "left",
+              "version": "6.3.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2020-08-11 00:00:00 +00:00",
+              "id": "6305156914",
+              "title": "Suggestion for improvement",
+              "review_text": "When I scroll the files/links shared with someone, and this person sends me a message, I do not receive the notification, and the message is considered as read like being within the chat. (which I actually am, but in another tab)\n\nI checked that on Windows, Linux and different Apple devices. It is not the issue on tablets, as the display is separated, neither on desktops, if user widens the window so that the chat and files/links are present concurrently. However on cellphone devices only chat or files/links tab can be displayed at a time.\n\nI guess it will be better to notify the user whenever they do not actually see the message with a topside pop-up and show the label “unread messages” within the chat when user is back from files/links tab.",
+              "user_profile": {
+                "profile_name": "r4r2r4",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 33,
+              "rank_absolute": 33,
+              "position": "left",
+              "version": "6.3.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2020-08-11 00:00:00 +00:00",
+              "id": "6307631605",
+              "title": "Easily the best messaging app",
+              "review_text": "I’ve used telegram for a while now and have enjoyed its speed, customization, and stickers. I think a cool feature telegram should have, in addition to custom stickers, is custom Emojis. Apps like Discord allow you to create your own custom emojis in their servers (and use them anywhere with a subscription...), but I feel like telegram could be ahead of other messaging apps that have custom emojis by implementing it too. I feel like it wouldn’t be too hard to do (There’s already custom stickers, emojis would essentially be the same thing but smaller and could be used IN messages.) And would allow us to express ourselves in even more fun ways, without having to take up 10% of the screen with a sticker (Not that stickers are bad!), and also have them organized in packs like stickers are. \n\nIf I were to give another suggestion it would be the ability for group chats to be organized into categories like you can in Discord. You can create custom categories, for example “General Chat,” “Art Discussion,” “Gaming Chat,” Etc. So that people can keep conversation relevant and extra organized within the group. \n\nFinally, I just want to mention one minor bug I have with telegram, it doesn’t happen often but it happens randomly. When I unlock my phone and telegram was launched, telegram will be stuck on “Updating...” forever. Closing and reopening the app often fixes this (Not ALWAYS, but mostly). Even so, it is a slight inconvenience to have to relaunch the app. I’m pretty sure this is a common bug but I’m just mentioning it because it’s annoying. \n\nThose are my suggestions and feedback. Thanks for blessing us with such a wonderful and powerful messaging app!",
+              "user_profile": {
+                "profile_name": "Dr.Weegee",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 34,
+              "rank_absolute": 34,
+              "position": "left",
+              "version": "5.15.2",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2020-03-10 00:00:00 +00:00",
+              "id": "5642335292",
+              "title": "Not fully accessible using voice Over",
+              "review_text": "I am visually impaired, and I use Voice Over to navigate through the various features on my IPhone 8. I am using the most current version of IOS 13. I can only use Voice Over when listening to a single contact (I can activate the play button). But when I try to activate the play button when chatting within a group, Voice Over does not work. Instead, I have to turn Voice Over off and activate play like a user who is sighted. I fortunately have enough vision to do this, but a blind or visually impaired person with less or no vision would not be able to perform the work around I have found. I have tried to report this several times, and I have received no feedback at all. I find that to be very discouraging. I know that some blind useds are experiencing the same problem while others are not, so it is not an across the board problem. However, the issue still needs to be invchstigated.",
+              "user_profile": {
+                "profile_name": "short she wolf",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 35,
+              "rank_absolute": 35,
+              "position": "left",
+              "version": "11.9",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2025-04-25 00:00:00 +00:00",
+              "id": "12585283706",
+              "title": "Great App, Two Bothersome Glitches",
+              "review_text": "Telegram is for sure a great and secure app to use to talk with your friends, but also to join other groups and communities where articles/links may be shared and discussed. Their “sticker-pack” and sticker creation system are also very useful and fun for groups. \n\nTwo glitches I keep on noticing that are bothersome and I really hope the Telegram team fix, are the following:\n\n1. Occasionally, the feature that allows you to go back and “auto-scroll” to previous messages that had been “reacted to” by other users will glitch out, and you will not be able to click the “heart” icon that allows you to autoscroll back up. This is annoying because when the heart icon doesn’t work as a clickable button, you are forced to manually scroll and scroll until you see the message(s) that had been reacted to. I have asked my friends as well whether they have been experiencing this issue, and they agreed that around 50% of the time the button just doesn’t work. I have no idea why this is the case technically speaking but it should be an easy fix!\n\n2. Another glitch that commonly occurs, is when you send a GIF and on your end it displays a “Play” button as if it’s an mp4 video, whereas GIFs are typically meant to display automatically without being clicked on. I have also asked my friends about this and they’ve been experiencing this issue too. For everyone else the GIF displays normally and automatically, but for the sender, it displays a play button, forcing the use to click the GIF to see it. \n\nOf course, neither of these glitches are app-ruining necessarily, but it just hurts its intention as a smoothly running app, given that these glitches in particular occur much more common than not.",
+              "user_profile": {
+                "profile_name": "Volodymyr Larin",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 36,
+              "rank_absolute": 36,
+              "position": "left",
+              "version": "9.5.3",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2023-03-24 00:00:00 +00:00",
+              "id": "9747192232",
+              "title": "Love the app but, needs improvements",
+              "review_text": "So this app is definitely a good app there’s many features I enjoy like having a private group for menu’s etc. The main issue I’ve ran into is the fact that once you get over 100 members you’re no longer able to see the list of people that view your messages or updates to your group. There’s an option to hide your list on the settings once you reach 100 members but, there’s no point in having that option if they automatically disappear after you get 101 members or more. I would definitely love to rate this app 5 stars but, that’s my main issue I would love to see how my audience is interacting by seeing the viewers indefinitely regardless of how many members there is in the group. Thank you telegram support if you fix this issue until then my review will stay at 4 stars.",
+              "user_profile": {
+                "profile_name": "Doublecup jones",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 37,
+              "rank_absolute": 37,
+              "position": "left",
+              "version": "10.13.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2024-06-14 00:00:00 +00:00",
+              "id": "11380279737",
+              "title": "Telegram you can do better than this",
+              "review_text": "My telegram account got banned without violating any rules I’m a unable to attend to all my activity on the account. I was worried and sent many emails to ask them to reopen it, but they didn’t even reply nor tell me what caused my account to be banned. I need my account back it’s the only platform I enjoyed the most to communicate with my family and love ones and telegram took that away from me. I have been on my email all day expecting to see their response that it had been attended to and unbanned but that never happened. Been depressed and down cause of this . I never expect telegram to be this cheap I saw a lot of reviews on the internet on how they just banned people’s account which is not support to be. TELEGRAM YOU CAN DO BETTER THAN THIS it’s so annoying to we your customers",
+              "user_profile": {
+                "profile_name": "Fridaus1",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 38,
+              "rank_absolute": 38,
+              "position": "left",
+              "version": "7.4.2",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2021-02-22 00:00:00 +00:00",
+              "id": "7026270941",
+              "title": "Good app for communication, but no good for investments",
+              "review_text": "***Disclaimer*** \nThis is only describing the various situations where forex group chats exist on the service. Nothing against the actual service itself, only the Forex groups on the app\n***Disclaimer***\n\nSo the app is wonderful in terms of communication, and a good competitor to Whatsapp (another wonderful messaging service). My only beef is the fact that I was the idiot (last October) to download the app due to being suckered by a rando online about a bitcoin forex. I was unaware of such financial lingo, assuming that I would get my return profit in 48 hours. \n\nBiggest mistake\n\nIf people recommend you to various places that offer a return profit via forex, DO NOT EXPECT MONEY BACK IMMEDIATELY. You’ll only lose your money due to the highly volatile nature of not only Bitcoin, but also Forex itself is essentially a bigger gamble due to various international markets operating around the clock. Whether it be through Facebook or any other social media accounts, you cannot be suckered by such things. It’s a pandemic and the last thing one should want is to lose money. \n\nIt’s precious and you should not let your emotions control the wallet. Ones intellect and wise choices dictates money. So if you’re looking to save money, do the research, be financially literate, and save the money. \n\nNothing against this app once again, but the groups who promise for get rich quick schemes.",
+              "user_profile": {
+                "profile_name": "Albinoni528",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 39,
+              "rank_absolute": 39,
+              "position": "left",
+              "version": "12.9.4",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-09-20 00:00:00 +00:00",
+              "id": "14573117035",
+              "title": "Horrible security design and zero logic",
+              "review_text": "Telegram’s system for handling phone numbers and account deletions is an absolute trainwreck. I tried changing my registered phone number to my current one, only to be blocked because the system claims the number is “already connected to an account.” This happens because phone carriers recycle numbers, and the previous owner left their account active. Instead of letting me claim my own number by verifying SMS ownership, Telegram completely freezes the process. To make matters worse, when you try to log into that recycled account to wipe it so you can actually use your own number, Telegram tries to block you with email resets or cloud passwords — and essentially pushes you to buy a Telegram Premium subscription just to bypass wait times and clear out the old account. Absolute garbage user experience. You shouldn’t have to jump through ridiculous paywalls or complex workarounds just to use your own phone number on a messaging app. Fix your account migration rules.",
+              "user_profile": {
+                "profile_name": "FakeRespect",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 40,
+              "rank_absolute": 40,
+              "position": "left",
+              "version": "5.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 2,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2018-12-20 00:00:00 +00:00",
+              "id": "3550628988",
+              "title": "New bugs in version 5",
+              "review_text": "Telegram was almost bug free, but version 5 introduced a host of new bugs that were previously fixed. 1) \"Last seen\" time is no longer accurate. It takes a few minutes to update. Often it tells me that I was last seen 30 minutes ago, when I'm online! 2) the search feature is broken: it has the glitch that only shows 100 results maximum. Previously it used to tell me how many messages each person sent to the chat, which was in the tens of thousands. Now each person has allegedly only sent 100 messages. 3) The same old message notification keeps being pushed to my Notification Center after I've cleared it from there multiple times. This happens for days at a time for the same notification.\n\nEDIT 12/19: Developer mentioned the update, well issue 1 was not fixed with the recent update that was pushed out. However, I can report that issue 2 has been fixed. Still noticing issue 3, and will email about it. Thanks",
+              "user_profile": {
+                "profile_name": "fordguy1997",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 41,
+              "rank_absolute": 41,
+              "position": "left",
+              "version": "9.6.3",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2023-05-27 00:00:00 +00:00",
+              "id": "9971657817",
+              "title": "My account has been hacked 🤬",
+              "review_text": "If I could give more negative review than just one star - I would. My account has been hacked by someone from Hong Kong (and I have never been to Hong Kong!). Multiple attempts to contact Telegram - via emails, twitter messages, support on the website, even app (at those rare moments when hackers would not logged me out) - are ignored, for the last five days nothing, crickets. I can’t delete malicious devices from my account even though I have two way verification set up. Those who hacked my account even sent messages to some of my contacts. When I tried to report the bug issue (and to me this obviously a security bug) - special bug bot on Telegram site sees those malicious devices as part of my account! I can’t use my account - during certain hours hackers just simply log me out and too many attempts to login result in inability to login for 24 hours…🤦🏻‍♀️🤦🏻‍♀️🤦🏻‍♀️ absolutely unprofessional company - it’s 21st century and you can’t have halfway decent customer support?!",
+              "user_profile": {
+                "profile_name": "Up_Side_Long",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 42,
+              "rank_absolute": 42,
+              "position": "left",
+              "version": "6.2.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2020-06-29 00:00:00 +00:00",
+              "id": "6134282563",
+              "title": "What WhatsApp wishes it was",
+              "review_text": "Pretty much everything WhatsApp has and more. Not to mention, actually good security—unlike WhatsApp. End to end encryption where the keys are kept on your device. If you do some research, Telegram’s security has been publicly audited by real world events. \nI work in cyber sec and use Telegram as my default messenger for everything. Whether it’s sending large files (seriously, I’ve sent files over a gigabyte) to joining a variety of channels/groups. I honestly believe Telegram could be the next IRC chat (I get all my security and tech news and updates from telegram channels faster than news sites or rss). \nI’ve been slowly converting my friends and family to it. Simply the best and the features just keep coming. Thank you Telegram developers! You’ve truly revolutionized decentralized messaging.",
+              "user_profile": {
+                "profile_name": "XOT07",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 43,
+              "rank_absolute": 43,
+              "position": "left",
+              "version": "5.14.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2020-02-13 00:00:00 +00:00",
+              "id": "5525606786",
+              "title": "Latest version introduces a really annoying bug",
+              "review_text": "The Feb. 3 update still includes the really annoying bug.  To test the new update, I typed \"This is a test of Telegram's new updated app.\"  Here is what Telegram got:  \"Thisi atTelegram's nbew pda app.\"  Clearly, this is still completely unusable.  If anything, the number of dropped characters is worse than it was originally.\n\nOriginal review:\nUpdating to the latest version introduced a really bad bug that causes keyboard input to get corrupted.  When I type on my Bluetooth keyboard now, Telegram acts like I also typed random backspaces every few characters, completely messing up the words I type, and inducing auto-correct to change many of the messed-up words to something completely different.  Please fix this right away!\nI've installed every update since the bug was introduced, and none of them have addressed the problem!  I just updated again today (Jan. 9), and the problem is as bad as ever.  I have to type very slowly and constantly correct Telegram's mistakes, making it nearly unusable.",
+              "user_profile": {
+                "profile_name": "ZoomZoomNH",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 44,
+              "rank_absolute": 44,
+              "position": "left",
+              "version": "11.0.2",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2024-08-21 00:00:00 +00:00",
+              "id": "11637289800",
+              "title": "Worst App and costumer support ever",
+              "review_text": "I had an account for a very long time that I have use to communicate with many people but mostly for game teams purposes. Suddenly I got banned. Without reason. I’m 100% sure I didn’t violated any policy or did anything wrong. Out of no where I was banned and all my contacts and information gone without explanation or reasons. I have tried multiple times to hear from costumer services. I have contact them multiple times expecting some time of communication, response, explanation and a way to solve the issue but I have got nothing at all. They just banned people indiscriminately.  They don’t care if you are premium or not, if you are paying or not if you follow the community guidelines or not. You can have important information and contacts there and suddenly lost all without a reason and without doing anything bad or wrong. It’s not a trustworthy company when they are capable of ban costumers and don’t even have a good costumer service. The worst I’d say.",
+              "user_profile": {
+                "profile_name": "Trinitytremere",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 45,
+              "rank_absolute": 45,
+              "position": "left",
+              "version": "12.7",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 1,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-05-22 00:00:00 +00:00",
+              "id": "14091725318",
+              "title": "Unjust And random Banned",
+              "review_text": "I was new to Telegram and using it to go through a course for personal branding and marketing. Out of nowhere, I received a notice saying I violated their user policy — with zero context, zero explanation, and zero details about what I actually did wrong.\nI kept asking support what the violation was. Never got a real answer. Eventually my phone number was permanently banned. I’ve sent multiple emails and received no response. Not even a form letter.\nThe most frustrating part isn’t even the ban — it’s the complete lack of transparency. You can’t defend yourself or correct anything when you don’t even know what you did. New users especially deserve some kind of explanation.\nNow I can’t use any of the tools tied to my account without getting a whole new phone number. For a platform that markets itself as a communication and community tool, this is a terrible user experience. It feels like they simply don’t care about individual users — and their silence proves it",
+              "user_profile": {
+                "profile_name": "EinNigNogWitRocketLawnchair",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 46,
+              "rank_absolute": 46,
+              "position": "left",
+              "version": "5.15.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 2,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2020-02-22 00:00:00 +00:00",
+              "id": "5563778426",
+              "title": "“Raise to listen” is horrible, and circle videos force auto play",
+              "review_text": "Telegram does a lot of things right, but its total lack of customization of usability settings isn’t one of them.\n\n“Raise to listen“ is forced on. Any random time something comes close to your phone, it decides you’ve raised it to your head and starts a voice recording. There’s a secret debug menu (not mentioned anywhere) accessed by tapping “settings” 10 times, but even turning it off there doesn’t fix it. \n\nThis breaks when more since circle videos autoplay — a conversation with them means you’ll constantly be going back to watch someone’s that you missed, and then *your* video after will play. Possibly at double their volume. And you’ll have to stop it manually, every single time. \n\nBut what’s worse is that if any circle video is paused, and there’s play/pause on the top bar, then raise to listen will override and play *no matter what*. Even if you have it forced off in the secret debug menu. \n\nFor every hour of circle video conversation, this means manually stopping autoplay and having to hit the little X literally hundreds of times just to make your own recordings not play loudly at you, and your phone’s sensor not delete what you were recording because a cat got too close to your phone and it decided it was your ear. \n\nAll because Telegram really, *really* doesn’t like giving you options as to how you use the app.",
+              "user_profile": {
+                "profile_name": "ColinHuth",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 47,
+              "rank_absolute": 47,
+              "position": "left",
+              "version": "12.6.1",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2026-04-02 00:00:00 +00:00",
+              "id": "13914172173",
+              "title": "Privacy breached",
+              "review_text": "I enjoy this app overall, but they have breached my privacy. My legal name is not on my profile, all my settings are private, & I have not allowed it to be shared with my contacts…yet somehow a handy man that did some work for me & must have my number saved on his phone was sent a message that I was on telegram & click here to start chatting. I use this app as a separate private chat platform from my personal life. I do not appreciate this breach at all & wonder how many others were sent this or what else can be seen that I had no intention of sharing. I have sent three separate messages on telegram’s contact page (their only means of communicating) & have received no response. Maybe they’ll respond to this. User beware.",
+              "user_profile": {
+                "profile_name": "Lacey Nelson 2008",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 48,
+              "rank_absolute": 48,
+              "position": "left",
+              "version": "12.2.4",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 2,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2025-12-16 00:00:00 +00:00",
+              "id": "13518582023",
+              "title": "Non-Existent Customer Service Subscribe at Your Own Risk!!!",
+              "review_text": "For the most part you can utilize the app without customer service. However, if you utilize a chat room, it won’t allow you to private message anyone you haven’t already spoken with. Which means you can never initiate a message unless they happen to have pro subscription and message you. To remedy, I purchased a subscription and it worked fine for the first few months until I was in conversation with someone until telegram auto bot abruptly removes me from the convo, makes a claim that I violated rules but doesn’t tell you which rule. All of a sudden my account is frozen. Once frozen, the account is no longer usable, regardless of paid subscription. There will be no prorating for your remaining months. Additionally, there will be no customer service available. No opportunity to reach anyone. All you have is a bot message which gives you basic choices and essentially forces you to say you realize your wrong and won’t do again. It asks for your personal information - name, email, etc - which I’m not comfortable giving without knowing what I’m being accused of. Any how, every few days I go through the bs bot question and pre-populated answer list. No help. A month goes by and still no response or idea why my account is frozen. Also, it removes any option to delete your profile. I eventually create another profile pay for subscription despite the previous loss. Within a month of that subscription I’m frozen again. No option to reach anyone and still no response on the first account. I go to the first account trying to remove what I can until it all of a sudden kicks me out. I try to log back in and tells me my number is banned. I don’t know if telegram is purposely freeze user accounts without explanation. Leaving no option to rectify and only a useless bot. After the 2nd occurrence I would never suggest that anyone subscribes since I know others who lost their subscription purchase as well. I’m not interested in my money being stolen by way of subscription. So be weary with if considering a subscription.",
+              "user_profile": {
+                "profile_name": "KGT2025",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 49,
+              "rank_absolute": 49,
+              "position": "left",
+              "version": "10.1.2",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2023-10-15 00:00:00 +00:00",
+              "id": "10477941486",
+              "title": "Best Messaging App",
+              "review_text": "This might be the best messaging app out there. You wont be disappointed its so easy and there is not a single feature that you could think is not in this app. There is only one complain in ios app while audio or video calling then you get microphone off on feature in right side downwards where it can get accidentally pressed so it gets troublesome while in group calls when you want to switch mic off it gets accidentally pressed many times. If that mic option could be shifted up then it would be magic. There is no other fault whatsoever. This might be the most underrated messaging app out there because this is not from mainstream companies. This app is good for privacy too since its servers are not controlled by NSA.",
+              "user_profile": {
+                "profile_name": "Diwas21",
+                "profile_image_url": null
+              }
+            },
+            {
+              "type": "app_store_reviews_search",
+              "rank_group": 50,
+              "rank_absolute": 50,
+              "position": "left",
+              "version": "5.0.13",
+              "rating": {
+                "rating_type": "Max5",
+                "value": 2,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "timestamp": "2018-10-24 00:00:00 +00:00",
+              "id": "3339745871",
+              "title": "Media autosave is broken since iOS 12 release and calls dropping every few min",
+              "review_text": "Hey dev team, the auto save feature for all media (images specifically) isn’t working since I updated to publicly available ios 12. It worked perfectly on all betas of iOS 12 and stable versions of previous iOS but now it became very frustrating as I expected to see all images received to be in photo gallery but aren’t being saved for some reason.\nI tried reinstalling both Telegram and iOS, tested telegram on 3 different iPhones but nothing seem to be helpful in this case.\nMedia auto save is enabled in settings and app has access to photos so no permission issues as far as I understand.\nI also sent a message to app support few weeks ago and never head back from them so this is the last step before I start looking for alternatives.\nAnother big issue is calls quality/reliability. Every time I call someone after few min I hear beeps that indicate lost/poor network, then I can hear other party again but they can’t hear me or call just drops after 15-20 seconds. The longer the call (multiple calls) is the more often it breaks and I have to call that person again.\nI’m on latest iOS 12.0.1 and iPhone XS Max 256.\nHoping to see these two fixed in the next update.\nOnce this and dropping calls is fixed Telegram will be again my favorite messenger. Until then - 2 star review.",
+              "user_profile": {
+                "profile_name": "MehoCode",
+                "profile_image_url": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
