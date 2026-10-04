@@ -27,7 +27,7 @@ import {
 
 export const LINKS = {
   github: "https://github.com/madmax304/open-aso",
-  waitlist: "https://open-aso.com/#waitlist",
+  waitlist: "https://github.com/madmax304/open-aso/issues/1",
   dataforseoSignup: "https://app.dataforseo.com/register",
   dataforseoApiAccess: "https://app.dataforseo.com/api-access",
 };

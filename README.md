@@ -126,11 +126,13 @@ What open-aso doesn't do (yet): Google Play, countries other than the US, downlo
 
 ## Roadmap
 
-- ☁️ **Hosted cloud version:** no DataForSEO account needed, automatic tracking, and a one-click Claude connector. Start with $5, not $50.
+- ☁️ **Hosted cloud version:** no DataForSEO account needed, automatic tracking, and a one-click Claude connector. Start with $5, not $50. **[👍 the waitlist issue](https://github.com/madmax304/open-aso/issues/1)** and click Subscribe to hear when it launches.
 - Google Play and more countries
 - Apple Ads keyword popularity (bring your own Apple Ads account)
 - App Store Connect: your real impressions and conversion, review replies, publishing metadata
 - More skills: weekly competitor watch, review insights
+
+*Watch → Custom → Releases on this repo to get an email for every release.*
 
 ## Contributing
 
