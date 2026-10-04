@@ -101,7 +101,9 @@ describe("UI server", () => {
 
     const configFile = join(home, "config.json");
     expect(JSON.parse(readFileSync(configFile, "utf8")).dataforseo.apiKey).toBe(goodKey);
-    expect(statSync(configFile).mode & 0o777).toBe(0o600);
+    // Windows has no POSIX permission bits: chmod only toggles read-only, so
+    // stat reports 0o666 (438) whatever we set. Only check the mode elsewhere.
+    if (process.platform !== "win32") expect(statSync(configFile).mode & 0o777).toBe(0o600);
   });
 
   it("explains rejected and incomplete credentials", async () => {
